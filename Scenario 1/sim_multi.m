@@ -1,4 +1,4 @@
-function sim_multi()
+function sim_multi(simtimelimit)
 %     scenfile,simmethod,fitmethod,plotmethod,simiterations,simtimelimit,simfile,
 %     disp(scenfile)
 %     disp(simmethod)
@@ -25,7 +25,6 @@ function sim_multi()
 %     "num_inf_sev_bi","num_inf_mild_bi","num_inf_asym_bi"];
 
 
-%1-2 generated from the number of variants 
     disease_steps = ["S","I_1", "I_2", "R_1", "R_2"];
     
     variants = zeros(1, nb_variants);
@@ -39,6 +38,7 @@ function sim_multi()
     end
     
     compartmentList = zeros(length(disease_steps), length(variants), length(populations));
+    
     for i=1 : length(disease_steps) 
         for j=1: length(variants)
             for k = 1 : length(populations)
@@ -61,5 +61,16 @@ function sim_multi()
     disp('TRANSITION MATRIX:');
     disp(transition_matrix)
     disp('______________________________________________');
+    
+    timelimit = simtimelimit;
+    for iter = 1:maxiter
+        
+    end 
+       
+     
+    
+    
+    
+    
     
 end

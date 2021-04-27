@@ -1,9 +1,9 @@
- function prob = calculateValue(disease, variantIdx, compartmentListIdx) 
+ function prob = calculateValue(diseaseStatus, variantIdx, compartmentListIdx) 
     prob = 0;
-    if (disease == "S")
+    if (diseaseStatus == "S")
         if (variantIdx == 1)
             if(compartmentListIdx == 1)
-            	prob = 0.1;
+            	prob = 0.1; 
             elseif(compartmentListIdx == 2)
                 prob = 0.1;
             elseif(compartmentListIdx == 3)
@@ -26,7 +26,7 @@
                 prob = 0.1;
             end
         end
-    elseif (disease == "I_1")
+    elseif (diseaseStatus == "I_1")
         if (variantIdx == 1)
             if(compartmentListIdx == 1)
                 prob = 0.1;
@@ -52,7 +52,7 @@
                 prob = 0.1;
             end
         end
-    elseif (disease == "I_2")
+    elseif (diseaseStatus == "I_2")
         if (variantIdx == 1)
            if(compartmentListIdx == 1)
                prob = 0.1;
@@ -78,7 +78,7 @@
                 prob = 0.1;
             end
         end
-    elseif (disease == "R_1")
+    elseif (diseaseStatus == "R_1")
         if(variantIdx == 1)
             if(compartmentListIdx == 1)
                 prob = 0.1;
@@ -104,7 +104,7 @@
                 prob = 0.1;
            end
         end
-    elseif (disease == "R_2")
+    elseif (diseaseStatus == "R_2")
         if (variantIdx == 1)
             if(compartmentListIdx == 1)
                 prob = 0.1;
