@@ -82,7 +82,7 @@ function sim_multi(simtimelimit)
     pm.beta_s = 0;
     pm.delta = 0;
     
-    [time,solution] = ode45(@f,0:1:timelimit,init);
+    [time,solution] = ode45(@defSolver,0:1:timelimit,init);
     
     
     
