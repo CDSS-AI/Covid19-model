@@ -62,14 +62,27 @@ function sim_multi(simtimelimit)
     disp(transition_matrix)
     disp('______________________________________________');
     
-    timelimit = simtimelimit;
-    for iter = 1:maxiter
-        
-    end 
-       
-     
+    TIME_LIMIT = simtimelimit;
+    NB_VARIANTS = 10; 
+    NB_AGE_GROUPS = 5;
+    AGE_GROUPS = 10;
     
+    pm.Sinit = 0; 
+    pm.I1init = 0; 
+    pm.I2init = 0; 
+    pm.Rinit = 0; 
+   
+     %Init 
+    init = zeros(1,length(disease_steps));
+    init(id("S")) = pm.Sinit;
+    init(id("I_1")) =pm.I1init;
+    init(id("I_2")) =pm.I2init;
+    init(id("R")) = pm.Rinit;
     
+    pm.beta_s = 0;
+    pm.delta = 0;
+    
+    [time,solution] = ode45(@f,0:1:timelimit,init);
     
     
     

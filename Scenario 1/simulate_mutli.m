@@ -97,9 +97,7 @@ function simulate_mutli(scenfile,simmethod,fitmethod,plotmethod,simiterations,si
     groups("N") = [groups("Susceptible"),groups("COVID-all"),groups("Recovered")]; 
     groups("System") = [groups("N"), "num_covid","num_back"];
     
-    NB_VARIANTS = 10; 
-    NB_AGE_GROUPS = 5;
-    AGE_GROUPS = 10;
+   
     
     
     dims = size(counters);
