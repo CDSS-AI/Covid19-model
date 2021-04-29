@@ -47,6 +47,8 @@ function sim_multi(simtimelimit)
     
     compartmentList = zeros(length(disease_steps), length(variants), length(populations));
     
+    %explicit about the structure 
+    %forms of the equation
     for i=1 : length(disease_steps) 
         for j=1: length(variants)
             for k = 1 : length(populations)
@@ -90,22 +92,23 @@ function sim_multi(simtimelimit)
        dx = zeros(length(x),1);
 
        %Equations
-       d1 = (pm.beta) - (pm.delta_1 * (x(1))) - (pm.lambda * (x(1))) -  - (pm.theta*(x(1)));
+       d1 = (pm.beta) - (pm.delta_1 * (x(1))) - (pm.lambda * (x(1))) - (pm.theta*(x(1)));
        dx(1) = sum(d1);
        
+       %S * I Missing 
        d2 = (pm.lambda*x(1)) - (pm.delta_2 * (x(2))) - (pm.phi * (x(2)));
        dx(2) = sum(d2);
        
        d3 = (pm.lambda*x(1)) - (pm.delta_4  *(x(3))) - (pm.phi_2 * (x(3)));
        dx(3) = sum(d3);
        
-       d4 = ((pm.phi*x(2) + pm.phi_2*x(3))) - (pm.delta_3 * x(4)) - (pm.theta * x(4)); 
+       d4 = ((pm.phi*x(2) + pm.phi_2*x(3))); %- (pm.delta_3 * x(4)) - (pm.theta * x(4)); 
        dx(4) = sum(d4);
        
    
     end
     
-    [time,solution] = ode45(@defSolver,0:1:timelimit, initVec);
+    [time,solution] = ode45(@defSolver,0:0.05:timelimit, initVec);
     s_end = solution(:,1);
     I_1_end = solution(:,2);
     I_2_end = solution(:,3);

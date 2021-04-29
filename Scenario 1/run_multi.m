@@ -1,1 +1,1 @@
-sim_multi(100)
+sim_multi(20)
