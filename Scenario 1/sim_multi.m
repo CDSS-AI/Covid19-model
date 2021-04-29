@@ -25,7 +25,15 @@ function sim_multi(simtimelimit)
 %     "num_inf_sev_bi","num_inf_mild_bi","num_inf_asym_bi"];
 
 
-    disease_steps = ["S","I_1", "I_2", "R_1", "R_2"];
+    disease_steps = ["S","I_1", "I_2", "R"];
+    
+     function v = id(g)
+        %Inputs
+        %g : vector of compartment names
+        %Output
+        %v : indices of elements of group in counters
+        [s,v] = intersect(disease_steps,g,'stable');
+    end
     
     variants = zeros(1, nb_variants);
     for counter = 1:nb_variants
@@ -58,32 +66,54 @@ function sim_multi(simtimelimit)
     end
     
     
-    disp('TRANSITION MATRIX:');
-    disp(transition_matrix)
-    disp('______________________________________________');
+%     disp('TRANSITION MATRIX:');
+%     disp(transition_matrix)
+%     disp('______________________________________________');
     
-    TIME_LIMIT = simtimelimit;
-    NB_VARIANTS = 10; 
-    NB_AGE_GROUPS = 5;
-    AGE_GROUPS = 10;
     
-    pm.Sinit = 0; 
-    pm.I1init = 0; 
-    pm.I2init = 0; 
-    pm.Rinit = 0; 
+    
+    timelimit = simtimelimit;
    
      %Init 
-    init = zeros(1,length(disease_steps));
-    init(id("S")) = pm.Sinit;
-    init(id("I_1")) =pm.I1init;
-    init(id("I_2")) =pm.I2init;
-    init(id("R")) = pm.Rinit;
+    pm = InitParams();
+    init.S = pm.Sinit;
+    init.I_1 =pm.I1init;
+    init.I_2 =pm.I2init;
+    init.R = pm.Rinit;
     
-    pm.beta_s = 0;
-    pm.delta = 0;
-    
-    [time,solution] = ode45(@defSolver,0:1:timelimit,init);
+  
+    initVec = zeros(1,length(disease_steps)); 
     
     
+    function dx = defSolver(t,x)
+        dx = zeros(length(x),1);
+        vals = [init.S, init.I_1, init.I_2, init.R];
+
+       %Equations
+       d1 = (pm.beta_s * vals(1)) - (pm.delta * (x*vals(1))) - (pm.lambda * (x*vals(2))) - (pm.lambda * (x*vals(3))) - (pm.r*x);
+       dx(1) = sum(d1);
+       
+       d2 = (pm.beta_s*vals(1)) - (pm.delta * (x*vals(2))) - (pm.r * (x*vals(2)));
+       dx(2) = sum(d2);
+       
+       d3 = (pm.delta*vals(1)) - (pm.delta  *(x*vals(2))) - pm.r * (x*vals(3));
+       dx(3) = sum(d3);
+       
+       d4 = (pm.r*vals(2) + pm.r*vals(3)) - (pm.delta * pm.r) - (pm.r * x); 
+       dx(4) = sum(d4);
+       
+   
+    end
+    
+    [time,solution] = ode45(@defSolver,0:1:timelimit, initVec);
+    s_end = solution(:,1);
+    I_1_end = solution(:,2);
+    I_2_end = solution(:,3);
+    R_end = solution(:,4);
+    
+    graphsBuilder(time, s_end); 
+    graphsBuilder(time, I_1_end); 
+    graphsBuilder(time, I_2_end);
+    graphsBuilder(time, R_end); 
     
 end
