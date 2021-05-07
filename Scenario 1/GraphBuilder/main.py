@@ -2,8 +2,9 @@ import getopt
 import sys
 
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
+
+from Model import Model
+from utils import *
 
 
 def main(argv):
@@ -23,22 +24,23 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
 
-    x = np.arange(0,11,1)
-    y1 = x**2
-    y2 = x**3
-    fig = go.Figure()
+    with open('ModelConfigs.json', 'r') as f:
+        config = json.load(f)
+        nbPopulationsGroups = len(config['PopulationsGroups'])
+        nbVariants = len(config['Virus'])
+        model = Model(nbPopulationsGroups=nbPopulationsGroups,nbVariants=nbVariants) 
+        print(config['Populations'])
+    # x = np.arange(0,11,1)
+    # y1 = x**2
+    # y2 = x**3  
+    # graph(x, [y1, y2], 'Graph') 
 
-    for y in [y1, y2]:
-        fig.add_trace(go.Scatter(
-            x=x,        
-            y=y
-            )
-        )
-    fig.update_layout(title='Sample Graph',
-                      xaxis_title='x',
-                      yaxis_title='y',
-                      template='plotly_white')
-    fig.show()
+
+
+
+
+
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])

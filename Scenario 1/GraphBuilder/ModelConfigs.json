@@ -1,0 +1,18 @@
+{
+    "Virus": [
+        {"name": "Variant1", "infectionRate": 0.1}, 
+        {"name": "Variant2", "infectionRate": 0.3}, 
+        {"name": "Variant3", "infectionRate": 0.7}
+    ], 
+    "PopulationsGroups": [
+        {"name": "0-20", "contactMatrix": [], "mobilityFactor": 0.1}, 
+        {"name": "21-40", "contactMatrix": [], "mobilityFactor": 0.45}, 
+        {"name": "41-60", "contactMatrix": [], "mobilityFactor": 0.3}, 
+        {"name": "61-80", "contactMatrix": [], "mobilityFactor": 0.25}, 
+        {"name": "80-120", "contactMatrix": [], "mobilityFactor": 0.15}
+    ], 
+    "Populations": [
+        {"name": "susceptible", "importFlow": [], "exportFlow": [] },
+        {"name": "recovered", "importFlow": [], "exportFlow": [] }
+    ]
+}
