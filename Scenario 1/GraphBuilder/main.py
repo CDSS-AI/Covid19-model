@@ -3,7 +3,11 @@ import sys
 
 import numpy as np
 
+from infectedY1 import infected_y1
+from infectedY2 import infected_y2
 from Model import Model
+from recoveredY import recovered_y
+from susceptibleY import susceptible_y
 from utils import *
 
 
@@ -29,11 +33,14 @@ def main(argv):
         nbPopulationsGroups = len(config['PopulationsGroups'])
         nbVariants = len(config['Virus'])
         model = Model(nbPopulationsGroups=nbPopulationsGroups,nbVariants=nbVariants) 
-        print(config['Populations'])
-    # x = np.arange(0,11,1)
-    # y1 = x**2
-    # y2 = x**3  
-    # graph(x, [y1, y2], 'Graph') 
+        print(model.Populations)
+    x = np.arange(0,401,1)
+    y1 = [susceptible_y, 'Susceptible']
+    y2 = [infected_y1, 'Infected Variant 1']
+    y3 = [infected_y2, 'Infected Variant 2']
+    y4 = [recovered_y, 'Recovered']
+    
+    graph(x, [y1, y2, y3, y4], 'COVID19 Infections in a population with two variants', 'Time', 'Number of Infections')
 
 
 

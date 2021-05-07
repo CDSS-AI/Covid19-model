@@ -114,6 +114,13 @@ function sim_multi(simtimelimit)
     I_2_end = solution(:,3);
     R_end = solution(:,4);
     
+    disp(s_end)
+    disp('---------------------------')
+    disp(I_1_end)
+    disp('---------------------------')
+    disp(I_2_end)
+    disp('---------------------------')
+    disp(R_end)
     graphsBuilder(time, s_end, "Susceptible"); 
     graphsBuilder(time, I_1_end, 'Infected Variant 1'); 
     graphsBuilder(time, I_2_end, 'Infected Variant 2');

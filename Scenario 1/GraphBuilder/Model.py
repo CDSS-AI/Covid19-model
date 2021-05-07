@@ -2,6 +2,7 @@ import json
 
 from scipy.integrate import solve_ivp
 
+from Population import Population
 from PopulationGroup import PopulationGroup
 from utils import *
 from Virus import Virus
@@ -15,12 +16,16 @@ INFECTION_RATE_FACTOR_MAX = 0.9
 MORTALITY_FACTOR_MIN = 0.1
 MORTALITY_FACTOR_MAX = 0.3
 
+SUSCEPTIBLE_BETA = 0.5
+SIUSCEPTIBLE_DELTA = 0.1
+
 
 
 class Model: 
     def __init__(self, nbPopulationsGroups, nbVariants):
         self.populationsGroups = [] 
         self.variants = []
+        self.Populations = [Population('susceptible', 1, [], []), Population('recovered', 2, [], [])]
         self.setRandomParameters(nbPopulationsGroups, nbVariants)
 
 
@@ -57,21 +62,10 @@ class Model:
             
             for variant in variants:
                 name = variant.get('name')
-                print(name)
-                infected.append({"name": ('infected_' + name), "importFlow": [], "exportFlow": [] })
-       
-        with open('ModelConfigs.json','r+') as file:
-            file_data = json.load(file)
-        # Join new_dat3a with file_data
-            file_data.update(new_data)
-        # Sets file's current position at offset.
-        file.seek(0)
-        # convert back to json.
-        json.dump(file_data, file, indent = 4)
-        with open('ModelConfigs.json', '') as f:
-            for element in infected: 
-                config['Populations'].append(element)
+                self.Populations.append(Population(('infected_' + name), 2, [], []))
         
+        self.fillImportFlows()
+
 
     def loadSettings(self): 
         with open('ModelConfigs.json', 'r') as f:
@@ -79,8 +73,38 @@ class Model:
             print(config)
             self.populationsGroups = config['PopulationsGroups']
             self.variants = config['Virus']
+
+
+    def fillImportFlows(self): 
+        for population in self.Populations: 
+            if population.type == 1: 
+                population.importFlow.append(SUSCEPTIBLE_BETA)
+                population.exportFlow.append(SIUSCEPTIBLE_DELTA)
+            if population.type == 2: 
+                print('Infected ! ')
+
+    def fillExportmportFlows(self): 
+        pass
      
-    @classmethod
+   
+    # def  dx = defSolver(t,x)
+    #    dx = zeros(length(x),1);
+
+    #    %Equations
+    #    d1 = (pm.beta) - (pm.delta_1 * (x(1))) - (pm.lambda * (x(1))) - (pm.theta*(x(1)));
+    #    dx(1) = sum(d1);
+       
+    #    %S * I Missing 
+    #    d2 = (pm.lambda*x(1)) - (pm.delta_2 * (x(2))) - (pm.phi * (x(2)));
+    #    dx(2) = sum(d2);
+       
+    #    d3 = (pm.lambda*x(1)) - (pm.delta_4  *(x(3))) - (pm.phi_2 * (x(3)));
+    #    dx(3) = sum(d3);
+       
+    #    d4 = ((pm.phi*x(2) + pm.phi_2*x(3))); %- (pm.delta_3 * x(4)) - (pm.theta * x(4)); 
+    #    dx(4) = sum(d4);
+    
+    @classmethod  
     def ode45(cls, func, span=[], y0=[]): 
         sol = solve_ivp(func, span, y0, method='RK45',t_eval=None, dense_output=False, events=None, vectorized=False,)
         print(sol.t)
