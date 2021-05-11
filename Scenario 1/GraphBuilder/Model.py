@@ -70,7 +70,6 @@ class Model:
     def loadSettings(self): 
         with open('ModelConfigs.json', 'r') as f:
             config = json.load(f)
-            print(config)
             self.populationsGroups = config['PopulationsGroups']
             self.variants = config['Virus']
 
@@ -81,7 +80,7 @@ class Model:
                 population.importFlow.append(SUSCEPTIBLE_BETA)
                 population.exportFlow.append(SIUSCEPTIBLE_DELTA)
             if population.type == 2: 
-                print('Infected ! ')
+                pass
 
     def fillExportmportFlows(self): 
         pass

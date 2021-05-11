@@ -33,7 +33,7 @@ def main(argv):
         nbPopulationsGroups = len(config['PopulationsGroups'])
         nbVariants = len(config['Virus'])
         model = Model(nbPopulationsGroups=nbPopulationsGroups,nbVariants=nbVariants) 
-        print(model.Populations)
+        
     x = np.arange(0,401,1)
     y1 = [susceptible_y, 'Susceptible']
     y2 = [infected_y1, 'Infected Variant 1']
