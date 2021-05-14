@@ -102,8 +102,10 @@ function sim_multi(simtimelimit)
        
        d3 = (pm.lambda*x(1)) - (pm.delta_4  *(x(3))) - (pm.phi_2 * (x(3)));
        dx(3) = sum(d3);
-       
-       if (t > pm.offSet)
+       if (t > 10)
+            d4 = - ((pm.delta_5 + 5)  *(x(3))) - ((pm.phi_3) * (x(3)));
+            disp(d4)
+       elseif (t > pm.offSet)
             d4 = (pm.lambda_3*x(1)) - (pm.delta_5  *(x(3))) - (pm.phi_3 * (x(3)));
        else
             d4 = 0;
@@ -123,7 +125,7 @@ function sim_multi(simtimelimit)
     I_3_end = solution(:,4);
     R_end = solution(:,5);
     
-    disp(I_3_end)
+    %disp(I_3_end)
     
     graphsBuilder(time, s_end, "Susceptible"); 
     graphsBuilder(time, I_1_end, 'Infected Variant 1'); 

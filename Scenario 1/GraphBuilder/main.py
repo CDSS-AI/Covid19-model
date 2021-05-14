@@ -5,6 +5,7 @@ import numpy as np
 
 from infectedY1 import infected_y1
 from infectedY2 import infected_y2
+from infectedY3 import infected_y3
 from Model import Model
 from recoveredY import recovered_y
 from susceptibleY import susceptible_y
@@ -14,20 +15,19 @@ from utils import *
 def main(argv):
     print ('Number of arguments:', len(sys.argv), 'arguments.')
     print ('Argument List:', str(sys.argv))
+    numberOfVariants = 0
     try:
         opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+        numberOfVariants = args[0]
     except getopt.GetoptError:
-        print ('main.py -i <inputfile> -o <outputfile>')
+        print ('main.py numberVariants -v')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ('main.py -i <inputfile> -o <outputfile>')
+            print ('main.py numberVariants -v')
             sys.exit()
-        elif opt in ("-i", "--ifile"):
-            inputfile = arg
-        elif opt in ("-o", "--ofile"):
-            outputfile = arg
-
+        elif opt in ("-v"):
+            numberOfVariants = arg
     with open('ModelConfigs.json', 'r') as f:
         config = json.load(f)
         nbPopulationsGroups = len(config['PopulationsGroups'])
@@ -37,10 +37,18 @@ def main(argv):
     x = np.arange(0,401,1)
     y1 = [susceptible_y, 'Susceptible']
     y2 = [infected_y1, 'Infected Variant 1']
-    y3 = [infected_y2, 'Infected Variant 2']
-    y4 = [recovered_y, 'Recovered']
+    y5 = [recovered_y, 'Recovered']
+    if (int(numberOfVariants) > 2):
+        y3 = [infected_y2, 'Infected Variant 2']
+        y4 = [infected_y3, 'Infected Variant 3']
+        graph(x, [y1, y2, y3, y4, y5], 'COVID19 Infections in a population with ' + str(numberOfVariants) + ' variants', 'Time', 'Number of Infections')
+    elif (int(numberOfVariants) > 1):
+        y3 = [infected_y2, 'Infected Variant 2']
+        graph(x, [y1, y2, y3, y5], 'COVID19 Infections in a population with ' + str(numberOfVariants) + ' variants', 'Time', 'Number of Infections')
+    else:
+        graph(x, [y1, y2, y5], 'COVID19 Infections in a population with ' + str(numberOfVariants) + ' variants', 'Time', 'Number of Infections')
     
-    graph(x, [y1, y2, y3, y4], 'COVID19 Infections in a population with two variants', 'Time', 'Number of Infections')
+  
 
 
 
