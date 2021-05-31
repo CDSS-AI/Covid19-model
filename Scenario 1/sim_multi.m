@@ -112,7 +112,7 @@ function sim_multi(simtimelimit)
        end
        dx(4) = sum(d4);
        
-       d5 = ((pm.phi*x(2) + pm.phi_2*x(3))); %- (pm.delta_3 * x(4)) - (pm.theta * x(4)); 
+       d5 = (((pm.phi * 0.8265)*x(2) + (pm.phi_2 * 0.8265)*x(3)));  
        dx(5) = sum(d5);
        
    
@@ -125,12 +125,16 @@ function sim_multi(simtimelimit)
     I_3_end = solution(:,4);
     R_end = solution(:,5);
     
-    %disp(I_3_end)
+    disp("----------------------------------------")
+    disp(R_end)
+    disp("----------------------------------------")
     
     graphsBuilder(time, s_end, "Susceptible"); 
     graphsBuilder(time, I_1_end, 'Infected Variant 1'); 
     graphsBuilder(time, I_2_end, 'Infected Variant 2');
     graphsBuilder(time, I_3_end, 'Infected Variant 3');
     graphsBuilder(time, R_end, 'Recovered'); 
+    
+    
     
 end
