@@ -112,7 +112,7 @@ function sim_multi(simtimelimit)
        end
        dx(4) = sum(d4);
        
-       d5 = (((pm.phi * 0.8265)*x(2) + (pm.phi_2 * 0.8265)*x(3)));  
+       d5 = (((pm.phi * 0.8265)*x(2) + (pm.phi_2 * 0.82)*x(3)));  
        dx(5) = sum(d5);
        
    
@@ -126,7 +126,7 @@ function sim_multi(simtimelimit)
     R_end = solution(:,5);
     
     disp("----------------------------------------")
-    disp(R_end)
+    disp(I_1_end)
     disp("----------------------------------------")
     
     graphsBuilder(time, s_end, "Susceptible"); 

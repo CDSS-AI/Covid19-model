@@ -1,13 +1,13 @@
 {
     "Virus": [
-        {"name": "Variant1", "infectionRate": 0.1}, 
-        {"name": "Variant2", "infectionRate": 0.3}
+        {"name": "Variant1", "infectionRate": 0.1, "deathRate": 0.02, "recoveryRate": 0.04}, 
+        {"name": "Variant2", "infectionRate": 0.3, "deathRate": 0.03, "recoveryRate": 0.02}
     ], 
     "PopulationsGroups": [
-        {"name": "0-20", "contactMatrix": [], "mobilityFactor": 0.15}, 
-        {"name": "21-40", "contactMatrix": [], "mobilityFactor": 0.45}, 
-        {"name": "41-60", "contactMatrix": [], "mobilityFactor": 0.3}, 
-        {"name": "61-80", "contactMatrix": [], "mobilityFactor": 0.2}, 
-        {"name": "80-120", "contactMatrix": [], "mobilityFactor": 0.05}
+        {"name": "0-20", "contactMatrix": [], "mobilityFactor": 0.15, "birthRate": 0.01}, 
+        {"name": "21-40", "contactMatrix": [], "mobilityFactor": 0.45, "birthRate": 0.03}, 
+        {"name": "41-60", "contactMatrix": [], "mobilityFactor": 0.3, "birthRate": 0.02}, 
+        {"name": "61-80", "contactMatrix": [], "mobilityFactor": 0.2, "birthRate": 0.1}, 
+        {"name": "80-120", "contactMatrix": [], "mobilityFactor": 0.05, "birthRate": 0.05}
     ]
 }

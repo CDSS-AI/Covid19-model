@@ -12,6 +12,10 @@ from susceptibleY import susceptible_y
 from utils import *
 
 
+def readConfig(): 
+    print("Reading the config file")
+    
+
 def main(argv):
     print ('Number of arguments:', len(sys.argv), 'arguments.')
     print ('Argument List:', str(sys.argv))
@@ -19,6 +23,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
         numberOfVariants = args[0]
+        ModelConfig = args[1]
     except getopt.GetoptError:
         print ('main.py numberVariants -v')
         sys.exit(2)
@@ -33,7 +38,8 @@ def main(argv):
         nbPopulationsGroups = len(config['PopulationsGroups'])
         nbVariants = len(config['Virus'])
         model = Model(nbPopulationsGroups=nbPopulationsGroups,nbVariants=nbVariants) 
-        
+    if (str(ModelConfig) == "T"): 
+        readConfig()
     x = np.arange(0,401,1)
     y1 = [susceptible_y, 'Susceptible']
     y2 = [infected_y1, 'Infected Variant 1']
@@ -47,13 +53,6 @@ def main(argv):
         graph(x, [y1, y2, y3, y5], 'COVID19 Infections in a population with ' + str(numberOfVariants) + ' variants', 'Time', 'Number of Infections')
     else:
         graph(x, [y1, y2, y5], 'COVID19 Infections in a population with ' + str(numberOfVariants) + ' variants', 'Time', 'Number of Infections')
-    
-  
-
-
-
-
-
 
 
 
