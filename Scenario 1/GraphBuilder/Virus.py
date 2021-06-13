@@ -1,7 +1,7 @@
 class Virus: 
        
-    def __init__(self, infectionRate=0, mortality=0, parent=None):
+    def __init__(self, infectionRate=0, recoveryRate=0, numberInitInfected=0):
         self.infectionRate = infectionRate
-        self.mortality = mortality
-        self.parent = parent
-
+        self.recoveryRate = recoveryRate
+        self.numberInitInfected = numberInitInfected
+      

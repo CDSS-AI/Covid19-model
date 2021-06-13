@@ -126,7 +126,7 @@ function sim_multi(simtimelimit)
     R_end = solution(:,5);
     
     disp("----------------------------------------")
-    disp(I_1_end)
+    disp(R_end)
     disp("----------------------------------------")
     
     graphsBuilder(time, s_end, "Susceptible"); 

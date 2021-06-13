@@ -1,113 +1,96 @@
 import json
 
-from scipy.integrate import solve_ivp
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.integrate import odeint
 
-from Population import Population
-from PopulationGroup import PopulationGroup
+import Virus
 from utils import *
-from Virus import Virus
-
-MOBILITY_FACTOR_MIN = 0.1
-MOBILITY_FACTOR_MAX =  0.9
-
-INFECTION_RATE_FACTOR_MIN = 0.25
-INFECTION_RATE_FACTOR_MAX = 0.9
-
-MORTALITY_FACTOR_MIN = 0.1
-MORTALITY_FACTOR_MAX = 0.3
-
-SUSCEPTIBLE_BETA = 0.5
-SIUSCEPTIBLE_DELTA = 0.1
-
 
 
 class Model: 
-    def __init__(self, nbPopulationsGroups, nbVariants):
-        self.populationsGroups = [] 
-        self.variants = []
-        self.Populations = [Population('susceptible', 1, [], []), Population('recovered', 2, [], [])]
-        self.setRandomParameters(nbPopulationsGroups, nbVariants)
+    N = 0
+    compartments = {}
+
+    def makePlot(self, susceptible, viruses, recovered, time):
+        y_array = []
+        y_array.append([susceptible, "Susceptible"])
+        for idx, virus in enumerate(viruses, start=0):  
+             y_array.append([virus, ("Infected " + str(idx))])
+        for idx, recover in enumerate(recovered, start=0):  
+             y_array.append([recover, ("Recovered " + str(idx))])
+        graph(time, y_array, 'COVID19 Infections in a population with ' + str(len(viruses)) + ' variants', 'Time (Days)', 'Number of people')
 
 
-    def setRandomParameters(self, nbPopulationsGroups=1, nbVariants=1): 
-        with open('ModelConfigs.json', 'r') as f:
-            config = json.load(f)
-
-            for i in range(0, nbPopulationsGroups):
-                mobilityFactor = random.uniform(MOBILITY_FACTOR_MIN, MOBILITY_FACTOR_MAX)
-                config['PopulationsGroups'][i] = PopulationGroup(contactMatrix=[], mobilityFactor=mobilityFactor)
-
-            for j in range(0, nbVariants):
-                infectionRate = random.uniform(INFECTION_RATE_FACTOR_MIN, INFECTION_RATE_FACTOR_MAX)
-                mortality = random.uniform(MORTALITY_FACTOR_MIN, MORTALITY_FACTOR_MAX)
-                config['Virus'][j] = Virus(infectionRate, mortality, None)
-        self.setPopulations()
-
-    def setParameters(self, PopulationsGroups=[], Variants=[]):
-        with open('ModelConfigs.json', 'r') as f:
-            config = json.load(f)
-
-            for i in range(0, len(PopulationsGroups)):
-                config['PopulationsGroups'][i] = PopulationsGroups[i]
-
-            for i in range(0, len(Variants)):
-                config['Virus'][i] = Variants[i]
-        self.setPopulations()
-
-    def setPopulations(self): 
-        infected = []
-        with open('ModelConfigs.json', 'r') as f:
-            config = json.load(f)
-            variants = config['Virus']
+    def __init__(self, totPop, numberOfDays, viruses):
+        N = totPop
+        numberInitInfectedTot = 0
+        I0 = []
+        R0 = []
+        infectionRates = []
+        recoveryRates = []
+        for idx, virus in enumerate(viruses, start=0):  
+            numberInitInfectedTot += virus.numberInitInfected
+            I0.append(virus.numberInitInfected)
+            infectionRates.append(virus.infectionRate) 
+            recoveryRates.append(virus.recoveryRate)
+        for idx, virus in enumerate(viruses, start=0):
+            R0.append(0)  
             
-            for variant in variants:
-                name = variant.get('name')
-                self.Populations.append(Population(('infected_' + name), 2, [], []))
+        S0 = [(N - numberInitInfectedTot)]
+        y0 = S0 + I0 + R0
+
+        def defSolver(y, t, N, infectionRates, recoveryRates):
+            compartments = {}
+            dCompartments = {}
+            yArray = []
+            for idx, key in enumerate(y, start=0):  
+                 yArray.append(y[idx])
+            
+            compartments["S"] = yArray[0]
+            dCompartments["dS"] = 0
+
+            halfLength = (len(yArray))/2
+            viruses = yArray[0:int(halfLength)]
+
+            for idx, virus in enumerate(viruses, start=0):
+                compartments[("I" + str(idx))] = virus
+                dCompartments[("dI" + str(idx))] = 0
+            
+            recovered = yArray [(int(halfLength)+1):]
+            for idx, recover in enumerate(recovered, start=0):  
+                compartments[("R" + str(idx))] = recover
+                dCompartments[("dR" + str(idx))] = 0
+              
+            for idx, virus in enumerate(viruses, start=0):
+                dCompartments["dS"] += -infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N
+            
+            for idx, virus in enumerate(viruses, start=0):
+                dCompartments[("dI" + str(idx))] += (infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N) - (recoveryRates[idx] * compartments.get("I" + str(idx)))
+            
+            for idx, recover in enumerate(recovered, start=0):
+                dCompartments[("dR" + str(idx))] += recoveryRates[idx] * compartments.get("I" + str(idx))
+           
+            items = list(dCompartments.values())
+            return (items)
         
-        self.fillImportFlows()
+        t = np.linspace(0, numberOfDays, numberOfDays)
+        ret = odeint(defSolver, y0, t, args=(N, infectionRates, recoveryRates))
+        results = ret.T
+        S = results[0]
+        results_left = results[1:]
+        halfLength = (len(results_left - 1))/2
+        viruses, recovered = np.split(results_left, 2)
 
-
-    def loadSettings(self): 
-        with open('ModelConfigs.json', 'r') as f:
-            config = json.load(f)
-            self.populationsGroups = config['PopulationsGroups']
-            self.variants = config['Virus']
-
-
-    def fillImportFlows(self): 
-        for population in self.Populations: 
-            if population.type == 1: 
-                population.importFlow.append(SUSCEPTIBLE_BETA)
-                population.exportFlow.append(SIUSCEPTIBLE_DELTA)
-            if population.type == 2: 
-                pass
-
-    def fillExportmportFlows(self): 
-        pass
-     
+        self.makePlot(S, viruses, recovered, t)
+        
    
-    # def  dx = defSolver(t,x)
-    #    dx = zeros(length(x),1);
+        
 
-    #    %Equations
-    #    d1 = (pm.beta) - (pm.delta_1 * (x(1))) - (pm.lambda * (x(1))) - (pm.theta*(x(1)));
-    #    dx(1) = sum(d1);
+# Integrate the SIR equations over the time grid, t.
        
-    #    %S * I Missing 
-    #    d2 = (pm.lambda*x(1)) - (pm.delta_2 * (x(2))) - (pm.phi * (x(2)));
-    #    dx(2) = sum(d2);
-       
-    #    d3 = (pm.lambda*x(1)) - (pm.delta_4  *(x(3))) - (pm.phi_2 * (x(3)));
-    #    dx(3) = sum(d3);
-       
-    #    d4 = ((pm.phi*x(2) + pm.phi_2*x(3))); %- (pm.delta_3 * x(4)) - (pm.theta * x(4)); 
-    #    dx(4) = sum(d4);
-    
-    @classmethod  
-    def ode45(cls, func, span=[], y0=[]): 
-        sol = solve_ivp(func, span, y0, method='RK45',t_eval=None, dense_output=False, events=None, vectorized=False,)
-        print(sol.t)
-        print(sol.y)
+          
+   
 
 
 
