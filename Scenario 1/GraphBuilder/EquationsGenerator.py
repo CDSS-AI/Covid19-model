@@ -1,42 +1,44 @@
-import argparse
-import os
-import subprocess
+import re
 
-CONTENT_TEMPLATE = r'''\documentclass{article} 
-\begin{document} \\
-... \\
-\textbf{\huge %(school)s \\}
-\vspace{1cm}
-\textbf{\Large %(title)s \\}
-...
-\end{document}
-'''
+from pylatex import (Alignat, Center, Document, LargeText, LineBreak, Math,
+                     MediumText, PageStyle, Section, Subsection)
+from pylatex.utils import NoEscape, bold, italic
+
 
 class EquationsGenerator:
+    def __init__(self, equations):
+        geometry_options = {
+            "head": "2.5cm",
+            "left": "3cm",
+            "right": "3cm",
+            "bottom": "2.5cm"
+            }
+        doc = Document(geometry_options = geometry_options, inputenc = 'utf8')
+        self.doc = doc
+        equations = self.Read(equations)
+        self.Create(equations)
+        self.doc.generate_pdf(filepath = 'Equations', clean_tex = False, compiler = 'pdflatex')
 
-    def __init__(self): 
-        parser = argparse.ArgumentParser()
-        parser.add_argument('-c', '--course')
-        parser.add_argument('-t', '--title')
-        parser.add_argument('-n', '--name',) 
-        parser.add_argument('-s', '--school', default='My U')
+    def Read(self, equations):
+        eqs = []
+        for key in equations:
+            value = ' '.join([line.strip() for line in equations.get(key).strip().splitlines()])
+            equation = key + " &= " + value
+            eqs.append(equation)
+        return eqs
 
-        args = parser.parse_args()
+    def Create(self, equations):
+        with self.doc.create(Center()) as Centered:
+            with Centered.create(Section(title='', numbering='')) as Title:
+                Title.append(LargeText(bold('COVID19 SIR MODEL EQUATIONS')))
 
-        with open('cover.tex','w') as f:
-            f.write(CONTENT_TEMPLATE%args.__dict__)
+        with self.doc.create(Section(title='Covid19 Model Equations', numbering='1.')) as Intro:
+            Intro.append(MediumText(('These are the equations for the model:')))
 
-        cmd = ['pdflatex', '-interaction', 'nonstopmode', 'cover.tex']
-        proc = subprocess.Popen(cmd)
-        proc.communicate()
+        for eq in equations:
+            with self.doc.create(Alignat(numbering = True, escape = False)) as math_eq:
+                math_eq.append(eq)
 
-        retcode = proc.returncode
-        if not retcode == 0:
-            os.unlink('cover.pdf')
-            raise ValueError('Error {} executing command: {}'.format(retcode, ' '.join(cmd))) 
-
-        os.unlink('cover.tex')
-        os.unlink('cover.log')      
 
 
 

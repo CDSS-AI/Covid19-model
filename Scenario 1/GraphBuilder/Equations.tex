@@ -1,0 +1,53 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{geometry}%
+\geometry{head=2.5cm,left=3cm,right=3cm,bottom=2.5cm}%
+\usepackage{ragged2e}%
+\usepackage{amsmath}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\begin{center}%
+\section*{}%
+\label{sec:}%
+\begin{Large}%
+\textbf{COVID19 SIR MODEL EQUATIONS}%
+\end{Large}
+
+%
+\end{center}%
+\section{Covid19 Model Equations}%
+\label{sec:Covid19ModelEquations}%
+\begin{large}%
+These are the equations for the model:%
+\end{large}
+
+%
+\begin{alignat}{2}%
+\frac{dS}{dt} &= -\beta_{0}*I_{0} * \frac{S}{N} -\beta_{1}*I_{1} * \frac{S}{N} -\beta_{2}*I_{2} * \frac{S}{N}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dI_{0}}{dt} &= \beta_{0}*I_{0} * \frac{S}{N} -\gamma_{0}I_{0}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dI_{1}}{dt} &= \beta_{1}*I_{1} * \frac{S}{N} -\gamma_{1}I_{1}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dI_{2}}{dt} &= \beta_{2}*I_{2} * \frac{S}{N} -\gamma_{2}I_{2}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dR_{0}}{dt} &= \gamma_{0}I_{0}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dR_{1}}{dt} &= \gamma_{1}I_{1}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dR_{2}}{dt} &= \gamma_{2}I_{2}%
+\end{alignat}%
+\end{document}

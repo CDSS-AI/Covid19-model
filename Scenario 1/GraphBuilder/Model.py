@@ -10,7 +10,7 @@ from utils import *
 
 class Model: 
     N = 0
-    compartments = {}
+    equations = {}
 
     def makePlot(self, susceptible, viruses, recovered, time):
         y_array = []
@@ -36,7 +36,6 @@ class Model:
             recoveryRates.append(virus.recoveryRate)
         for idx, virus in enumerate(viruses, start=0):
             R0.append(0)  
-            
         S0 = [(N - numberInitInfectedTot)]
         y0 = S0 + I0 + R0
 
@@ -49,6 +48,7 @@ class Model:
             
             compartments["S"] = yArray[0]
             dCompartments["dS"] = 0
+            self.equations[r'\frac{dS}{dt}' ] = ""
 
             halfLength = (len(yArray))/2
             viruses = yArray[0:int(halfLength)]
@@ -56,20 +56,25 @@ class Model:
             for idx, virus in enumerate(viruses, start=0):
                 compartments[("I" + str(idx))] = virus
                 dCompartments[("dI" + str(idx))] = 0
+                self.equations[(r'\frac{dI_{' + str(idx) + r'}}{dt}')] = ""
             
             recovered = yArray [(int(halfLength)+1):]
             for idx, recover in enumerate(recovered, start=0):  
                 compartments[("R" + str(idx))] = recover
                 dCompartments[("dR" + str(idx))] = 0
+                self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  = ""
               
             for idx, virus in enumerate(viruses, start=0):
                 dCompartments["dS"] += -infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N
+                self.equations[r'\frac{dS}{dt}'] += (" ") + (r'-\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}')
             
             for idx, virus in enumerate(viruses, start=0):
                 dCompartments[("dI" + str(idx))] += (infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N) - (recoveryRates[idx] * compartments.get("I" + str(idx)))
-            
+                self.equations[(r'\frac{dI_{' + str(idx) + r'}}{dt}')] += (" ") + (r'\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}') + (' -\gamma_{' + str(idx) + "}") + ("I_{" + str(idx) + "}")
+
             for idx, recover in enumerate(recovered, start=0):
                 dCompartments[("dR" + str(idx))] += recoveryRates[idx] * compartments.get("I" + str(idx))
+                self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  += (" ") + (' \gamma_{' + str(idx) + "}") + ("I_{" + str(idx) + "}") 
            
             items = list(dCompartments.values())
             return (items)
@@ -81,13 +86,11 @@ class Model:
         results_left = results[1:]
         halfLength = (len(results_left - 1))/2
         viruses, recovered = np.split(results_left, 2)
-
         self.makePlot(S, viruses, recovered, t)
         
    
-        
-
-# Integrate the SIR equations over the time grid, t.
+    def getEquations(self):
+        return self.equations
        
           
    
