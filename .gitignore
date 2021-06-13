@@ -31,3 +31,5 @@ codegen/
 octave-workspace
 
 .DS_Store
+
+Scenario 1/GraphBuilder/__pycache__/

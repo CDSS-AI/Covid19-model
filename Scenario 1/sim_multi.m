@@ -81,11 +81,12 @@ function sim_multi(simtimelimit)
     init.S = pm.Sinit;
     init.I_1 =pm.I1init;
     init.I_2 =pm.I2init;
+    init.I_3 = pm.I3init;
     init.R = pm.Rinit;
     
   
     %initVec = zeros(1,length(disease_steps)); 
-    initVec = [init.S, init.I_1, init.I_2, init.R];
+    initVec = [init.S, init.I_1, init.I_2, init.I_3, init.R];
     
     %x is the current state (if t=0, 
     function dx = defSolver(t,x)
@@ -101,9 +102,18 @@ function sim_multi(simtimelimit)
        
        d3 = (pm.lambda*x(1)) - (pm.delta_4  *(x(3))) - (pm.phi_2 * (x(3)));
        dx(3) = sum(d3);
-       
-       d4 = ((pm.phi*x(2) + pm.phi_2*x(3))); %- (pm.delta_3 * x(4)) - (pm.theta * x(4)); 
+       if (t > 10)
+            d4 = - ((pm.delta_5 + 5)  *(x(3))) - ((pm.phi_3) * (x(3)));
+            disp(d4)
+       elseif (t > pm.offSet)
+            d4 = (pm.lambda_3*x(1)) - (pm.delta_5  *(x(3))) - (pm.phi_3 * (x(3)));
+       else
+            d4 = 0;
+       end
        dx(4) = sum(d4);
+       
+       d5 = (((pm.phi * 0.8265)*x(2) + (pm.phi_2 * 0.82)*x(3)));  
+       dx(5) = sum(d5);
        
    
     end
@@ -112,11 +122,19 @@ function sim_multi(simtimelimit)
     s_end = solution(:,1);
     I_1_end = solution(:,2);
     I_2_end = solution(:,3);
-    R_end = solution(:,4);
+    I_3_end = solution(:,4);
+    R_end = solution(:,5);
+    
+    disp("----------------------------------------")
+    disp(R_end)
+    disp("----------------------------------------")
     
     graphsBuilder(time, s_end, "Susceptible"); 
     graphsBuilder(time, I_1_end, 'Infected Variant 1'); 
     graphsBuilder(time, I_2_end, 'Infected Variant 2');
+    graphsBuilder(time, I_3_end, 'Infected Variant 3');
     graphsBuilder(time, R_end, 'Recovered'); 
+    
+    
     
 end

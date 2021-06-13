@@ -1,0 +1,10 @@
+{
+    "Virus": [
+        {"name": "Variant1", "infectionRate": 0.103, "recoveryRate": 0.04, "numberInitInfected": 1 }, 
+        {"name": "Variant2", "infectionRate": 0.101, "recoveryRate": 0.01, "numberInitInfected": 1 }, 
+        {"name": "Variant3", "infectionRate": 0.102, "recoveryRate": 0.01, "numberInitInfected": 2 }, 
+        {"name": "Variant3", "infectionRate": 0.101, "recoveryRate": 0.02, "numberInitInfected": 1 }
+    ], 
+    "totalPopulation": 10000, 
+    "numberOfDays": 200
+}

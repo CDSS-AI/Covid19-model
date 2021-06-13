@@ -1,3 +1,7 @@
 seaborn
 plotly
-gleam
+scipy
+pandas
+numpy
+networkx
+igraph
