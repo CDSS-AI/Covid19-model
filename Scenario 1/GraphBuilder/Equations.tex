@@ -30,16 +30,22 @@ These are the equations for the model:%
 
 %
 \begin{alignat}{2}%
-\frac{dS}{dt} &= -\beta_{0}*I_{0} * \frac{S}{N} -\beta_{1}*I_{1} * \frac{S}{N} -\beta_{2}*I_{2} * \frac{S}{N}%
+\frac{dS}{dt} &= -\beta_{0}*I_{0} * \frac{S}{N}- \delta_{0} -\beta_{1}*I_{1} * \frac{S}{N}- \delta_{1} -\beta_{2}*I_{2} * \frac{S}{N}- \delta_{2} -\beta_{3}*I_{3} * \frac{S}{N}- \delta_{3} -\beta_{4}*I_{4} * \frac{S}{N}- \delta_{4}%
 \end{alignat}%
 \begin{alignat}{2}%
-\frac{dI_{0}}{dt} &= \beta_{0}*I_{0} * \frac{S}{N} -\gamma_{0}I_{0}%
+\frac{dI_{0}}{dt} &= \beta_{0}*I_{0} * \frac{S}{N} -\gamma_{0}I_{0}+ \delta_{0}%
 \end{alignat}%
 \begin{alignat}{2}%
-\frac{dI_{1}}{dt} &= \beta_{1}*I_{1} * \frac{S}{N} -\gamma_{1}I_{1}%
+\frac{dI_{1}}{dt} &= \beta_{1}*I_{1} * \frac{S}{N} -\gamma_{1}I_{1}+ \delta_{1}%
 \end{alignat}%
 \begin{alignat}{2}%
-\frac{dI_{2}}{dt} &= \beta_{2}*I_{2} * \frac{S}{N} -\gamma_{2}I_{2}%
+\frac{dI_{2}}{dt} &= \beta_{2}*I_{2} * \frac{S}{N} -\gamma_{2}I_{2}+ \delta_{2}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dI_{3}}{dt} &= \beta_{3}*I_{3} * \frac{S}{N} -\gamma_{3}I_{3}+ \delta_{3}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dI_{4}}{dt} &= \beta_{4}*I_{4} * \frac{S}{N} -\gamma_{4}I_{4}+ \delta_{4}%
 \end{alignat}%
 \begin{alignat}{2}%
 \frac{dR_{0}}{dt} &= \gamma_{0}*I_{0}%
@@ -49,5 +55,11 @@ These are the equations for the model:%
 \end{alignat}%
 \begin{alignat}{2}%
 \frac{dR_{2}}{dt} &= \gamma_{2}*I_{2}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dR_{3}}{dt} &= \gamma_{3}*I_{3}%
+\end{alignat}%
+\begin{alignat}{2}%
+\frac{dR_{4}}{dt} &= \gamma_{4}*I_{4}%
 \end{alignat}%
 \end{document}

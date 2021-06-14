@@ -29,17 +29,22 @@ class Model:
         R0 = []
         infectionRates = []
         recoveryRates = []
+        apparitionPeriod = []
+        apparitionRate = []
         for idx, virus in enumerate(viruses, start=0):  
             numberInitInfectedTot += virus.numberInitInfected
             I0.append(virus.numberInitInfected)
             infectionRates.append(virus.infectionRate) 
             recoveryRates.append(virus.recoveryRate)
+            apparitionPeriod.append(virus.apparitionPeriod)
+            apparitionRate.append(virus.apparitionRate)
+
         for idx, virus in enumerate(viruses, start=0):
             R0.append(0)  
+        print(apparitionPeriod)
         S0 = [(N - numberInitInfectedTot)]
         y0 = S0 + I0 + R0
-
-        def defSolver(y, t, N, infectionRates, recoveryRates):
+        def defSolver(y, t, N, infectionRates, recoveryRates, apparitionPeriod, apparitionRate):
             compartments = {}
             dCompartments = {}
             yArray = []
@@ -50,8 +55,8 @@ class Model:
             dCompartments["dS"] = 0
             self.equations[r'\frac{dS}{dt}' ] = ""
 
-            halfLength = (len(yArray))/2
-            viruses = yArray[0:int(halfLength)]
+            halfLength = len(infectionRates) 
+            viruses = yArray[1:int(halfLength + 1)]
 
             for idx, virus in enumerate(viruses, start=0):
                 compartments[("I" + str(idx))] = virus
@@ -65,12 +70,12 @@ class Model:
                 self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  = ""
               
             for idx, virus in enumerate(viruses, start=0):
-                dCompartments["dS"] += -infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N
-                self.equations[r'\frac{dS}{dt}'] += (" ") + (r'-\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}')
+                dCompartments["dS"] += (-infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N) - (apparitionRate[idx] * (int(t >= apparitionPeriod[idx][0]) *  int(t < apparitionPeriod[idx][1])))
+                self.equations[r'\frac{dS}{dt}'] += (" ") + (r'-\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}') + "-" + " \delta_{" + str(idx) + "}"
             
             for idx, virus in enumerate(viruses, start=0):
-                dCompartments[("dI" + str(idx))] += (infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N) - (recoveryRates[idx] * compartments.get("I" + str(idx)))
-                self.equations[(r'\frac{dI_{' + str(idx) + r'}}{dt}')] += (" ") + (r'\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}') + (' -\gamma_{' + str(idx) + "}") + ("I_{" + str(idx) + "}")
+                dCompartments[("dI" + str(idx))] += (infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N) - (recoveryRates[idx] * compartments.get("I" + str(idx))) + (apparitionRate[idx] * (int(t >= apparitionPeriod[idx][0]) *  int(t < apparitionPeriod[idx][1])))
+                self.equations[(r'\frac{dI_{' + str(idx) + r'}}{dt}')] += (" ") + (r'\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}') + (' -\gamma_{' + str(idx) + "}") + ("I_{" + str(idx) + "}") + "+" + " \delta_{" + str(idx) + "}"
 
             for idx, recover in enumerate(recovered, start=0):
                 dCompartments[("dR" + str(idx))] += recoveryRates[idx] * compartments.get("I" + str(idx))
@@ -80,7 +85,7 @@ class Model:
             return (items)
         
         t = np.linspace(0, numberOfDays, numberOfDays)
-        ret = odeint(defSolver, y0, t, args=(N, infectionRates, recoveryRates))
+        ret = odeint(defSolver, y0, t, args=(N, infectionRates, recoveryRates, apparitionPeriod, apparitionRate))
         results = ret.T
         S = results[0]
         results_left = results[1:]

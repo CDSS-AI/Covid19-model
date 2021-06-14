@@ -21,7 +21,7 @@ def readConfig():
         totalPopulation = data['totalPopulation']
         numberOfDays = data['numberOfDays']
         for virus in viruses: 
-            virusesParsed.append(Virus(virus.get('infectionRate'), virus.get('recoveryRate'), virus.get('numberInitInfected')))
+            virusesParsed.append(Virus(virus.get('infectionRate'), virus.get('recoveryRate'), virus.get('numberInitInfected'), virus.get('apparitionPeriod'), virus.get('apparitionRate')))
     return totalPopulation, numberOfDays, virusesParsed
 
 def main(argv):
