@@ -6,6 +6,7 @@ import numpy as np
 
 import Virus
 from EquationsGenerator import EquationsGenerator
+from GraphGenerator import GraphGenerator
 from Model import Model
 from utils import *
 
@@ -48,9 +49,9 @@ def main(argv):
     totalPop, numberOfDays, viruses = readConfig()
     model = Model(totalPop, numberOfDays, viruses)
     equations = model.getEquations()
-    print(equations)
 
     EquationsGenerator(equations)
+    GraphGenerator(viruses)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

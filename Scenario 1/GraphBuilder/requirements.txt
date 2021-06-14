@@ -3,5 +3,7 @@ plotly
 scipy
 pandas
 numpy
-networkx
-igraph
+python-igraph
+matplotlib
+PyLaTeX
+pycairo

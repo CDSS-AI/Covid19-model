@@ -5,5 +5,5 @@
         {"name": "Variant3", "infectionRate": 0.102, "recoveryRate": 0.01, "numberInitInfected": 2 }
     ], 
     "totalPopulation": 10000, 
-    "numberOfDays": 200
+    "numberOfDays": 100
 }

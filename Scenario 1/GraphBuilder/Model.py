@@ -74,7 +74,7 @@ class Model:
 
             for idx, recover in enumerate(recovered, start=0):
                 dCompartments[("dR" + str(idx))] += recoveryRates[idx] * compartments.get("I" + str(idx))
-                self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  += (" ") + (' \gamma_{' + str(idx) + "}") + ("I_{" + str(idx) + "}") 
+                self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  += (" ") + (' \gamma_{' + str(idx) + "}") + "*" + ("I_{" + str(idx) + "}") 
            
             items = list(dCompartments.values())
             return (items)

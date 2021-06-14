@@ -1,0 +1,5 @@
+*Fix equations -> Why do some go negative ?
+*Add Parameter to specify config file
+*reFactor defSolver
+*finsih GraphGenerator
+*Refactor EquationsGenerator 
