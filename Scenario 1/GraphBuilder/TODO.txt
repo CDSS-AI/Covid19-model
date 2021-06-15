@@ -1,5 +1,4 @@
 *Add Parameter to specify config file
 *reFactor defSolver
-*finsih GraphGenerator
-*Refactor EquationsGenerator 
-*CrossInfectionMatrix
+*Refactor EquationsGenerator -> LateX service ? 
+*CrossInfectionMatrix -> Better Interface ? Automatic Declaration ? 
