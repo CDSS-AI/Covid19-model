@@ -7,8 +7,8 @@ from diagrams.custom import Custom
 
 class GraphGenerator:
 
-    def __init__(self, viruses):
-        with Diagram("COVID19 Model Diagram", show=False, filename="model_diagram"):
+    def __init__(self, viruses, CrossInfectionMatrix):
+        with Diagram("COVID19 Model Diagram", show=False, filename="model_diagram", direction="LR"):
             s_box = Custom("Susceptible", "./my_resources/s_box.png")
             infectedBoxes = {}
             recoveredBoxes = {}
@@ -23,10 +23,11 @@ class GraphGenerator:
                 s_box >> infectedBoxes.get(key)
             
             idx = 0
-            for key in infectedBoxes: 
+            for i, key in enumerate(infectedBoxes, start=0): 
                 infectedBoxes.get(key) >> recoveredBoxes.get(idx)
-                for idx2 in range(0, len(recoveredBoxes.keys())): 
-                    recoveredBoxes.get(idx2) >> infectedBoxes.get(key)
+                for j in range(0, len(recoveredBoxes.keys())): 
+                    if (CrossInfectionMatrix[i][j] != 0):
+                        recoveredBoxes.get(j) >> infectedBoxes.get(key)
                 idx += 1
                 
                 

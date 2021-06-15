@@ -53,7 +53,7 @@ def main(argv):
     equations = model.getEquations()
 
     EquationsGenerator(equations)
-    GraphGenerator(viruses)
+    GraphGenerator(viruses, crossInfectionMatrix)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
