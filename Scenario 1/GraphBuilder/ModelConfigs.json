@@ -1,19 +1,16 @@
 {
     "Virus": [
-        {"name": "Variant1", "infectionRate": 0.10, "recoveryRate": 0.10, "apparitionPeriod": [0,10], "apparitionRate": 1, "numberInitInfected": 0 }, 
-        {"name": "Variant2", "infectionRate": 0.20, "recoveryRate": 0.14, "apparitionPeriod": [10,23], "apparitionRate": 1, "numberInitInfected": 0 }, 
-        {"name": "Variant3", "infectionRate": 0.41, "recoveryRate": 0.13, "apparitionPeriod": [35,50], "apparitionRate": 1, "numberInitInfected": 0 }, 
-        {"name": "Variant4", "infectionRate": 0.10, "recoveryRate": 0.10, "apparitionPeriod": [0,15], "apparitionRate": 1, "numberInitInfected": 0 }, 
-        {"name": "Variant5", "infectionRate": 0.15, "recoveryRate": 0.12, "apparitionPeriod": [1,10], "apparitionRate": 1,  "numberInitInfected": 0}
+        {"name": "Variant1", "infectionRate": 0.50, "recoveryRate": 0.10, "apparitionPeriod": [0,10], "apparitionRate": 1, "numberInitInfected": 0 }, 
+        {"name": "Variant2", "infectionRate": 0.54, "recoveryRate": 0.14, "apparitionPeriod": [30,40], "apparitionRate": 1, "numberInitInfected": 0 }, 
+        {"name": "Variant3", "infectionRate": 0.43, "recoveryRate": 0.13, "apparitionPeriod": [60,80], "apparitionRate": 1, "numberInitInfected": 0 }
     ], 
     "CrossInfectionMatrix": [
-        0, 0, 0, 0, 0, 
-        0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0
+        [0.00, 0.54, 0.43],
+        [0.00, 0.00, 0.43],
+        [0.00, 0.00, 0.00]
     ], 
 
     "totalPopulation": 10000, 
-    "numberOfDays": 500
+    "numberOfDays": 200
 }
+

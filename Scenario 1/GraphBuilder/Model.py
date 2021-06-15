@@ -22,9 +22,10 @@ class Model:
         graph(time, y_array, 'COVID19 Infections in a population with ' + str(len(viruses)) + ' variants', 'Time (Days)', 'Number of people')
 
 
-    def __init__(self, totPop, numberOfDays, viruses):
+    def __init__(self, totPop, numberOfDays, viruses, crossInfectionMatrix):
         N = totPop
         numberInitInfectedTot = 0
+        self.crossInfectionMatrix = crossInfectionMatrix
         I0 = []
         R0 = []
         infectionRates = []
@@ -41,7 +42,6 @@ class Model:
 
         for idx, virus in enumerate(viruses, start=0):
             R0.append(0)  
-        print(apparitionPeriod)
         S0 = [(N - numberInitInfectedTot)]
         y0 = S0 + I0 + R0
         def defSolver(y, t, N, infectionRates, recoveryRates, apparitionPeriod, apparitionRate):
@@ -76,10 +76,20 @@ class Model:
             for idx, virus in enumerate(viruses, start=0):
                 dCompartments[("dI" + str(idx))] += (infectionRates[idx] * compartments.get("I" + str(idx)) * compartments.get("S") / N) - (recoveryRates[idx] * compartments.get("I" + str(idx))) + (apparitionRate[idx] * (int(t >= apparitionPeriod[idx][0]) *  int(t < apparitionPeriod[idx][1])))
                 self.equations[(r'\frac{dI_{' + str(idx) + r'}}{dt}')] += (" ") + (r'\beta_{' + str(idx)) + "}" + "*" + ("I_{" + str(idx)) + "}"  + " * " + (r'\frac{S}{N}') + (' -\gamma_{' + str(idx) + "}") + ("I_{" + str(idx) + "}") + "+" + " \delta_{" + str(idx) + "}"
+                for idx2, recover in enumerate(recovered, start=0):
+                    dCompartments[("dI" + str(idx))] += (crossInfectionMatrix[idx2][idx] * compartments.get("I" + str(idx)) * compartments.get("R" + str(idx2)) / N)
+                    self.equations[(r'\frac{dI_{' + str(idx) + r'}}{dt}')] += " + " + (r' \beta_{') + str(idx2) + "," + str(idx) + "}" + " * " + "I_{" + str(idx) + "}" + " * " + (r'\frac{R_{' + str(idx2) + r'}}{N}')
 
+            #TODO: IDX NAMES
+            #crossInfectionMatrix
+            # Virus x Virus 
             for idx, recover in enumerate(recovered, start=0):
                 dCompartments[("dR" + str(idx))] += recoveryRates[idx] * compartments.get("I" + str(idx))
                 self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  += (" ") + (' \gamma_{' + str(idx) + "}") + "*" + ("I_{" + str(idx) + "}") 
+                for idx2, virus in enumerate(viruses, start=0):
+                    dCompartments[("dR" + str(idx))] += (-crossInfectionMatrix[idx][idx2] * compartments.get("I" + str(idx2)) * compartments.get("R" + str(idx)) / N)
+                    self.equations[(r'\frac{dR_{' + str(idx) + r'}}{dt}')]  += (r'- \beta_{') + str(idx) + "," + str(idx2) + "}" + " * " + "I_{" + str(idx2) + "}" + " * " + (r'\frac{R_{' + str(idx) + r'}}{N}') 
+                    
            
             items = list(dCompartments.values())
             return (items)

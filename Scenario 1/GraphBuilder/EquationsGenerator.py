@@ -36,9 +36,5 @@ class EquationsGenerator:
             Intro.append(MediumText(('These are the equations for the model:')))
 
         for eq in equations:
-            with self.doc.create(Alignat(numbering = True, escape = False)) as math_eq:
+            with self.doc.create(Alignat(numbering = False, escape = False)) as math_eq:
                 math_eq.append(eq)
-
-
-
-
