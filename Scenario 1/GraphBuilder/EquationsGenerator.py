@@ -30,9 +30,9 @@ class EquationsGenerator:
     def Create(self, equations):
         with self.doc.create(Center()) as Centered:
             with Centered.create(Section(title='', numbering='')) as Title:
-                Title.append(LargeText(bold('COVID19 SIR MODEL EQUATIONS')))
+                Title.append(LargeText(bold('Generalized S-I-R model')))
 
-        with self.doc.create(Section(title='Covid19 Model Equations', numbering='1.')) as Intro:
+        with self.doc.create(Section(title='Equations', numbering='1.')) as Intro:
             Intro.append(MediumText(('These are the equations for the model:')))
 
         for eq in equations:

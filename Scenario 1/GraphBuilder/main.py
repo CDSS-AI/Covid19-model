@@ -22,7 +22,7 @@ def readConfig():
         numberOfDays = data['numberOfDays']
         crossInfectionMatrix = data["CrossInfectionMatrix"]
         for virus in viruses: 
-            virusesParsed.append(Virus(virus.get('infectionRate'), virus.get('recoveryRate'), virus.get('numberInitInfected'), virus.get('apparitionPeriod'), virus.get('apparitionRate')))
+            virusesParsed.append(Virus(virus.get('transmissionRate'), virus.get('recoveryRate'), virus.get('numberInitInfected'), virus.get('apparitionPeriod'), virus.get('apparitionRate')))
     
     return totalPopulation, numberOfDays, virusesParsed, crossInfectionMatrix
 

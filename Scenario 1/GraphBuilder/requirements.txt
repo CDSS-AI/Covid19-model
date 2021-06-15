@@ -1,9 +1,7 @@
-seaborn
 plotly
 scipy
 pandas
 numpy
-python-igraph
 matplotlib
 PyLaTeX
 pycairo
