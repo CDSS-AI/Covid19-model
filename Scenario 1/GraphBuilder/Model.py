@@ -19,7 +19,7 @@ class Model:
              y_array.append([virus, ("Infected " + str(idx))])
         for idx, recover in enumerate(recovered, start=0):  
              y_array.append([recover, ("Recovered " + str(idx))])
-        graph(time, y_array, 'S-I-R Model in a population with ' + str(len(viruses)) + ' variants', 'Time (Days)', 'Number of people')
+        graph(time, y_array, 'S-I-R Model in a population with ' + str(len(viruses)) + ' variants', 'Time (Days)', 'Number of persons')
 
 
     def __init__(self, totPop, numberOfDays, viruses, crossInfectionMatrix):

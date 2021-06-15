@@ -10,7 +10,7 @@ from Virus import Virus
 
 def graph(x, target=[], title='Graph', xaxis_title='x', yaxis_title='y'): 
     fig = go.Figure()
-    font_size_axes = 22
+    font_size_axes = 35
 
     for y_obj in target:
         fig.add_trace(go.Scatter(
