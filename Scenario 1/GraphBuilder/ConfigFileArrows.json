@@ -1,0 +1,69 @@
+{    
+    "Nouveau format": "[E1 -> I_PRE1, I_PRE2, I_PRE3,  I_PRE4, I_PRE5] ",
+    "Variants": {
+        "Virus": [
+            {"name": "Variant0", "transmissionRate": 0.50, 
+                "recoveryRate": 0.10, "onsetPeriod": [0,10], 
+                "onsetRate": 1, "numberInitInfected": 0 }, 
+            {"name": "Variant1", "transmissionRate": 0.54, 
+                "recoveryRate": 0.14, "onsetPeriod": [30,40],
+                 "onsetRate": 1, "numberInitInfected": 0 }, 
+            {"name": "Variant2", "transmissionRate": 0.43, 
+                "recoveryRate": 0.13, "onsetPeriod": [70,80],
+                 "onsetRate": 1, "numberInitInfected": 0 }, 
+            {"name": "Variant3", "transmissionRate": 0.41, 
+               "recoveryRate": 0.18, "onsetPeriod": [110,120],
+                "onsetRate": 1, "numberInitInfected": 0 }
+        ], 
+        "CrossInfectionMatrix": [
+            [0.53, 0.23, 0.37, 0.09],
+            [0.00, 0.54, 0.43, 0.12],
+            [0.00, 0.00, 0.43, 0.10],
+            [0.00, 0.00, 0.00, 0.17]
+        ], 
+    
+        "totalPopulation": 10000, 
+        "numberOfDays": 200
+    }, 
+    "Model": {
+        "Compartements": ["S", "E1", "E2", "E3", "E4", "E5", "I_PRE1", "I_PRE2", "I_PRE3", "I_PRE4", "I_PRE5", 
+            "I_SYMPS1", "I_SYMPS2", "I_SYMPS3", "I_SYMPM1", "I_SYMPM2" , "I_ASYMP1", "I_ASYMP2", 
+            "HOSP_M1", "HOSP_M2", "HOSP_M3", "HOSP_S1", "HOSP_S2", "R"], 
+
+        "Layer1": { 
+            "line1": "S -> E1, E2, E3, E4, E5", 
+            "DirectionE1": ["E1 -> I_PRE1, I_PRE2, I_PRE3,  I_PRE4, I_PRE5"],
+            "line2": ["E2 -> I_PRE1", "E2 -> I_PRE3", "E2 -> I_PRE4", "E2 -> I_PRE5"], 
+            "line3": ["E3 -> I_PRE1", "E3-> I_PRE2"], 
+            "line4": ["E4 -> I_PRE2", "E4 -> I_PRE3", "E4 -> I_PRE4", "E4 -> I_PRE5"], 
+            "line5": ["E5 -> I_PRE4", "E5 -> I_PRE5"] 
+        }, 
+    
+        "Layer3": {
+            "line1": ["I_PRE1 -> I_SYMPS1", "I_PRE1 -> I_SYMPS2", "I_PRE1 -> I_SYMPS3", "I_PRE1 -> I_SYMPM1", "I_PRE1 -> I_SYMPM2", "I_PRE1 -> I_ASYMP1", "I_PRE1 -> I_ASYMP2"],
+            "line2": ["I_PRE2 -> I_SYMPS2", "I_PRE2 -> I_SYMPS3", "I_PRE2 -> I_SYMPM1", "I_PRE2 -> I_ASYMP1", "I_PRE2 -> I_ASYMP2"], 
+            "line3": ["I_PRE3 -> I_SYMPS1", "I_PRE3 -> I_SYMPS2", "I_PRE3 -> I_SYMPS3", "I_PRE3 -> I_SYMPM1", "I_PRE3 -> I_SYMPM2", "I_PRE3 -> I_ASYMP2"], 
+            "line4": ["I_PRE4 -> I_SYMPS1", "I_PRE4 -> I_SYMPS2", "I_PRE4 -> I_SYMPS3", "I_PRE4 -> I_SYMPM1", "I_PRE4 -> I_SYMPM2"], 
+            "line5": ["I_PRE5 -> I_ASYMP1", "I_PRE5 -> I_ASYMP2"]
+        }, 
+    
+        "Layer4": {
+            "line1": ["I_SYMPS1 -> HOSP_M1", "I_SYMPS1 -> HOSP_M2", "I_SYMPS1 -> HOSP_M3", "I_SYMPS1 -> HOPS_S1", "I_SYMPS1 -> HOPS_S2", "I_SYMPS1 -> R" ], 
+            "line2": ["I_SYMPS2 -> HOSP_M1", "I_SYMPS2 -> HOSP_M2", "I_SYMPS2 -> HOSP_M3", "I_SYMPS2 -> HOPS_S1"], 
+            "line3": ["I_SYMPS3 -> HOSP_M2", "I_SYMPS3 -> HOSP_M3", "I_SYMPS3 -> HOPS_S1", "I_SYMPS3 -> HOPS_S2", "I_SYMPS3 -> R"], 
+            "line4": ["I_SYMPM1 -> HOSP_M1", "I_SYMPM1 -> HOSP_M2", "I_SYMPM1 -> R"], 
+            "line5": ["I_SYMPM2 -> HOSP_M1", "I_SYMPM2 -> R"], 
+            "line6": ["I_ASYMP1 -> R"], 
+            "line7": ["I_ASYMP2 -> R"]
+        }, 
+        "Layer5": {
+            "line1": ["HOSP_M1 -> R"], 
+            "line2": ["HOPS_M2 -> R"],
+            "line3": ["HOPS_M3 -> R"], 
+            "line4": ["HOPS_S1 -> R"], 
+            "line5": ["HOPS_S2 -> R"]
+        }
+    }   
+} 
+
+

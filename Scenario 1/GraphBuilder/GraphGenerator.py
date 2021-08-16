@@ -8,6 +8,8 @@ from diagrams.custom import Custom
 class GraphGenerator:
 
     def __init__(self, viruses, CrossInfectionMatrix):
+        print(viruses)
+        print(CrossInfectionMatrix)
         diagram_attr = {
             "fontsize": "32",
             "fontname": "Sans serif",

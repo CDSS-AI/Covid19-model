@@ -1,0 +1,22 @@
+{
+    "Virus": [
+        {"name": "Variant0", "transmissionRate": 0.50, 
+            "recoveryRate": 0.10, "onsetPeriod": [0,10], 
+            "onsetRate": 1, "numberInitInfected": 0 }, 
+        {"name": "Variant1", "transmissionRate": 0.54, 
+            "recoveryRate": 0.14, "onsetPeriod": [30,40],
+             "onsetRate": 1, "numberInitInfected": 0 }, 
+        {"name": "Variant2", "transmissionRate": 0.43, 
+            "recoveryRate": 0.13, "onsetPeriod": [70,80],
+             "onsetRate": 1, "numberInitInfected": 0 }
+    ], 
+    "CrossInfectionMatrix": [
+        [0.00, 0.54, 0.43],
+        [0.00, 0.00, 0.43],
+        [0.00, 0.00, 0.00]
+    ], 
+
+    "totalPopulation": 10000, 
+    "numberOfDays": 200
+}
+
