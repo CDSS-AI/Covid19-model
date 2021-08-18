@@ -58,11 +58,87 @@ def sortNodes(nodes):
 
     return sortedNodes
 
-
 def MergeDicts(dict1, dict2):
     return {**dict1, **dict2}
+
+def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False): 
+    strindexNumerator = str(indexNumerator)
+    strNumerator = str(numerator)
+    strDenominator = str(denominator)
+    strName = ""
+    if ("_" in strNumerator or "_" in strDenominator):
+        strList = numerator.split('_')
+        if (len(strList) > 2): 
+            if (indexNumerator != -1): 
+                strNumerator = strList[0] + "\_" + strList[1].lower() + "\_" + strList[2].lower() + '_{' + strindexNumerator + '}'
+            else:
+                strNumerator = strList[0] + "\_" + strList[1].lower() + '\_' + strList[2].lower()
+            strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
+        elif (len(strList) > 1): 
+            if (indexNumerator != -1): 
+                strNumerator = strList[0] + '\_' + strList[1].lower() + '_{' + strindexNumerator + '}' 
+            else:
+                strNumerator = strList[0] + '\_' + strList[1].lower() 
+            strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
+    else: 
+        if (indexNumerator != -1): 
+            strNumerator = strNumerator + '_{' + strindexNumerator + '}'
+        strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
+
+    if (negative):
+        strName = "-" + strName
     
+    return strName
 
 
+def makeLatexVariable(negative, variableName, idx): 
+    strName = " "
+    if (negative): 
+        strName += '-' + '\\' + variableName + '_{' + str(idx) + '}'
+    else: 
+        strName += '\\' + variableName + '_{' + str(idx) + '}'
+    return strName
 
+def makeLatexVariableName(name, nameIndex=-1): 
+    strName = ""
+    strNameIndex = str(nameIndex)
+    if "_" in name:
+        strList = name.split('_')
+        strName = ""
+        if (len(strList) > 2): 
+            if (nameIndex != -1):
+                strName += strList[0] + "\_{" + strList[1].lower() + '}' + "\_{" + strList[2].lower() + '}' + "_{" + strNameIndex + '}'
+            else: 
+                strName += strList[0] + "\_{" + strList[1].lower() + '}' + '\_{' + strList[2].lower() + '}'
+        elif (len(strList) > 1): 
+            if (nameIndex != -1):
+                strName += strList[0] + "\_{" + strList[1].lower() + '}' + "_{" + strNameIndex + '}'  
+            else:
+                strName += strList[0] + '\_{' + strList[1].lower() + '}' 
+    else:
+        if (nameIndex != -1):
+            strName = name + "_{" + strNameIndex + "}"
+        else:
+            strName = name
+
+    return strName
+
+def calculateTheta(sojournTime): 
+    return (-1/sojournTime)
+
+def calculateMu(sojournTimeParent, weight): 
+    if (weight): 
+        return ((1/sojournTimeParent) * weight)
+    else: 
+        return 0
+
+def calculateLambda(resistantLevel, virusIndex, N, crossResistanceMatrix): 
+    return ((1-(crossResistanceMatrix[virusIndex][virusIndex] * resistantLevel))/N)
+
+def calculateBeta(virus: Virus, node):
+    pass
+
+def calculateDelta(virus: Virus, t): 
+    return (virus.apparitionRate * (int(t >= virus.apparitionPeriod[0]) *  int(t < virus.apparitionPeriod[1])))
+ 
         

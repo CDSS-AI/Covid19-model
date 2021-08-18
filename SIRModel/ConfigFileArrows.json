@@ -1,41 +1,39 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant0", "transmissionRate": 0.50, "onsetPeriod": [0,10],"onsetRate": 1}, 
-            {"name": "Variant1", "transmissionRate": 0.54, "onsetPeriod": [30,40], "onsetRate": 1}, 
-            {"name": "Variant2", "transmissionRate": 0.43, "onsetPeriod": [70,80], "onsetRate": 1}, 
-            {"name": "Variant3", "transmissionRate": 0.41, "onsetPeriod": [110,120], "onsetRate": 1}
+            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,10],"onsetRate": 1}, 
+            {"name": "Variant2", "transmissionRate": 0.54, "onsetPeriod": [30,40], "onsetRate": 1}, 
+            {"name": "Variant3", "transmissionRate": 0.43, "onsetPeriod": [70,80], "onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
-            [1.00, 0.23, 0.37, 0.09],
-            [1.00, 0.54, 0.43, 0.12],
-            [1.00, 1.00, 0.43, 0.10],
-            [1.00, 1.00, 1.00, 0.17]
+            [1.00, 0.23, 0.37],
+            [1.00, 0.54, 0.43],
+            [1.00, 1.00, 0.43]
         ], 
     
         "totalPopulation": 10000, 
         "numberOfDays": 200
     }, 
     "Model": {
-        "Compartements": ["S", "E", "I_PRE", "I_SYMPS", "I_SYMPM", "I_ASYMP", "HOSP_M", "HOSP_S", "R"],
+        "Compartements": ["S", "E", "I_PRE", "I_SYMP_S", "I_SYMP_M", "I_ASYMP", "HOSP_M", "HOSP_S", "R"],
         "EdgesProgression": [
             {"name": "E", "sojournTime": 1, "infectionRatio": 0, 
                 "destinations": [{"name": "I_PRE", "weight": 1}]
             }, 
             {"name": "I_PRE", "sojournTime": 4, "infectionRatio": 1, 
                 "destinations": [
-                    {"name": "I_SYMPS", "weight": 0.33}, 
-                    {"name": "I_SYMPM", "weight": 0.33}, 
+                    {"name": "I_SYMP_S", "weight": 0.33}, 
+                    {"name": "I_SYMP_M", "weight": 0.33}, 
                     {"name": "I_ASYMP", "weight": 0.33}
                 ]
             }, 
-            {"name": "I_SYMPS", "sojournTime": 5, "infectionRatio": 1, 
+            {"name": "I_SYMP_S", "sojournTime": 5, "infectionRatio": 1, 
                 "destinations": [
                     {"name": "HOSP_S", "weight": 1}, 
                     {"name": "R", "weight": 0}
                 ]
             }, 
-            {"name": "I_SYMPM", "sojournTime": 10, "infectionRatio": 1, 
+            {"name": "I_SYMP_M", "sojournTime": 10, "infectionRatio": 1, 
                 "destinations": [
                     {"name": "HOSP_M", "weight": 0}, 
                     {"name": "R", "weight": 1}

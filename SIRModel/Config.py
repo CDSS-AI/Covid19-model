@@ -49,6 +49,7 @@ class Config:
             print("Node: " + str(e))
         edgePorgressionDict = {}
         edgeInfectionDict = {}
+        sojournTimesDict = {}
         try: 
             for edgePorgression in data["Model"]["EdgesProgression"]:
                 edgeName = edgePorgression["name"]
@@ -56,15 +57,17 @@ class Config:
                 destinations = edgePorgression["destinations"]
                 for destination in destinations: 
                     destinationDict[destination["name"]] = destination["weight"]
-                    graph.add_edge(edgeName, destination["name"]) #weight=destination["weight"]
+                    graph.add_edge(edgeName, destination["name"], weight=destination["weight"]) #weight=destination["weight"]
                 edgePorgressionObj = EdgesProgression(
                     sojournTime=edgePorgression["sojournTime"],
                     infectionRatio=edgePorgression["infectionRatio"],
                     destinations=destinationDict
                     )
+                sojournTimesDict[edgeName] = edgePorgression["sojournTime"]
                 edgePorgressionDict[edgeName] = edgePorgressionObj
 
             self.configValues['Model']["EdgesProgression"] = edgePorgressionDict
+            self.configValues['Model']['SojournTime'] = sojournTimesDict
         except ValueError as e:
             print("Error in parsing the progression edges. Please verify that these edges correspond to existing nodes.")
             print("Edge: " + str(e))
@@ -80,14 +83,13 @@ class Config:
                     destinations=edgeInfection["destination"]
                     )
                 edgeInfectionDict[edgeName] = edgeInfectionObj
-                graph.add_edge(edgeName, edgeInfection["destination"]) #weight=edgeInfection["resistanceLevel"]
+                graph.add_edge(edgeName, edgeInfection["destination"], weight=edgeInfection["resistanceLevel"]) #weight=edgeInfection["resistanceLevel"]
             self.configValues['Model']["EdgesInfection"] = edgeInfectionDict
         except ValueError as e:
             print("Error in parsing the infection edges. Please verify that these edges correspond to existing nodes.")
             print("Edge: " + str(e))
 
-        self.configValues["graph"] = graph
-        print(graph.edges())
+        self.configValues['Model']["graph"] = graph
         self.configValues["adjacencyMatrix"] = nx.adjacency_matrix(graph, nodelist=self.configValues['Model']["Compartements"]).todense().astype(int)
 
     def readMatrixFile(self, filename = "ConfigFileMatrix_Generated.txt"):

@@ -7,6 +7,7 @@
 \usepackage{geometry}%
 \geometry{head=2.5cm,left=3cm,right=3cm,bottom=2.5cm}%
 \usepackage{ragged2e}%
+\usepackage{amsmath}%
 %
 %
 %
@@ -28,4 +29,79 @@ These are the equations for the model:%
 \end{large}
 
 %
+\begin{alignat*}{2}%
+\frac{dE_{1}}{dt} &= \Theta_{1}E_{1} +  \mu_{1}R_{1} +  \Lambda_{1}R_{1} +  \delta_{1} -  \Lambda_{1}R_{1} -  \delta_{1} \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dE_{2}}{dt} &= \Theta_{2}E_{2} +  \mu_{2}R_{2} +  \Lambda_{2}R_{2} +  \delta_{2} -  \Lambda_{2}R_{2} -  \delta_{2} \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dE_{3}}{dt} &= \Theta_{3}E_{3} +  \mu_{3}R_{3} +  \Lambda_{3}R_{3} +  \delta_{3} -  \Lambda_{3}R_{3} -  \delta_{3} \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_pre_{1}}{dt} &= \Theta_{1}I\_{pre}_{1} +  \mu_{1}E_{1} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_pre_{2}}{dt} &= \Theta_{2}I\_{pre}_{2} +  \mu_{2}E_{2} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_pre_{3}}{dt} &= \Theta_{3}I\_{pre}_{3} +  \mu_{3}E_{3} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_symp\_s_{1}}{dt} &= \Theta_{1}I\_{symp}\_{s}_{1} +  \mu_{1}I\_{pre}_{1} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_symp\_s_{2}}{dt} &= \Theta_{2}I\_{symp}\_{s}_{2} +  \mu_{2}I\_{pre}_{2} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_symp\_s_{3}}{dt} &= \Theta_{3}I\_{symp}\_{s}_{3} +  \mu_{3}I\_{pre}_{3} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_symp\_m_{1}}{dt} &= \Theta_{1}I\_{symp}\_{m}_{1} +  \mu_{1}I\_{pre}_{1} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_symp\_m_{2}}{dt} &= \Theta_{2}I\_{symp}\_{m}_{2} +  \mu_{2}I\_{pre}_{2} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_symp\_m_{3}}{dt} &= \Theta_{3}I\_{symp}\_{m}_{3} +  \mu_{3}I\_{pre}_{3} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_asymp_{1}}{dt} &= \Theta_{1}I\_{asymp}_{1} +  \mu_{1}I\_{pre}_{1} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_asymp_{2}}{dt} &= \Theta_{2}I\_{asymp}_{2} +  \mu_{2}I\_{pre}_{2} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dI\_asymp_{3}}{dt} &= \Theta_{3}I\_{asymp}_{3} +  \mu_{3}I\_{pre}_{3} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP\_m_{1}}{dt} &= \Theta_{1}HOSP\_{m}_{1} +  \mu_{1}I\_{symp}\_{m}_{1} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP\_m_{2}}{dt} &= \Theta_{2}HOSP\_{m}_{2} +  \mu_{2}I\_{symp}\_{m}_{2} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP\_m_{3}}{dt} &= \Theta_{3}HOSP\_{m}_{3} +  \mu_{3}I\_{symp}\_{m}_{3} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP\_s_{1}}{dt} &= \Theta_{1}HOSP\_{s}_{1} +  \mu_{1}I\_{symp}\_{s}_{1} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP\_s_{2}}{dt} &= \Theta_{2}HOSP\_{s}_{2} +  \mu_{2}I\_{symp}\_{s}_{2} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP\_s_{3}}{dt} &= \Theta_{3}HOSP\_{s}_{3} +  \mu_{3}I\_{symp}\_{s}_{3} +%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dR_{1}}{dt} &= \Theta_{1}R_{1} +  \mu_{1}I\_{symp}\_{s}_{1} +  \mu_{1}I\_{symp}\_{m}_{1} +  \mu_{1}I\_{asymp}_{1} +  \mu_{1}HOSP\_{m}_{1} +  \mu_{1}HOSP\_{s}_{1} +  \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dR_{2}}{dt} &= \Theta_{2}R_{2} +  \mu_{2}I\_{symp}\_{s}_{2} +  \mu_{2}I\_{symp}\_{m}_{2} +  \mu_{2}I\_{asymp}_{2} +  \mu_{2}HOSP\_{m}_{2} +  \mu_{2}HOSP\_{s}_{2} +  \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dR_{3}}{dt} &= \Theta_{3}R_{3} +  \mu_{3}I\_{symp}\_{s}_{3} +  \mu_{3}I\_{symp}\_{m}_{3} +  \mu_{3}I\_{asymp}_{3} +  \mu_{3}HOSP\_{m}_{3} +  \mu_{3}HOSP\_{s}_{3} +  \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dS}{dt} &= \frac{R_{1}}{N} \delta_{1}\frac{R_{2}}{N} \delta_{2}\frac{R_{3}}{N} \delta_{3}-\frac{E_{1}}{N} \delta_{1}-\frac{E_{2}}{N} \delta_{2}-\frac{E_{3}}{N} \delta_{3}%
+\end{alignat*}%
 \end{document}
