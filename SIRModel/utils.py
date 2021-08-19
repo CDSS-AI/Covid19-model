@@ -132,11 +132,11 @@ def calculateMu(sojournTimeParent, weight):
     else: 
         return 0
 
-def calculateLambda(resistantLevel, virusIndex, N, crossResistanceMatrix): 
-    return ((1-(crossResistanceMatrix[virusIndex][virusIndex] * resistantLevel))/N)
+def calculateLambda(node, virus, resistantLevel, virusIndex, N, crossResistanceMatrix): 
+    return (((1-(crossResistanceMatrix[virusIndex][virusIndex] * resistantLevel))/N) * calculateBeta(virus, node))
 
 def calculateBeta(virus: Virus, node):
-    pass
+    return (virus.infectionRate * node)
 
 def calculateDelta(virus: Virus, t): 
     return (virus.apparitionRate * (int(t >= virus.apparitionPeriod[0]) *  int(t < virus.apparitionPeriod[1])))

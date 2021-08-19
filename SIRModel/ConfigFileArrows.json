@@ -1,9 +1,7 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,10],"onsetRate": 1}, 
-            {"name": "Variant2", "transmissionRate": 0.54, "onsetPeriod": [30,40], "onsetRate": 1}, 
-            {"name": "Variant3", "transmissionRate": 0.43, "onsetPeriod": [70,80], "onsetRate": 1}
+            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,10],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
             [1.00, 0.23, 0.37],

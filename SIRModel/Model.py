@@ -6,6 +6,7 @@ import numpy as np
 from scipy.integrate import odeint
 
 import Virus
+from Constants import *
 from utils import *
 
 NUMBER_OF_PARAMETERS = 4
@@ -24,38 +25,23 @@ class Model:
             compartements = self.config.configValues['Model']['Compartements'],
             edgesProgression = self.config.configValues['Model']["EdgesProgression"],
             edgesInfection = self.config.configValues['Model']["EdgesInfection"], 
-            graph = self.config.configValues['Model']['graph'], 
+            graph = self.config.configValues['Model']['graph'],
+            graphProgression = self.config.configValues['Model']["GraphProgression"], 
+            graphInfection = self.config.configValues['Model']["GraphInfection"], 
             sojournTimesDict = self.config.configValues['Model']['SojournTime']
             )
 
 
-    def makePlot(self, results, time):
-        
+    def makePlot(self, results, compartments, time):
         y_array = []
-        y_array.append([results[0], ("Susceptible")])
-        y_array.append([results[1], ("Exposed")])
-        y_array.append([results[2], ("InfectedPresymptomatic")])
-        y_array.append([results[3], ("InfectedSymtpmaticSevere")])
-        y_array.append([results[4], ("InfectedSymtpmaticMild")])
-        y_array.append([results[5], ("InfectedAsymptomatic")])
-        y_array.append([results[6], ("HospitalizedMild")])
-        y_array.append([results[7], ("HospitalizedServe")])
-        y_array.append([results[7], ("Recovered")])
+        for index, name in enumerate(compartments, start=0):
+            nameDisplay = NAME_DICTIONNARY[name]
+            y_array.append([results[index], nameDisplay])
 
-       # "S", "E", "I_PRE", "I_SYMP_S", "I_SYMP_M", "I_ASYMP", "HOSP_M", "HOSP_S", "R"
-        
-
-       
-
-
-        # for idx, virus in enumerate(viruses, start=0):  
-        #      y_array.append([virus, ("Infected " + str(idx))])
-        # for idx, recover in enumerate(recovered, start=0):  
-        #      y_array.append([recover, ("Recovered " + str(idx))])
         graph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
 
 
-    def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, compartements, edgesProgression, edgesInfection, graph, sojournTimesDict):
+    def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, compartements, edgesProgression, edgesInfection, graph, graphProgression, graphInfection, sojournTimesDict):
         N = totPop
         sortedNodes = sortNodes(compartements)
         S0 = [N]
@@ -65,11 +51,8 @@ class Model:
         R0 = [0] * len(sortedNodes["recovered"])
 
         y0 = S0 + E0 + I0 + H0 + R0
-        # print(crossResistanceRatio)
-        # print(edgesProgression)
-        # print(edgesInfection)
 
-        def defSolver(y, t, N, viruses, graph, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict):
+        def defSolver(y, t, N, viruses, graph, graphProgression, graphInfection, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict):
             compartments = {}
             dCompartments = {}
             yArray = []
@@ -126,18 +109,21 @@ class Model:
                                 weightParent = edgeData.get("weight")
                                 sojournParentNode = sojournTimesDict[parentNode]
                                 dCompartments[diffName] += (calculateMu(sojournParentNode, weightParent) * compartments.get(compartementNode))
-                                self.equations[latexName] += makeLatexVariable(False, "mu", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " + "
+                                self.equations[latexName] += makeLatexVariable(False, "mu", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) 
                                 nbOfTermsPerLine[latexName] +=1
                                 if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                     self.equations[latexName] += " \\\ " + "&"
                                     nbOfTermsPerLine[latexName] = 0
+
+                                if ((indexParentNode+1) < len(predessorsNodes)):
+                                        self.equations[latexName] += " + "
                                 
                                 if (parentNode == "S" or parentNode == "R"):
                                     edgeInfection = edgesInfection[parentNode]
                                     destinationInfection = edgeInfection.destinations
                                     resistanceLevelInfection = edgeInfection.resistanceLevel
 
-                                    dCompartments[diffName] += (calculateLambda(resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(compartementNode))
+                                    dCompartments[diffName] += (calculateLambda(compartments.get(parentNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(parentNode))
                                     self.equations[latexName] += makeLatexVariable(False, "Lambda", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " + "
                                     nbOfTermsPerLine[latexName] +=1
                                     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
@@ -151,7 +137,7 @@ class Model:
                                         self.equations[latexName] += " \\\ " + "&"
                                         nbOfTermsPerLine[latexName] = 0
 
-                                    dCompartments[diffName] -= 1
+                                    dCompartments[diffName] -= (calculateLambda(compartments.get(compartementNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(compartementNode))
                                     self.equations[latexName] += makeLatexVariable(False, "Lambda", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " - "
                                     nbOfTermsPerLine[latexName] +=1
                                     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
@@ -165,19 +151,18 @@ class Model:
                                         self.equations[latexName] += " \\\ " + "&"
                                         nbOfTermsPerLine[latexName] = 0
 
-                                    if ((indexParentNode+1) < len(predessorsNodes)):
-                                        self.equations[latexName] += " + "
+                                    # if ((indexParentNode+1) < len(predessorsNodes)):
+                                    #     self.equations[latexName] += " + "
 
             items = list(dCompartments.values())
             return (items)
         
         t = np.linspace(0, numberOfDays, numberOfDays)
-        ret = odeint(defSolver, y0, t, args=(N, viruses, graph, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict))
+        ret = odeint(defSolver, y0, t, args=(N, viruses, graph, graphProgression, graphInfection, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict))
         results = ret.T
         print(type(results))
         print(results.shape)
-
-        self.makePlot(results, t)
+        self.makePlot(results, compartements, t)
         
    
     def getEquations(self):

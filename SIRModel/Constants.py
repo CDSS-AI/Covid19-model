@@ -23,6 +23,19 @@ INFECTION_PHI_1 = 0.7
 INFECTION_PHI_2 = 0.7
 THETA = 0.001
 
+
+NAME_DICTIONNARY = {
+    "S": "Susceptible", 
+    "E": "Exposed", 
+    "I_PRE": "Infected Presymptomatic", 
+    "I_SYMP_S": "Infected Symptomatic Serious", 
+    "I_SYMP_M": "Infeced Symptomatic Mild",
+    "I_ASYMP": "Infeced Asymptomatic",
+     "HOSP_M": "Hospitalized Mild", 
+     "HOSP_S": "Hospitalized Serious",  
+     "R": "Recovered", 
+}
+
 # beta= birth rate
 # delta= death rates
 # gamma= rate of recovery
