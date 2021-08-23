@@ -25,18 +25,13 @@ THETA = 0.001
 
 
 NAME_DICTIONNARY = {
-    "S": "Susceptible", 
-    "E": "Exposed", 
-    "I_PRE": "Infected Presymptomatic", 
-    "I_SYMP_S": "Infected Symptomatic Serious", 
-    "I_SYMP_M": "Infeced Symptomatic Mild",
-    "I_ASYMP": "Infeced Asymptomatic",
-     "HOSP_M": "Hospitalized Mild", 
-     "HOSP_S": "Hospitalized Serious",  
-     "R": "Recovered", 
+    "S": {"name": "Susceptible", "variable": ""}, 
+    "E": {"name": "Exposed", "variable": "nu"}, 
+    "I_PRE": {"name": "Infected Presymptomatic", "variable": "gamma"}, 
+    "I_SYMP_S": {"name": "Infected Symptomatic Serious", "variable": "gamma"}, 
+    "I_SYMP_M": {"name": "Infected Symptomatic Mild", "variable": "gamma"},
+    "I_ASYMP": {"name": "Infected Asymptomatic", "variable": "gamma"},
+    "HOSP_M": {"name": "Hospitalized Mild", "variable": "theta"},
+    "HOSP_S": {"name": "Hospitalized Serious", "variable": "theta"},
+    "R": {"name": "Recovered", "variable": "omega"}, 
 }
-
-# beta= birth rate
-# delta= death rates
-# gamma= rate of recovery
-# lambda= infection rate

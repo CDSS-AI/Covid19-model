@@ -70,15 +70,15 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
         strList = numerator.split('_')
         if (len(strList) > 2): 
             if (indexNumerator != -1): 
-                strNumerator = strList[0] + "\_" + strList[1].lower() + "\_" + strList[2].lower() + '_{' + strindexNumerator + '}'
+                strNumerator = strList[0] + "_{" + strList[1].lower() + "}_{" + strList[2].lower() + '}_{' + strindexNumerator + '}'
             else:
-                strNumerator = strList[0] + "\_" + strList[1].lower() + '\_' + strList[2].lower()
-            strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
+                strNumerator = strList[0] + "_{" + strList[1].lower() + '}_{' + strList[2].lower() + "}"
+            strName += r'\frac{' + strNumerator + r'_}{' +  strDenominator + '}'
         elif (len(strList) > 1): 
             if (indexNumerator != -1): 
-                strNumerator = strList[0] + '\_' + strList[1].lower() + '_{' + strindexNumerator + '}' 
+                strNumerator = strList[0] + '_{' + strList[1].lower() + '}_{' + strindexNumerator + '}' 
             else:
-                strNumerator = strList[0] + '\_' + strList[1].lower() 
+                strNumerator = strList[0] + '_{' + strList[1].lower() + "}"
             strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
     else: 
         if (indexNumerator != -1): 
@@ -91,12 +91,12 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
     return strName
 
 
-def makeLatexVariable(negative, variableName, idx): 
+def makeLatexVariable(negative, variableName, compartmentName, idx): 
     strName = " "
     if (negative): 
-        strName += '-' + '\\' + variableName + '_{' + str(idx) + '}'
+        strName += '-' + '\\' + variableName + '_{' + str(compartmentName) + '}' + '_{' + str(idx) + '}'
     else: 
-        strName += '\\' + variableName + '_{' + str(idx) + '}'
+        strName += '\\' + variableName + '_{' + str(compartmentName) + '}' +'_{' + str(idx) + '}'
     return strName
 
 def makeLatexVariableName(name, nameIndex=-1): 

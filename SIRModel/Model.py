@@ -35,7 +35,7 @@ class Model:
     def makePlot(self, results, compartments, time):
         y_array = []
         for index, name in enumerate(compartments, start=0):
-            nameDisplay = NAME_DICTIONNARY[name]
+            nameDisplay = NAME_DICTIONNARY[name]['name']
             y_array.append([results[index], nameDisplay])
 
         graph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
@@ -83,7 +83,7 @@ class Model:
                     negative = False
                     if (connectedNodeS == "E"): 
                         negative = True
-                    self.equations[latexName] += (makeLatexFrac(connectedNodeS, "N", indexNumerator=(indexVirus+1), negative=negative) + makeLatexVariable(False, "delta", (indexVirus + 1)))
+                    self.equations[latexName] += (makeLatexFrac(connectedNodeS, "N", indexNumerator=(indexVirus+1), negative=negative) + makeLatexVariable(False, "delta", "", (indexVirus + 1)))
                 
 
 
@@ -101,15 +101,17 @@ class Model:
                         destinationNodes = edgesProgressionNode.destinations 
 
                         dCompartments[diffName] += (calculateTheta(sojournTimeNode) * compartments.get(compartementNode))
-                        self.equations[latexName] += makeLatexVariable(False, "Theta", (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) + " + "
+                        self.equations[latexName] += makeLatexVariable(True, "Theta", compartementNode, (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) + " + "
 
                         for indexParentNode, parentNode in enumerate(predessorsNodes, start=0): 
                             if (parentNode != "S"):
+                                variableNode = NAME_DICTIONNARY[compartementNode]['variable']
+                                variableParent = NAME_DICTIONNARY[parentNode]['variable']
                                 edgeData = graph.get_edge_data(parentNode, compartementNode)
                                 weightParent = edgeData.get("weight")
                                 sojournParentNode = sojournTimesDict[parentNode]
                                 dCompartments[diffName] += (calculateMu(sojournParentNode, weightParent) * compartments.get(compartementNode))
-                                self.equations[latexName] += makeLatexVariable(False, "mu", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) 
+                                self.equations[latexName] += makeLatexVariable(False, variableNode, compartementNode, (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1))
                                 nbOfTermsPerLine[latexName] +=1
                                 if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                     self.equations[latexName] += " \\\ " + "&"
@@ -119,37 +121,54 @@ class Model:
                                         self.equations[latexName] += " + "
                                 
                                 if (parentNode == "S" or parentNode == "R"):
+                                    if (compartementNode == "R"): 
+                                        print(predessorsNodes)
                                     edgeInfection = edgesInfection[parentNode]
                                     destinationInfection = edgeInfection.destinations
                                     resistanceLevelInfection = edgeInfection.resistanceLevel
+                                    self.equations[latexName] += " + "
 
                                     dCompartments[diffName] += (calculateLambda(compartments.get(parentNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(parentNode))
-                                    self.equations[latexName] += makeLatexVariable(False, "Lambda", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " + "
+                                    self.equations[latexName] += makeLatexVariable(False, variableParent, parentNode,(indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " + "
                                     nbOfTermsPerLine[latexName] +=1
                                     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                         self.equations[latexName] += " \\\ " + "&"
                                         nbOfTermsPerLine[latexName] = 0
                                   
                                     dCompartments[diffName] += calculateDelta(virus, t)
-                                    self.equations[latexName] += makeLatexVariable(False, "delta", (indexVirus +1))  + " - "
+                                    self.equations[latexName] += makeLatexVariable(False, variableNode, compartementNode, (indexVirus +1)) 
                                     nbOfTermsPerLine[latexName] +=1
                                     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                         self.equations[latexName] += " \\\ " + "&"
                                         nbOfTermsPerLine[latexName] = 0
 
                                     dCompartments[diffName] -= (calculateLambda(compartments.get(compartementNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(compartementNode))
-                                    self.equations[latexName] += makeLatexVariable(False, "Lambda", (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " - "
+                                    self.equations[latexName] += makeLatexVariable(True, "Lambda", compartementNode, (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) 
                                     nbOfTermsPerLine[latexName] +=1
                                     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                         self.equations[latexName] += " \\\ " + "&"
                                         nbOfTermsPerLine[latexName] = 0
 
                                     dCompartments[diffName] -= calculateDelta(virus, t)
-                                    self.equations[latexName] += makeLatexVariable(False, "delta", (indexVirus +1))  
+                                    self.equations[latexName] += makeLatexVariable(True, variableNode, compartementNode,(indexVirus +1))  
                                     nbOfTermsPerLine[latexName] +=1
                                     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                         self.equations[latexName] += " \\\ " + "&"
                                         nbOfTermsPerLine[latexName] = 0
+                                # else: 
+                                #     dCompartments[diffName] -= (calculateLambda(compartments.get(compartementNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(compartementNode))
+                                #     self.equations[latexName] += makeLatexVariable(True, "Lambda", (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) 
+                                #     nbOfTermsPerLine[latexName] +=1
+                                #     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
+                                #         self.equations[latexName] += " \\\ " + "&"
+                                #         nbOfTermsPerLine[latexName] = 0
+
+                                #     dCompartments[diffName] -= calculateDelta(virus, t)
+                                #     self.equations[latexName] += makeLatexVariable(True, "delta", (indexVirus +1))  
+                                #     nbOfTermsPerLine[latexName] +=1
+                                #     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
+                                #         self.equations[latexName] += " \\\ " + "&"
+                                #         nbOfTermsPerLine[latexName] = 0
 
                                     # if ((indexParentNode+1) < len(predessorsNodes)):
                                     #     self.equations[latexName] += " + "

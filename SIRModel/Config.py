@@ -49,7 +49,7 @@ class Config:
         except ValueError as e:
             print("Error in parsing the compartment. Please verify that the compartments are well defined.")
             print("Node: " + str(e))
-        edgePorgressionDict = {}
+        edgeProgressionDict = {}
         edgeInfectionDict = {}
         sojournTimesDict = {}
         try: 
@@ -67,9 +67,9 @@ class Config:
                     destinations=destinationDict
                     )
                 sojournTimesDict[edgeName] = edgePorgression["sojournTime"]
-                edgePorgressionDict[edgeName] = edgePorgressionObj
+                edgeProgressionDict[edgeName] = edgePorgressionObj
 
-            self.configValues['Model']["EdgesProgression"] = edgePorgressionDict
+            self.configValues['Model']["EdgesProgression"] = edgeProgressionDict
             self.configValues['Model']['SojournTime'] = sojournTimesDict
         except ValueError as e:
             print("Error in parsing the progression edges. Please verify that these edges correspond to existing nodes.")
@@ -94,8 +94,10 @@ class Config:
             print("Edge: " + str(e))
 
         self.configValues['Model']["graph"] = graph
-        self.configValues['Model']["GraphProgression"] = edgePorgressionDict
+        self.configValues['Model']["GraphProgression"] = edgeProgressionDict
         self.configValues['Model']["GraphInfection"] = graphInfection
+
+        #Attention à Theta qui s'applique seulement aux 
         
         self.configValues["adjacencyMatrix"] = nx.adjacency_matrix(graph, nodelist=self.configValues['Model']["Compartements"]).todense().astype(int)
 
