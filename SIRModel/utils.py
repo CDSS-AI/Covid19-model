@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 from Virus import Virus
 
 
-def graph(x, target=[], title='Graph', xaxis_title='x', yaxis_title='y'): 
+def makeGraph(x, target=[], title='Graph', xaxis_title='x', yaxis_title='y'): 
     fig = go.Figure()
     font_size_axes = 35
 
@@ -66,6 +66,8 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
     strNumerator = str(numerator)
     strDenominator = str(denominator)
     strName = ""
+    print(strNumerator)
+    print(strDenominator)
     if ("_" in strNumerator or "_" in strDenominator):
         strList = numerator.split('_')
         if (len(strList) > 2): 
@@ -91,15 +93,24 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
     return strName
 
 
-def makeLatexVariable(negative, variableName, compartmentName, idx): 
+def makeLatexCoefficient(negative, variableName, idx):
+    #print("//////////////////////////////////")
+    #print("makeLatexCoefficient") 
+    #print(variableName)
+    #print(idx)
+    #print("//////////////////////////////////")
     strName = " "
     if (negative): 
-        strName += '-' + '\\' + variableName + '_{' + str(compartmentName) + '}' + '_{' + str(idx) + '}'
+        strName += '-' + str(variableName) + '_{' + str(idx) + '}'
     else: 
-        strName += '\\' + variableName + '_{' + str(compartmentName) + '}' +'_{' + str(idx) + '}'
+        strName +=  str(variableName) + '_{' + str(idx) + '}'
     return strName
 
 def makeLatexVariableName(name, nameIndex=-1): 
+    print("//////////////////////////////////")
+    print("makeLatexVariableName") 
+    print(str(name))
+   
     strName = ""
     strNameIndex = str(nameIndex)
     if "_" in name:
@@ -107,20 +118,22 @@ def makeLatexVariableName(name, nameIndex=-1):
         strName = ""
         if (len(strList) > 2): 
             if (nameIndex != -1):
-                strName += strList[0] + "\_{" + strList[1].lower() + '}' + "\_{" + strList[2].lower() + '}' + "_{" + strNameIndex + '}'
+                strName += strList[0] + "_{" + strList[1].lower() + '}' + "_{" + strList[2].lower() + '}' + "_{" + strNameIndex + '}'
             else: 
-                strName += strList[0] + "\_{" + strList[1].lower() + '}' + '\_{' + strList[2].lower() + '}'
+                strName += strList[0] + "_{" + strList[1].lower() + '}' + '_{' + strList[2].lower() + '}'
         elif (len(strList) > 1): 
             if (nameIndex != -1):
-                strName += strList[0] + "\_{" + strList[1].lower() + '}' + "_{" + strNameIndex + '}'  
+                strName += strList[0] + "_{" + strList[1].lower() + '}' + "_{" + strNameIndex + '}'  
             else:
-                strName += strList[0] + '\_{' + strList[1].lower() + '}' 
+                strName += strList[0] + '_{' + strList[1].lower() + '}' 
     else:
         if (nameIndex != -1):
             strName = name + "_{" + strNameIndex + "}"
         else:
             strName = name
 
+    print(strName)
+    print("//////////////////////////////////")
     return strName
 
 def calculateTheta(sojournTime): 

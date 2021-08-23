@@ -59,7 +59,7 @@ class Config:
                 destinations = edgePorgression["destinations"]
                 for destination in destinations: 
                     destinationDict[destination["name"]] = destination["weight"]
-                    graph.add_edge(edgeName, destination["name"], weight=destination["weight"])
+                    #graph.add_edge(edgeName, destination["name"], weight=destination["weight"])
                     graphProgression.add_edge(edgeName, destination["name"], weight=destination["weight"])
                 edgePorgressionObj = EdgesProgression(
                     sojournTime=edgePorgression["sojournTime"],
@@ -86,15 +86,15 @@ class Config:
                     destinations=edgeInfection["destination"]
                     )
                 edgeInfectionDict[edgeName] = edgeInfectionObj
-                graph.add_edge(edgeName, edgeInfection["destination"], weight=edgeInfection["resistanceLevel"])
+                #graph.add_edge(edgeName, edgeInfection["destination"], weight=edgeInfection["resistanceLevel"])
                 graphInfection.add_edge(edgeName, edgeInfection["destination"], weight=edgeInfection["resistanceLevel"])
             self.configValues['Model']["EdgesInfection"] = edgeInfectionDict
         except ValueError as e:
             print("Error in parsing the infection edges. Please verify that these edges correspond to existing nodes.")
             print("Edge: " + str(e))
 
-        self.configValues['Model']["graph"] = graph
-        self.configValues['Model']["GraphProgression"] = edgeProgressionDict
+        #self.configValues['Model']["graph"] = graph
+        self.configValues['Model']["GraphProgression"] = graphProgression
         self.configValues['Model']["GraphInfection"] = graphInfection
 
         #Attention à Theta qui s'applique seulement aux 

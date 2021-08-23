@@ -30,30 +30,30 @@ These are the equations for the model:%
 
 %
 \begin{alignat*}{2}%
-\frac{dE_{1}}{dt} &= -\Theta_{E}_{1}E_{1} +  \nu_{E}_{1}R_{1} +  \omega_{R}_{1}R_{1} +  \nu_{E}_{1} -\Lambda_{E}_{1}E_{1} -\nu_{E}_{1} \\ &%
+\frac{dS_{1}}{dt} &= %
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{pre}_{1}}{dt} &= -\Theta_{I_PRE}_{1}I\_{pre}_{1} +  \gamma_{I_PRE}_{1}E_{1}%
+\frac{dE_{1}}{dt} &= -nu_{1}E_{1} +%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{symp}_{s}_{1}_}{dt} &= -\Theta_{I_SYMP_S}_{1}I\_{symp}\_{s}_{1} +  \gamma_{I_SYMP_S}_{1}I\_{pre}_{1}%
+\frac{dI_{pre}_{1}}{dt} &= -gamma_{1}I_{pre}_{1} +  gamma_{1}E_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{symp}_{m}_{1}_}{dt} &= -\Theta_{I_SYMP_M}_{1}I\_{symp}\_{m}_{1} +  \gamma_{I_SYMP_M}_{1}I\_{pre}_{1}%
+\frac{dI_{symp}_{s}_{1}_}{dt} &= -gamma_{1}I_{symp}_{s}_{1} +  gamma_{1}I_{pre}_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{asymp}_{1}}{dt} &= -\Theta_{I_ASYMP}_{1}I\_{asymp}_{1} +  \gamma_{I_ASYMP}_{1}I\_{pre}_{1}%
+\frac{dI_{symp}_{m}_{1}_}{dt} &= -gamma_{1}I_{symp}_{m}_{1} +  gamma_{1}I_{pre}_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{m}_{1}}{dt} &= -\Theta_{HOSP_M}_{1}HOSP\_{m}_{1} +  \theta_{HOSP_M}_{1}I\_{symp}\_{m}_{1}%
+\frac{dI_{asymp}_{1}}{dt} &= -gamma_{1}I_{asymp}_{1} +  gamma_{1}I_{pre}_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{s}_{1}}{dt} &= -\Theta_{HOSP_S}_{1}HOSP\_{s}_{1} +  \theta_{HOSP_S}_{1}I\_{symp}\_{s}_{1}%
+\frac{dHOSP_{m}_{1}}{dt} &= -theta_{1}HOSP_{m}_{1} +  theta_{1}I_{symp}_{m}_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dR_{1}}{dt} &= -\Theta_{R}_{1}R_{1} +  \omega_{R}_{1}I\_{symp}\_{s}_{1} +  \omega_{R}_{1}I\_{symp}\_{m}_{1} +  \omega_{R}_{1}I\_{asymp}_{1} +  \omega_{R}_{1}HOSP\_{m}_{1} +  \omega_{R}_{1}HOSP\_{s}_{1} \\ &%
+\frac{dHOSP_{s}_{1}}{dt} &= -theta_{1}HOSP_{s}_{1} +  theta_{1}I_{symp}_{s}_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dS}{dt} &= \frac{R_{1}}{N} \delta_{}_{1}-\frac{E_{1}}{N} \delta_{}_{1}%
+\frac{dR_{1}}{dt} &= mu_{1}S_{1} +  nu_{1} -nu_{1}E_{1} -nu_{1} omega_{1}R_{1} +  \\ & nu_{1} -nu_{1}E_{1} -nu_{1} -omega_{1}R_{1} +  omega_{1}I_{symp}_{s}_{1} omega_{1}I_{symp}_{m}_{1} \\ & omega_{1}I_{asymp}_{1} omega_{1}HOSP_{m}_{1} omega_{1}HOSP_{s}_{1}%
 \end{alignat*}%
 \end{document}

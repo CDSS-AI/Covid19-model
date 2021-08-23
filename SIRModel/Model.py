@@ -25,7 +25,6 @@ class Model:
             compartements = self.config.configValues['Model']['Compartements'],
             edgesProgression = self.config.configValues['Model']["EdgesProgression"],
             edgesInfection = self.config.configValues['Model']["EdgesInfection"], 
-            graph = self.config.configValues['Model']['graph'],
             graphProgression = self.config.configValues['Model']["GraphProgression"], 
             graphInfection = self.config.configValues['Model']["GraphInfection"], 
             sojournTimesDict = self.config.configValues['Model']['SojournTime']
@@ -38,10 +37,10 @@ class Model:
             nameDisplay = NAME_DICTIONNARY[name]['name']
             y_array.append([results[index], nameDisplay])
 
-        graph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
+        makeGraph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
 
 
-    def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, compartements, edgesProgression, edgesInfection, graph, graphProgression, graphInfection, sojournTimesDict):
+    def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, compartements, edgesProgression, edgesInfection, graphProgression, graphInfection, sojournTimesDict):
         N = totPop
         sortedNodes = sortNodes(compartements)
         S0 = [N]
@@ -52,132 +51,100 @@ class Model:
 
         y0 = S0 + E0 + I0 + H0 + R0
 
-        def defSolver(y, t, N, viruses, graph, graphProgression, graphInfection, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict):
-            compartments = {}
+        def defSolver(y, t, N, viruses, graphProgression, graphInfection, compartments, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict):
+            compartmentsDict = {}
             dCompartments = {}
             yArray = []
             nbOfTermsPerLine = {}
             
             for idx, key in enumerate(y, start=0):  
                  yArray.append(y[idx])
-            for node in compartements: 
-                if (node != "S"):
-                    for indexVirus, virus in enumerate(viruses, start=0):
-                        compartments[node] = yArray[0]
-                        diffName = ("d" + node)
-                        dCompartments[diffName] = 0
-                        latexName = makeLatexFrac(diffName, "dt", (indexVirus+1)) 
-                        self.equations[latexName] = ""
-                        nbOfTermsPerLine[latexName] = 0
-
-
-            diffName = ("d" + "S")
-            dCompartments[diffName] = 0
-            NodeS = compartements[0]
-            latexName = makeLatexFrac(diffName, "dt")
-            self.equations[latexName] = ""
-            connectedNodesS = nx.all_neighbors(graph, NodeS)
-            for connectedNodeS in connectedNodesS: 
+            for node in compartments: 
                 for indexVirus, virus in enumerate(viruses, start=0):
-                    dCompartments[diffName] += ((-1 * compartments.get(connectedNodeS)) * virus.infectionRate * (-1 * (virus.apparitionRate * (int(t >= virus.apparitionPeriod[0]) *  int(t < virus.apparitionPeriod[1])))))
-                    negative = False
-                    if (connectedNodeS == "E"): 
-                        negative = True
-                    self.equations[latexName] += (makeLatexFrac(connectedNodeS, "N", indexNumerator=(indexVirus+1), negative=negative) + makeLatexVariable(False, "delta", "", (indexVirus + 1)))
-                
+                    compartmentsDict[node] = yArray[0]
+                    diffName = ("d" + node)
+                    dCompartments[diffName] = 0
+                    latexName = makeLatexFrac(diffName, "dt", (indexVirus+1)) 
+                    self.equations[latexName] = ""
+                    nbOfTermsPerLine[latexName] = 0
+
+            progressionCompartemnts = list(graphInfection.nodes())
+            for idx, node in enumerate(progressionCompartemnts, start=0): 
+                predessorsNodes = list(graphInfection.predecessors(node))
+                for parentNode in predessorsNodes: 
+                    if (parentNode in edgesInfection):
+                        for indexVirus, virus in enumerate(viruses, start=0): 
+                            edgeInfection = edgesInfection[parentNode]
+                            destinationInfection = edgeInfection.destinations
+                            resistanceLevelInfection = edgeInfection.resistanceLevel
+                            self.equations[latexName] += ""
+                            dCompartments[diffName] += (calculateLambda(compartmentsDict.get(parentNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartmentsDict.get(parentNode))
+                            self.equations[latexName] += makeLatexCoefficient(False, (NAME_DICTIONNARY[parentNode]['variable']),(indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " + "
+                            nbOfTermsPerLine[latexName] +=1
+                            if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
+                                self.equations[latexName] += " \\\ " + "&"
+                                nbOfTermsPerLine[latexName] = 0
+
+                            dCompartments[diffName] += calculateDelta(virus, t)
+                            self.equations[latexName] += makeLatexCoefficient(False, (NAME_DICTIONNARY[node]['variable']), (indexVirus +1)) 
+                            nbOfTermsPerLine[latexName] +=1
+                            if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
+                                self.equations[latexName] += " \\\ " + "&"
+                                nbOfTermsPerLine[latexName]
+                            dCompartments[diffName] -= (calculateLambda(compartmentsDict.get(node), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartmentsDict.get(node))
+                            self.equations[latexName] += makeLatexCoefficient(True, (NAME_DICTIONNARY[node]['variable']), (indexVirus +1)) + makeLatexVariableName(node, (indexVirus +1)) 
+                            nbOfTermsPerLine[latexName] +=1
+                            if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
+                                self.equations[latexName] += " \\\ " + "&"
+                                nbOfTermsPerLine[latexName]
+                            dCompartments[diffName] -= calculateDelta(virus, t)
+                            self.equations[latexName] += makeLatexCoefficient(True, (NAME_DICTIONNARY[node]['variable']),(indexVirus +1))  
+                            nbOfTermsPerLine[latexName] +=1
+                            if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
+                                self.equations[latexName] += " \\\ " + "&"
+                                nbOfTermsPerLine[latexName] = 0
 
 
-            for idx, compartementNode in enumerate(compartements, start=0):
+
+#graphProgression
+            pogressionCompartemnts = list(graphProgression.nodes())
+            for idx, node in enumerate(pogressionCompartemnts, start=0):
+                parentNodes = list(graphProgression.predecessors(node))
+                #print("Node: " + str(node))
+                #print("Parent nodes: " + str(parentNodes))
+                #print("//////////////////////////////////")
                 for indexVirus, virus in enumerate(viruses, start=0): 
-                    if (compartementNode != "S"):
-                        diffName = ("d" + compartementNode)
+                        diffName = ("d" + node)
                         latexName = makeLatexFrac(diffName, "dt", (indexVirus + 1))
-                        connectedNodes = nx.all_neighbors(graph, compartementNode)
-                        predessorsNodes = list(graph.predecessors(compartementNode))
+                        if (node in edgesProgression):
+                            edgeProgressionNode = edgesProgression[node]
+                            sojournTimeNode = edgeProgressionNode.sojournTime #epsilon
+                            infectionRatioNode = edgeProgressionNode.infectionRatio #theta
+                            destinationNodes = edgeProgressionNode.destinations 
 
-                        edgesProgressionNode = edgesProgression[compartementNode]
-                        sojournTimeNode = edgesProgressionNode.sojournTime #epsilon
-                        infectionRatioNode = edgesProgressionNode.infectionRatio #theta
-                        destinationNodes = edgesProgressionNode.destinations 
+                            dCompartments[diffName] += (calculateTheta(sojournTimeNode) * compartmentsDict.get(node))
+                            self.equations[latexName] += makeLatexCoefficient(True, ( NAME_DICTIONNARY[node]['variable']), (indexVirus +1)) + makeLatexVariableName(node, (indexVirus +1)) + " + "
 
-                        dCompartments[diffName] += (calculateTheta(sojournTimeNode) * compartments.get(compartementNode))
-                        self.equations[latexName] += makeLatexVariable(True, "Theta", compartementNode, (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) + " + "
-
-                        for indexParentNode, parentNode in enumerate(predessorsNodes, start=0): 
-                            if (parentNode != "S"):
-                                variableNode = NAME_DICTIONNARY[compartementNode]['variable']
+                            for indexParentNode, parentNode in enumerate(parentNodes, start=0): 
+                                variableNode = NAME_DICTIONNARY[node]['variable']
                                 variableParent = NAME_DICTIONNARY[parentNode]['variable']
-                                edgeData = graph.get_edge_data(parentNode, compartementNode)
+                                edgeData = graphProgression.get_edge_data(parentNode, node)
                                 weightParent = edgeData.get("weight")
                                 sojournParentNode = sojournTimesDict[parentNode]
-                                dCompartments[diffName] += (calculateMu(sojournParentNode, weightParent) * compartments.get(compartementNode))
-                                self.equations[latexName] += makeLatexVariable(False, variableNode, compartementNode, (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1))
+                                dCompartments[diffName] += (calculateMu(sojournParentNode, weightParent) * compartmentsDict.get(node))
+                                self.equations[latexName] += makeLatexCoefficient(False, ( NAME_DICTIONNARY[node]['variable']), (indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1))
                                 nbOfTermsPerLine[latexName] +=1
                                 if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                     self.equations[latexName] += " \\\ " + "&"
                                     nbOfTermsPerLine[latexName] = 0
-
                                 if ((indexParentNode+1) < len(predessorsNodes)):
                                         self.equations[latexName] += " + "
-                                
-                                if (parentNode == "S" or parentNode == "R"):
-                                    if (compartementNode == "R"): 
-                                        print(predessorsNodes)
-                                    edgeInfection = edgesInfection[parentNode]
-                                    destinationInfection = edgeInfection.destinations
-                                    resistanceLevelInfection = edgeInfection.resistanceLevel
-                                    self.equations[latexName] += " + "
-
-                                    dCompartments[diffName] += (calculateLambda(compartments.get(parentNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(parentNode))
-                                    self.equations[latexName] += makeLatexVariable(False, variableParent, parentNode,(indexVirus +1)) + makeLatexVariableName(parentNode, (indexVirus +1)) + " + "
-                                    nbOfTermsPerLine[latexName] +=1
-                                    if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
-                                        self.equations[latexName] += " \\\ " + "&"
-                                        nbOfTermsPerLine[latexName] = 0
-                                  
-                                    dCompartments[diffName] += calculateDelta(virus, t)
-                                    self.equations[latexName] += makeLatexVariable(False, variableNode, compartementNode, (indexVirus +1)) 
-                                    nbOfTermsPerLine[latexName] +=1
-                                    if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
-                                        self.equations[latexName] += " \\\ " + "&"
-                                        nbOfTermsPerLine[latexName] = 0
-
-                                    dCompartments[diffName] -= (calculateLambda(compartments.get(compartementNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(compartementNode))
-                                    self.equations[latexName] += makeLatexVariable(True, "Lambda", compartementNode, (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) 
-                                    nbOfTermsPerLine[latexName] +=1
-                                    if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
-                                        self.equations[latexName] += " \\\ " + "&"
-                                        nbOfTermsPerLine[latexName] = 0
-
-                                    dCompartments[diffName] -= calculateDelta(virus, t)
-                                    self.equations[latexName] += makeLatexVariable(True, variableNode, compartementNode,(indexVirus +1))  
-                                    nbOfTermsPerLine[latexName] +=1
-                                    if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
-                                        self.equations[latexName] += " \\\ " + "&"
-                                        nbOfTermsPerLine[latexName] = 0
-                                # else: 
-                                #     dCompartments[diffName] -= (calculateLambda(compartments.get(compartementNode), virus, resistanceLevelInfection, indexVirus, N, crossResistanceRatio) * compartments.get(compartementNode))
-                                #     self.equations[latexName] += makeLatexVariable(True, "Lambda", (indexVirus +1)) + makeLatexVariableName(compartementNode, (indexVirus +1)) 
-                                #     nbOfTermsPerLine[latexName] +=1
-                                #     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
-                                #         self.equations[latexName] += " \\\ " + "&"
-                                #         nbOfTermsPerLine[latexName] = 0
-
-                                #     dCompartments[diffName] -= calculateDelta(virus, t)
-                                #     self.equations[latexName] += makeLatexVariable(True, "delta", (indexVirus +1))  
-                                #     nbOfTermsPerLine[latexName] +=1
-                                #     if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
-                                #         self.equations[latexName] += " \\\ " + "&"
-                                #         nbOfTermsPerLine[latexName] = 0
-
-                                    # if ((indexParentNode+1) < len(predessorsNodes)):
-                                    #     self.equations[latexName] += " + "
 
             items = list(dCompartments.values())
             return (items)
         
         t = np.linspace(0, numberOfDays, numberOfDays)
-        ret = odeint(defSolver, y0, t, args=(N, viruses, graph, graphProgression, graphInfection, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict))
+        ret = odeint(defSolver, y0, t, args=(N, viruses, graphProgression, graphInfection, compartements, crossResistanceRatio, edgesProgression, edgesInfection, sojournTimesDict))
         results = ret.T
         print(type(results))
         print(results.shape)
