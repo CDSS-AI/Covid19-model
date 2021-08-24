@@ -160,8 +160,6 @@ def makeNodeName(name:str, index):
         return (name + "_" + str(index))
 
 def getNodeVariantIndex(node):
-    if (node == 'S'):
-        return 1
     if (node):
         return re.sub("[^0-9]", "", node)
     else:
@@ -174,6 +172,15 @@ def getAllCompartementsWithVariants(variantOfNode, compartements):
             variantCompartements.append(compartement)
 
     return variantCompartements
+
+
+def hasVariant(node):
+    variant = re.sub("[^0-9]", "", node)
+    if (variant == ""):
+        return False
+    return True
+    
+
     
   
     

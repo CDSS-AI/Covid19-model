@@ -1,12 +1,15 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1}
+            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1},
+            {"name": "Variant2", "transmissionRate": 0.40, "onsetPeriod": [10,29],"onsetRate": 1},
+            {"name": "Variant3", "transmissionRate": 0.55, "onsetPeriod": [20,40],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
-            [1.00, 0.23, 0.37],
-            [1.00, 0.54, 0.43],
-            [1.00, 1.00, 0.43]
+            [0.0, 0.0, 0.0, 0.0],
+            [0.0, 1.00, 0.23, 0.37],
+            [0.0, 1.00, 0.54, 0.43],
+            [0.0, 1.00, 1.00, 0.43]
         ], 
     
         "totalPopulation": 1000, 

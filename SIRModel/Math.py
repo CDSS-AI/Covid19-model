@@ -1,7 +1,7 @@
 from utils import *
 
 
-def calculateSojournTime(sojournTime): 
+def calculateRate(sojournTime): 
     if (sojournTime):
         return (1/sojournTime)
     else:
@@ -9,23 +9,21 @@ def calculateSojournTime(sojournTime):
 
 def calculateBeta(virus: Virus, infectionRatio):
     if (virus and infectionRatio): 
-        return (virus.infectionRate * infectionRatio) 
+        return virus.infectionRate * infectionRatio
     return 0
 
-def calculateLambda(node, crossResistanceRatio, status, var, resistanceLevel, infectionRatio, viruses, N): 
+def calculateLambda(crossResistanceRatio, compartements, status, var, resistanceLevel, infectionRatioDict, viruses, N): 
     sumBetas = 0
     Lambda = 0
+    if (not status): 
+        status = 0
     virus = getVariantFromIndex(var, viruses)
-    if (node == 'R_1'):
-        print()
-    if (not infectionRatio): 
-        infectionRatio = 0
-    betaTemp = (calculateBeta(virus, infectionRatio) * node)
-    sumBetas += betaTemp
-    
+    for compartementVar in getAllCompartementsWithVariants(var, compartements): 
+        infectionRatio = infectionRatioDict[compartementVar]
+        betaTemp = (calculateBeta(virus, infectionRatio) * compartements.get(compartementVar))
+        sumBetas += betaTemp
     variantCoeff = ((1-(crossResistanceRatio[int(status)][int(var)] * resistanceLevel)) /N)
     Lambda = ( variantCoeff* sumBetas)
-    #outputToFileDebug('NODE: ' + str(node) + ' LAMBDA: ' + str(Lambda))
     return Lambda
    
 
