@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  23 AUG 2021 08:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  23 AUG 2021 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,58 +437,443 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 32.
 
 ! Double subscript.
+<argument> ...= -\mu _{} * S_{} + \mu _{} * R_{1}_
+                                                  {} \mu _{} * R_{2}_{} \mu ...
+l.34 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ... \mu _{} * R_{1}_{} \mu _{} * R_{2}_
+                                                  {} \mu _{} * R_{3}_{}
+l.34 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ... \mu _{} * R_{2}_{} \mu _{} * R_{3}_
+                                                  {}
+l.34 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...= -\mu _{} * S_{} + \mu _{} * R_{1}_
+                                                  {} \mu _{} * R_{2}_{} \mu ...
+l.34 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ... \mu _{} * R_{1}_{} \mu _{} * R_{2}_
+                                                  {} \mu _{} * R_{3}_{}
+l.34 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ... \mu _{} * R_{2}_{} \mu _{} * R_{3}_
+                                                  {}
+l.34 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...c {dE_{1}}{dt} &= -\nu _{1} * E_{1}_
+                                                  {1} +
+l.37 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...c {dE_{1}}{dt} &= -\nu _{1} * E_{1}_
+                                                  {1} +
+l.37 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...c {dE_{2}}{dt} &= -\nu _{2} * E_{2}_
+                                                  {2} +
+l.40 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...c {dE_{2}}{dt} &= -\nu _{2} * E_{2}_
+                                                  {2} +
+l.40 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...c {dE_{3}}{dt} &= -\nu _{3} * E_{3}_
+                                                  {3} +
+l.43 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...c {dE_{3}}{dt} &= -\nu _{3} * E_{3}_
+                                                  {3} +
+l.43 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
 <argument> dI_{pre}_
-                    {1}
-l.40 \end{alignat*}
+                    {1}_
+l.46 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...{pre}_{1}}{dt} &= -gamma_{1}I_{pre}_
-                                                  {1} + gamma_{1}E_{1}
-l.40 \end{alignat*}
+<argument> dI_{pre}_{1}_
+                        
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.46 \end{alignat*}
+                   %
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.46 \end{alignat*}
+                   %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Double subscript.
+<argument> ...{1}_}{dt} &= -\gamma _{1} * I_{pre}_
+                                                  {1}_{1} + \gamma _{1} * E_...
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...}{dt} &= -\gamma _{1} * I_{pre}_{1}_
+                                                  {1} + \gamma _{1} * E_{1}_{1}
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{pre}_{1}_{1} + \gamma _{1} * E_{1}_
+                                                  {1}
+l.46 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{pre}_
-                    {1}
-l.40 \end{alignat*}
+                    {1}_
+l.46 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...{pre}_{1}}{dt} &= -gamma_{1}I_{pre}_
-                                                  {1} + gamma_{1}E_{1}
-l.40 \end{alignat*}
+<argument> dI_{pre}_{1}_
+                        
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.46 \end{alignat*}
+                   %
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.46 \end{alignat*}
+                   %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Double subscript.
+<argument> ...{1}_}{dt} &= -\gamma _{1} * I_{pre}_
+                                                  {1}_{1} + \gamma _{1} * E_...
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...}{dt} &= -\gamma _{1} * I_{pre}_{1}_
+                                                  {1} + \gamma _{1} * E_{1}_{1}
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{pre}_{1}_{1} + \gamma _{1} * E_{1}_
+                                                  {1}
+l.46 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_
+                    {2}_
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_{2}_
+                        
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.49 \end{alignat*}
+                   %
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.49 \end{alignat*}
+                   %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Double subscript.
+<argument> ...{2}_}{dt} &= -\gamma _{2} * I_{pre}_
+                                                  {2}_{2} + \gamma _{2} * E_...
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...}{dt} &= -\gamma _{2} * I_{pre}_{2}_
+                                                  {2} + \gamma _{2} * E_{2}_{2}
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{pre}_{2}_{2} + \gamma _{2} * E_{2}_
+                                                  {2}
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_
+                    {2}_
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_{2}_
+                        
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.49 \end{alignat*}
+                   %
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.49 \end{alignat*}
+                   %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Double subscript.
+<argument> ...{2}_}{dt} &= -\gamma _{2} * I_{pre}_
+                                                  {2}_{2} + \gamma _{2} * E_...
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...}{dt} &= -\gamma _{2} * I_{pre}_{2}_
+                                                  {2} + \gamma _{2} * E_{2}_{2}
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{pre}_{2}_{2} + \gamma _{2} * E_{2}_
+                                                  {2}
+l.49 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_
+                    {3}_
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_{3}_
+                        
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.52 \end{alignat*}
+                   %
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.52 \end{alignat*}
+                   %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Double subscript.
+<argument> ...{3}_}{dt} &= -\gamma _{3} * I_{pre}_
+                                                  {3}_{3} + \gamma _{3} * E_...
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...}{dt} &= -\gamma _{3} * I_{pre}_{3}_
+                                                  {3} + \gamma _{3} * E_{3}_{3}
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{pre}_{3}_{3} + \gamma _{3} * E_{3}_
+                                                  {3}
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_
+                    {3}_
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> dI_{pre}_{3}_
+                        
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.52 \end{alignat*}
+                   %
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.52 \end{alignat*}
+                   %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Double subscript.
+<argument> ...{3}_}{dt} &= -\gamma _{3} * I_{pre}_
+                                                  {3}_{3} + \gamma _{3} * E_...
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...}{dt} &= -\gamma _{3} * I_{pre}_{3}_
+                                                  {3} + \gamma _{3} * E_{3}_{3}
+l.52 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{pre}_{3}_{3} + \gamma _{3} * E_{3}_
+                                                  {3}
+l.52 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{symp}_
-                     {s}_{1}_
-l.43 \end{alignat*}
+                     {s}_
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{symp}_{s}_
-                         {1}_
-l.43 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{symp}_{s}_{1}_
-                             
-l.43 \end{alignat*}
+                         
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.43 \end{alignat*}
+l.55 \end{alignat*}
                    %
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -498,7 +883,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 \end{alignat*}
+l.55 \end{alignat*}
                    %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -507,51 +892,107 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Double subscript.
-<argument> ...{s}_{1}_}{dt} &= -gamma_{1}I_{symp}_
-                                                  {s}_{1} + gamma_{1}I_{pre}...
-l.43 \end{alignat*}
+<argument> ...s}_}{dt} &= -\gamma _{1} * I_{symp}_
+                                                  {s}_{1} + \gamma _{1} * I_...
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...{1}_}{dt} &= -gamma_{1}I_{symp}_{s}_
-                                                  {1} + gamma_{1}I_{pre}_{1}
-l.43 \end{alignat*}
+<argument> ...{dt} &= -\gamma _{1} * I_{symp}_{s}_
+                                                  {1} + \gamma _{1} * I_{pre...
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...I_{symp}_{s}_{1} + gamma_{1}I_{pre}_
-                                                  {1}
-l.43 \end{alignat*}
+<argument> ...mp}_{s}_{1} + \gamma _{1} * I_{pre}_
+                                                  {1}_{1} -\gamma _{2} * I_{...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{s}_{1} + \gamma _{1} * I_{pre}_{1}_
+                                                  {1} -\gamma _{2} * I_{symp...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...re}_{1}_{1} -\gamma _{2} * I_{symp}_
+                                                  {s}_{2} + \gamma _{2} * I_...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{1}_{1} -\gamma _{2} * I_{symp}_{s}_
+                                                  {2} + \gamma _{2} * I_{pre...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...mp}_{s}_{2} + \gamma _{2} * I_{pre}_
+                                                  {2}_{2} -\gamma _{3} * I_{...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{s}_{2} + \gamma _{2} * I_{pre}_{2}_
+                                                  {2} -\gamma _{3} * I_{symp...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...re}_{2}_{2} -\gamma _{3} * I_{symp}_
+                                                  {s}_{3} + \gamma _{3} * I_...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{2}_{2} -\gamma _{3} * I_{symp}_{s}_
+                                                  {3} + \gamma _{3} * I_{pre...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...mp}_{s}_{3} + \gamma _{3} * I_{pre}_
+                                                  {3}_{3}
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{s}_{3} + \gamma _{3} * I_{pre}_{3}_
+                                                  {3}
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{symp}_
-                     {s}_{1}_
-l.43 \end{alignat*}
+                     {s}_
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{symp}_{s}_
-                         {1}_
-l.43 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{symp}_{s}_{1}_
-                             
-l.43 \end{alignat*}
+                         
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.43 \end{alignat*}
+l.55 \end{alignat*}
                    %
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -561,7 +1002,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 \end{alignat*}
+l.55 \end{alignat*}
                    %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -570,51 +1011,107 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Double subscript.
-<argument> ...{s}_{1}_}{dt} &= -gamma_{1}I_{symp}_
-                                                  {s}_{1} + gamma_{1}I_{pre}...
-l.43 \end{alignat*}
+<argument> ...s}_}{dt} &= -\gamma _{1} * I_{symp}_
+                                                  {s}_{1} + \gamma _{1} * I_...
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...{1}_}{dt} &= -gamma_{1}I_{symp}_{s}_
-                                                  {1} + gamma_{1}I_{pre}_{1}
-l.43 \end{alignat*}
+<argument> ...{dt} &= -\gamma _{1} * I_{symp}_{s}_
+                                                  {1} + \gamma _{1} * I_{pre...
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...I_{symp}_{s}_{1} + gamma_{1}I_{pre}_
-                                                  {1}
-l.43 \end{alignat*}
+<argument> ...mp}_{s}_{1} + \gamma _{1} * I_{pre}_
+                                                  {1}_{1} -\gamma _{2} * I_{...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{s}_{1} + \gamma _{1} * I_{pre}_{1}_
+                                                  {1} -\gamma _{2} * I_{symp...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...re}_{1}_{1} -\gamma _{2} * I_{symp}_
+                                                  {s}_{2} + \gamma _{2} * I_...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{1}_{1} -\gamma _{2} * I_{symp}_{s}_
+                                                  {2} + \gamma _{2} * I_{pre...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...mp}_{s}_{2} + \gamma _{2} * I_{pre}_
+                                                  {2}_{2} -\gamma _{3} * I_{...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{s}_{2} + \gamma _{2} * I_{pre}_{2}_
+                                                  {2} -\gamma _{3} * I_{symp...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...re}_{2}_{2} -\gamma _{3} * I_{symp}_
+                                                  {s}_{3} + \gamma _{3} * I_...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{2}_{2} -\gamma _{3} * I_{symp}_{s}_
+                                                  {3} + \gamma _{3} * I_{pre...
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...mp}_{s}_{3} + \gamma _{3} * I_{pre}_
+                                                  {3}_{3}
+l.55 \end{alignat*}
+                   %
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...{s}_{3} + \gamma _{3} * I_{pre}_{3}_
+                                                  {3}
+l.55 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{symp}_
-                     {m}_{1}_
-l.46 \end{alignat*}
+                     {m}_
+l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> dI_{symp}_{m}_
-                         {1}_
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{symp}_{m}_{1}_
-                             
-l.46 \end{alignat*}
+                         
+l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.46 \end{alignat*}
+l.58 \end{alignat*}
                    %
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -624,7 +1121,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.46 \end{alignat*}
+l.58 \end{alignat*}
                    %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -633,369 +1130,81 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Double subscript.
-<argument> ...{m}_{1}_}{dt} &= -gamma_{1}I_{symp}_
-                                                  {m}_{1} + gamma_{1}I_{pre}...
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}_}{dt} &= -gamma_{1}I_{symp}_{m}_
-                                                  {1} + gamma_{1}I_{pre}_{1}
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...I_{symp}_{m}_{1} + gamma_{1}I_{pre}_
-                                                  {1}
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{symp}_
-                     {m}_{1}_
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{symp}_{m}_
-                         {1}_
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{symp}_{m}_{1}_
-                             
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Missing { inserted.
-<to be read again> 
-                   \endgroup 
-l.46 \end{alignat*}
-                   %
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.46 \end{alignat*}
-                   %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Double subscript.
-<argument> ...{m}_{1}_}{dt} &= -gamma_{1}I_{symp}_
-                                                  {m}_{1} + gamma_{1}I_{pre}...
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}_}{dt} &= -gamma_{1}I_{symp}_{m}_
-                                                  {1} + gamma_{1}I_{pre}_{1}
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...I_{symp}_{m}_{1} + gamma_{1}I_{pre}_
-                                                  {1}
-l.46 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{asymp}_
-                      {1}
-l.49 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...mp}_{1}}{dt} &= -gamma_{1}I_{asymp}_
-                                                  {1} + gamma_{1}I_{pre}_{1}
-l.49 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}I_{asymp}_{1} + gamma_{1}I_{pre}_
-                                                  {1}
-l.49 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dI_{asymp}_
-                      {1}
-l.49 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...mp}_{1}}{dt} &= -gamma_{1}I_{asymp}_
-                                                  {1} + gamma_{1}I_{pre}_{1}
-l.49 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}I_{asymp}_{1} + gamma_{1}I_{pre}_
-                                                  {1}
-l.49 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dHOSP_{m}_
-                     {1}
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ..._{m}_{1}}{dt} &= -theta_{1}HOSP_{m}_
-                                                  {1} + theta_{1}I_{symp}_{m...
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}HOSP_{m}_{1} + theta_{1}I_{symp}_
-                                                  {m}_{1}
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...OSP_{m}_{1} + theta_{1}I_{symp}_{m}_
-                                                  {1}
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dHOSP_{m}_
-                     {1}
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ..._{m}_{1}}{dt} &= -theta_{1}HOSP_{m}_
-                                                  {1} + theta_{1}I_{symp}_{m...
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}HOSP_{m}_{1} + theta_{1}I_{symp}_
-                                                  {m}_{1}
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...OSP_{m}_{1} + theta_{1}I_{symp}_{m}_
-                                                  {1}
-l.52 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dHOSP_{s}_
-                     {1}
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ..._{s}_{1}}{dt} &= -theta_{1}HOSP_{s}_
-                                                  {1} + theta_{1}I_{symp}_{s...
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}HOSP_{s}_{1} + theta_{1}I_{symp}_
-                                                  {s}_{1}
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...OSP_{s}_{1} + theta_{1}I_{symp}_{s}_
-                                                  {1}
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> dHOSP_{s}_
-                     {1}
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ..._{s}_{1}}{dt} &= -theta_{1}HOSP_{s}_
-                                                  {1} + theta_{1}I_{symp}_{s...
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...{1}HOSP_{s}_{1} + theta_{1}I_{symp}_
-                                                  {s}_{1}
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...OSP_{s}_{1} + theta_{1}I_{symp}_{s}_
-                                                  {1}
-l.55 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...-omega_{1}R_{1} + omega_{1}I_{symp}_
-                                                  {s}_{1} omega_{1}I_{symp}_...
+<argument> ...m}_}{dt} &= -\gamma _{1} * I_{symp}_
+                                                  {m}_{1} + \gamma _{1} * I_...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...ga_{1}R_{1} + omega_{1}I_{symp}_{s}_
-                                                  {1} omega_{1}I_{symp}_{m}_...
+<argument> ...{dt} &= -\gamma _{1} * I_{symp}_{m}_
+                                                  {1} + \gamma _{1} * I_{pre...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...}I_{symp}_{s}_{1} omega_{1}I_{symp}_
-                                                  {m}_{1} \\ & omega_{1}I_{a...
+<argument> ...mp}_{m}_{1} + \gamma _{1} * I_{pre}_
+                                                  {1}_{1} -\gamma _{2} * I_{...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...symp}_{s}_{1} omega_{1}I_{symp}_{m}_
-                                                  {1} \\ & omega_{1}I_{asymp...
+<argument> ...{m}_{1} + \gamma _{1} * I_{pre}_{1}_
+                                                  {1} -\gamma _{2} * I_{symp...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...mp}_{m}_{1} \\ & omega_{1}I_{asymp}_
-                                                  {1} omega_{1}HOSP_{m}_{1} ...
+<argument> ...re}_{1}_{1} -\gamma _{2} * I_{symp}_
+                                                  {m}_{2} + \gamma _{2} * I_...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ..._{1}I_{asymp}_{1} omega_{1}HOSP_{m}_
-                                                  {1} omega_{1}HOSP_{s}_{1}
+<argument> ...{1}_{1} -\gamma _{2} * I_{symp}_{m}_
+                                                  {2} + \gamma _{2} * I_{pre...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...a_{1}HOSP_{m}_{1} omega_{1}HOSP_{s}_
-                                                  {1}
+<argument> ...mp}_{m}_{2} + \gamma _{2} * I_{pre}_
+                                                  {2}_{2} -\gamma _{3} * I_{...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...-omega_{1}R_{1} + omega_{1}I_{symp}_
-                                                  {s}_{1} omega_{1}I_{symp}_...
+<argument> ...{m}_{2} + \gamma _{2} * I_{pre}_{2}_
+                                                  {2} -\gamma _{3} * I_{symp...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...ga_{1}R_{1} + omega_{1}I_{symp}_{s}_
-                                                  {1} omega_{1}I_{symp}_{m}_...
+<argument> ...re}_{2}_{2} -\gamma _{3} * I_{symp}_
+                                                  {m}_{3} + \gamma _{3} * I_...
 l.58 \end{alignat*}
                    %
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-<argument> ...}I_{symp}_{s}_{1} omega_{1}I_{symp}_
-                                                  {m}_{1} \\ & omega_{1}I_{a...
+<argument> ...{2}_{2} -\gamma _{3} * I_{symp}_{m}_
+                                                  {3} + \gamma _{3} * I_{pre...
 l.58 \end{alignat*}
                    %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...symp}_{s}_{1} omega_{1}I_{symp}_{m}_
-                                                  {1} \\ & omega_{1}I_{asymp...
-l.58 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...mp}_{m}_{1} \\ & omega_{1}I_{asymp}_
-                                                  {1} omega_{1}HOSP_{m}_{1} ...
-l.58 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ..._{1}I_{asymp}_{1} omega_{1}HOSP_{m}_
-                                                  {1} omega_{1}HOSP_{s}_{1}
-l.58 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...a_{1}HOSP_{m}_{1} omega_{1}HOSP_{s}_
-                                                  {1}
-l.58 \end{alignat*}
-                   %
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-AED: lastpage setting LastPage
-[1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Equations.aux) ) 
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 2330 strings out of 492649
- 32053 string characters out of 6129622
- 98141 words of memory out of 5000000
- 6200 multiletter control sequences out of 15000+600000
+ 2323 strings out of 492649
+ 31971 string characters out of 6129622
+ 97114 words of memory out of 5000000
+ 6197 multiletter control sequences out of 15000+600000
  27399 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,9n,22p,362b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec
-.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr
-/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/tex
-live/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/lm/lmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lm
-r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Equations.pdf (1 page, 98962 bytes).
-PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 27i,9n,22p,322b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

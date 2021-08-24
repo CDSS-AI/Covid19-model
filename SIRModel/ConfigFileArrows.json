@@ -1,7 +1,7 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,10],"onsetRate": 1}
+            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
             [1.00, 0.23, 0.37],
@@ -9,13 +9,13 @@
             [1.00, 1.00, 0.43]
         ], 
     
-        "totalPopulation": 10000, 
-        "numberOfDays": 200
+        "totalPopulation": 1000, 
+        "numberOfDays": 500
     }, 
     "Model": {
         "Compartements": ["S", "E", "I_PRE", "I_SYMP_S", "I_SYMP_M", "I_ASYMP", "HOSP_M", "HOSP_S", "R"],
         "EdgesProgression": [
-            {"name": "E", "sojournTime": 1, "infectionRatio": 0, 
+            {"name": "E", "sojournTime": 1, "infectionRatio": 1, 
                 "destinations": [{"name": "I_PRE", "weight": 1}]
             }, 
             {"name": "I_PRE", "sojournTime": 4, "infectionRatio": 1, 
@@ -46,13 +46,13 @@
             {"name": "HOSP_S", "sojournTime": 12, "infectionRatio": 0, 
                 "destinations": [{"name": "R", "weight": 1}]
             },
-            {"name": "R", "sojournTime": 365, "infectionRatio": 0,
+            {"name": "R", "sojournTime":2000, "infectionRatio": 0,
                 "destinations": [{"name": "S", "weight": 1}]
             }
             ],
         "EdgesInfection": [
-            {"name":"S", "destination": "E",  "resistanceLevel": 0.00}, 
-            {"name":"R", "destination": "E", "resistanceLevel": 0.99}
+            {"name":"S", "destinations": "E",  "resistanceLevel": 0.00}, 
+            {"name":"R", "destinations": "E", "resistanceLevel": 1}
             ]
         }
 }   

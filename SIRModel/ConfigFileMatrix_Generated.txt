@@ -5,7 +5,7 @@
 ##COL x COL, 0=NoLink, 1=FowardLink 
 
 ##Columns :  
-['S', 'E', 'I_PRE', 'I_SYMP_S', 'I_SYMP_M', 'I_ASYMP', 'HOSP_M', 'HOSP_S', 'R']
+['S', 'E_1', 'I_PRE_1', 'I_SYMP_S_1', 'I_SYMP_M_1', 'I_ASYMP_1', 'HOSP_M_1', 'HOSP_S_1', 'R_1']
 ##########################################
 ##########################################
 

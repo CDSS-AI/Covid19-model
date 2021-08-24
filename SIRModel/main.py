@@ -13,14 +13,15 @@ from utils import *
 
 
 def main(argv):
+    clearDebugFile()
     config = Config()
     config.readMatrixFile()
     config.generateMatrixFile()
     model = Model(config)
     equations = model.getEquations()
 
-    EquationsGenerator(equations)
-    GraphGenerator(config.configValues['Model']["Compartements"], config.configValues["adjacencyMatrix"])
+    #EquationsGenerator(equations)
+    #GraphGenerator(config.configValues['Model']["Compartements"], config.configValues["adjacencyMatrix"])
 
 if __name__ == "__main__":
     main(sys.argv[1:])
