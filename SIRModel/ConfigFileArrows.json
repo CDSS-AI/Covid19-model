@@ -2,8 +2,8 @@
     "Variants": {
         "Virus": [
             {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1},
-            {"name": "Variant2", "transmissionRate": 0.40, "onsetPeriod": [10,29],"onsetRate": 1},
-            {"name": "Variant3", "transmissionRate": 0.55, "onsetPeriod": [20,40],"onsetRate": 1}
+            {"name": "Variant2", "transmissionRate": 0.45, "onsetPeriod": [10,30],"onsetRate": 1},
+            {"name": "Variant3", "transmissionRate": 0.85, "onsetPeriod": [20,40],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
             [0.0, 0.0, 0.0, 0.0],
@@ -12,8 +12,8 @@
             [0.0, 1.00, 1.00, 0.43]
         ], 
     
-        "totalPopulation": 1000, 
-        "numberOfDays": 500
+        "totalPopulation": 1000000, 
+        "numberOfDays": 600
     }, 
     "Model": {
         "Compartements": ["S", "E", "I_PRE", "I_SYMP_S", "I_SYMP_M", "I_ASYMP", "HOSP_M", "HOSP_S", "R"],
@@ -49,7 +49,7 @@
             {"name": "HOSP_S", "sojournTime": 12, "infectionRatio": 0, 
                 "destinations": [{"name": "R", "weight": 1}]
             },
-            {"name": "R", "sojournTime":2000, "infectionRatio": 0,
+            {"name": "R", "sojournTime":200, "infectionRatio": 0,
                 "destinations": [{"name": "S", "weight": 1}]
             }
             ],

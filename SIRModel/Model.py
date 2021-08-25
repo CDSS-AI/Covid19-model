@@ -107,16 +107,12 @@ class Model:
                           allVariantsCompartements = getAllCompartementsWithVariants(variantOfSuccessorNodeIndex, compartmentsDict)
                           
                           tempVal3 = calculateLambda(compartements = compartmentsDict, crossResistanceRatio=crossResistanceRatio, var=variantOfSuccessorNodeIndex, status=virusIndexNode, resistanceLevel=resistanceLevelInfection, infectionRatioDict=infectionRatioDict, viruses=viruses, N=N)  * compartmentsDict.get(node)
-                          if (node =='R_1'):
-                              outputToFileDebug('THIS MUCH IN R: ' + str(compartmentsDict.get(node)))
-                              outputToFileDebug('REMOVED FROM R:' + str(tempVal3))
                           dCompartments[diffName] -= tempVal3
                           #self.equations[latexName] += makeLatexCoefficient(True, matchNameDict(node,'variable'), virusIndexNode) + " * " +  makeLatexVariableName(node, virusIndexNode) 
                           nbOfTermsPerLine[latexName] +=1
                         
-                          delta1 = calculateDelta(variantOfSuccessorNodeIndex, viruses, t)
                           if (hasVariant(node) == False): 
-                            print(node)
+                            delta1 = calculateDelta(variantOfSuccessorNodeIndex, viruses, t)
                             dCompartments[diffName] -= delta1
                           
                           #self.equations[latexName] += makeLatexCoefficient(True, matchNameDict(node,'variable'),virusIndexNode)  
@@ -132,10 +128,10 @@ class Model:
 
                             lambda4 = calculateLambda(compartements = compartmentsDict, crossResistanceRatio=crossResistanceRatio, var=virusIndexNode, status=variantOfParentNodeIndex, resistanceLevel=resistanceLevelInfection, infectionRatioDict=infectionRatioDict, viruses=viruses, N=N) 
                             tempVal4 = lambda4 * compartmentsDict.get(parentNode)
-                            
                             dCompartments[diffName] += tempVal4 
-                            TempVal5 = calculateDelta(virusIndexNode, viruses, t)
-                            dCompartments[diffName] += TempVal5                           
+                            if (hasVariant(parentNode) == False): 
+                                dCompartments[diffName] += calculateDelta(virusIndexNode, viruses, t)
+                                                         
                             
                             # nbOfTermsPerLine[latexName] +=1
                             # if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
@@ -149,18 +145,16 @@ class Model:
                       # if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                             #     self.equations[latexName] += " \\\ " + "&"
                             #     nbOfTermsPerLine[latexName] = 0
-                #outputToFileDebug("//////////////////////////")
                 sum = 0
                 for n in compartements: 
                     sum+= compartmentsDict.get(n)
-                sum = round(sum, 2)
-                if (sum != 1000): 
+                sum = round(sum, 0)
+                if (abs(sum - N) > 5): 
                     print('LEAK')
                     print(sum)
-                #outputToFileDebug("SUM: " + str(sum))
-
 
                 outputToFileDebug("//////////////////////////")
+
             compartmentsDict = {}
             dCompartments = {}
             yArray = []

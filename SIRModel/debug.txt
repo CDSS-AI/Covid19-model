@@ -1,5634 +1,2602 @@
-THIS MUCH IN R: 0.0
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.930696141721558e-19
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.9009943854424943e-15
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.144893125406871e-14
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.7106163252353255e-12
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.058721034244067e-12
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.657426076381721e-11
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.045962142873449e-11
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.124164963672209e-10
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 6.164586424328052e-10
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.403906220380407e-10
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.1974312546287433e-10
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.4798261505816687e-09
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.683422367712187e-09
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.070192250676059e-09
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.2787369298016955e-09
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.270769992794583e-08
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.2916792006649411e-08
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.875420678858674e-08
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.974689052704092e-08
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.3660877973773242e-07
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.360601148434051e-07
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.042579961265229e-07
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.037048206363084e-07
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.920273534405783e-07
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.919815037199769e-07
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.0478240359542245e-06
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.0477777137053052e-06
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.203578740100515e-06
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.201911404439969e-06
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.1707989094639452e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.1706436115419178e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.6347131902607587e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.6351738223315992e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.3265489616272183e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.326809861294448e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.172326037278675e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.172283170557834e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 6.931784414073237e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 6.931846366634642e-05
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.00010858823142080573
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.00010858848563130901
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.00016234281974912288
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0001623430956032874
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.00023366013618452737
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.00023366040878370657
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.00044258678256159893
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0004425895381682203
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0007650722673885683
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0007650780146300577
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0012346922496956844
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.001234684520135926
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0018886695022192882
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0018886646894805427
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.002767845650336829
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0027678444901591687
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.003916532724612717
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.003916531486853388
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.005382453050962185
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0053824523067612625
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0077405969030765465
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.007740595192776144
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.010782567427579125
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.010782563727892285
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.0146240879131391
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.014624085292239094
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.01938932912479476
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.01938932672264851
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.02521110305240909
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.025211101081300914
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.03223114563173893
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.032231144099452456
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.040600459062266
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.04060045776664114
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.05454048703131016
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.05454048407172306
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.07175523275309066
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.07175522892541576
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.09272630410552728
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.09272631198566017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.11797654846869574
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.11797655460300291
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.1480733243876035
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.14807332653494593
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.18363225035933084
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.18363225297980623
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.22532130176644016
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.22532130158159414
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.2738652477737588
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.273865248706669
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.3300505262107588
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.3300505268465071
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.3947304644875103
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.394730464194431
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.468830917145488
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.4688309172219576
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.5707012146073713
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.5707012132833701
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.6891948672527607
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.6891948638098907
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.8263504288436663
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.8263504241526132
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.984410953594411
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 0.9844109467441317
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.1658425263546335
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.1658425171575426
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.373353753955221
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.3733537425690414
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.6099160718404497
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.609916057506631
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.8787846752451194
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 1.8787846582165495
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.1497036082237893
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.149703593903673
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.452116771230152
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.4521167485879243
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.7890184833175518
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 2.7890184339960684
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.163636255764877
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.1636361826503343
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.5794418875151797
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 3.5794417989752927
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.040161551714574
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.040161449730913
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.5497845647444315
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 4.549784449469541
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.1125704910622956
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.112570363375913
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.733054150617125
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 5.733054011764572
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 6.416048078107578
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 6.416047930472493
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 7.166641979361585
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 7.166641826150479
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 7.990198711522607
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 7.990198557126817
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 8.892346331108937
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 8.892346180854965
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 10.008246599651397
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 10.008246397764394
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 11.239732085696007
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 11.23973201638637
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.595861092173136
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.595861325321913
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.595861328758062
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 11.56671844743483
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 11.566718451287851
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 11.90163825820912
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 11.901638243626538
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.244636972984056
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.24463699630465
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.595861339620685
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.595861319739146
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.595861319696729
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.33166618245626
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.33166618207619
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.331666182075983
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.33166618245626
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.331666182059008
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.331666182058779
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.262001632459759
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.262001632448223
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.279386850616337
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.279386850648736
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.296792669395101
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.296792669364404
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.314219106982245
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.314219106992299
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.314219106982481
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.314219106992855
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.300276306787808
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.300276306787973
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.303760769115382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.303760769115309
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307246056493632
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.310732169070208
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.310732169070212
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.310732169045666
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.310732169082483
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307943196484217
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307943229492148
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307246056493636
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307315770492695
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307315770822774
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307385485151913
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307385485481994
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307455200141215
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307455200471296
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.3075249154606
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307524915790683
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307594631110073
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307594631440157
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307734063399272
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307873496678736
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307873496678742
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307873496018564
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307873497338914
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307736967175584
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307736967176156
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30773987095304
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307739870953611
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307745678509669
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307751486068017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307757293628656
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307815369361027
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307815369361027
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307815369246498
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307815369475557
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307759167656412
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307761041684646
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307764789741828
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307768537799726
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30777228585858
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30780976649958
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30780976649958
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307809766451875
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30780976654728
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307773791362836
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30777379136299
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30777228585858
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307772436409005
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307772586959434
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307772737509865
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307772888060297
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307773038610732
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307773339711604
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30777364081248
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30777364081248
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307773941913362
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307773941913362
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307776952922215
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307776952922831
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307779963932298
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307779963932914
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307810074064527
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307840184257712
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.307870294512469
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.308171400446534
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.308472512537927
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.30877363078673
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.309074755193047
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.312086337940181
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.312086337940181
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.315098536542804
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.315098536542806
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.318111351095839
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.31811135109584
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.321124781694209
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.32112478169421
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.351292991058036
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.351292991059067
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.381522909415112
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.38152290941491
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.411814631774615
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.411814631773588
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.442168253197853
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.442168253197735
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.472583868801069
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.47258386880095
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.78017066566044
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 12.780170665325336
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 13.094061870995336
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 13.094061870121978
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 13.414353384337465
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 13.41435338487974
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 13.741141547460385
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 13.741141547319225
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 14.07452309642237
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 14.07452309604712
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 14.414595135183312
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 14.41459513481494
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 15.071058031538648
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 15.071058028448288
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 15.752063636525811
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 15.752063630444027
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 16.45826077275062
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 16.458260779429438
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 17.190300031668404
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 17.1903000355247
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 17.94883268297744
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 17.94883268399461
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 18.73450970035781
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 18.734509701115414
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 19.54798068534832
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 19.547980686360344
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 20.663453064208806
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 20.663453067111814
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 21.829781319810962
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 21.829781327735745
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 23.048420682453003
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 23.048420690998046
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 24.320806245624976
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 24.320806255062372
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 25.64834824330213
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 25.648348253358307
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 27.032427268872937
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 27.03242727945495
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 28.4743895010776
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 28.47438951205691
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 30.5013820670896
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 30.501382097820077
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 32.637855951327055
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 32.637855998638834
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 34.88667654680455
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 34.88667651021882
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 37.25052861520579
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 37.250528581104426
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 39.73189906320686
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 39.73189904944772
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 42.33306019302307
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 42.3330601901613
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 45.05605481714129
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 45.05605480714259
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 47.902683030165015
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 47.902683021337104
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 50.87449092934764
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 50.8744909189532
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 53.97276116408939
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 53.972761153812634
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 57.19850559989634
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 57.19850558794346
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 62.01730658229841
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 62.01730654059878
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 67.09760337769829
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 67.09760321452042
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 72.43938932506794
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 72.43938915067127
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 78.04151496250027
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 78.04151479848575
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 83.90171466052237
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 83.90171454165082
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 90.01664745110712
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 90.01664733957162
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 96.3819492229609
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 96.3819491577537
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 102.99229532363225
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 102.99229528251962
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 108.47055764197049
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 108.47055763532722
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 114.09906945790004
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 114.09906945221252
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 119.87392372648948
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 119.87392365992018
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 125.79092940638314
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 125.79092929775608
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 131.8456393420855
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 131.8456392275581
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 138.0333780204004
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 138.03337791805225
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 144.34926905840166
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 144.34926896717494
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 149.97447378094355
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 149.97447373008393
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 155.69037989476953
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 155.6903798833283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 161.49344169513543
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 161.49344166440153
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 167.38005271856713
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 167.3800527033746
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 173.34655814587666
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 173.3465581295148
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 179.38926615991252
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 179.38926614838002
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 185.50445905138332
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 185.50445904197565
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 191.86891969541807
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 191.86891968839294
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 198.30210773427248
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 198.30210772891812
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 204.79995333014017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 204.7999533279381
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 211.3584007413645
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 211.35840074141842
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 217.97341747833192
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 217.97341748040014
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 224.6410027607636
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 224.64100276467678
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 231.35719527908887
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 231.35719528443636
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 239.6486625494529
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 239.64866256297742
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 248.00016233033392
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 248.00016236173963
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 256.40473411185314
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 256.40473414583107
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 256.404734146879
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.0965985262759
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.0965985268393
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.09659852684416
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 248.52396470746828
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 248.52396470748366
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.04797263470033
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.0479726346567
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.57218446651035
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.57218446653988
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.0965985269253
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.09659852694625
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.09659852694583
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.0965985269253
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.09659852694745
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.096598526947
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.67705115393653
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.6770511539369
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5721844665404
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5826707310467
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58267081193804
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.59315715730887
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5931572381868
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58273580925007
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58273580925317
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5828008065817
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5828008065848
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5829308012543
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58306079593623
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5831907906306
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58449073825778
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58579068712785
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709063724075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.60009020672013
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.60009020671959
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.6000902067244
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.60009020671737
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5896905387093
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58969054368052
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709063724075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5873506273876
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5873506274373
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709063724075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58711663625544
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58711663625593
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709063724075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709323714223
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709323714223
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709063724075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5870908972309
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709115722104
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709141721118
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709141721118
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709167720133
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709193719147
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709245717176
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709297715205
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58709349713234
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5870986969353
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58710389673828
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58710909654127
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58716109457234
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.5872130926054
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58726509064044
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58778507110028
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.588305051759
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58882503261654
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.58934501367293
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.59454483517277
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.59974467655513
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.60494453781837
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.61014441896086
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.66214432338458
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.66214432338458
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.71414621393555
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.71414621393555
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.76615008898023
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.76615008898023
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.81815594688524
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 249.87016378601734
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.39035078559732
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.3903507855976
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.91073411219878
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 250.91073411219932
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 251.43131213457633
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 251.4313121345753
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 251.95208322273194
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 251.9520832227316
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 252.47304574795595
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 252.47304574795584
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 252.9941980828452
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 252.9941980828451
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 256.34280435512545
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 256.34280435495907
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 259.6987314005939
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 259.6987313995759
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 263.0615535590215
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 263.06155355971043
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 266.43084802979143
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 266.43084803115175
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 269.8061951037582
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 269.806195104248
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 273.18717838587327
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 273.187178386306
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 276.5733850062105
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 276.57338500659534
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 281.289784945297
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 281.28978494641626
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 286.01440607248855
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 286.0144060743601
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 290.7461762863408
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 290.74617628443445
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 295.4840395136278
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 295.4840395119138
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 300.2269563630137
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 300.2269563624503
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 304.9739046627871
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 304.97390466248305
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 309.7238799359042
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 309.7238799357698
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 314.47589581284103
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 314.4758958126401
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 321.40527624716947
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 321.40527624644875
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 328.3340128277883
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 328.33401282497107
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 335.25926428913806
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 335.2592642863683
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 342.17827657721375
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 342.178276574735
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 349.088383522756
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 349.08838352056705
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 355.9870071801205
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 355.9870071783478
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 362.8716578641601
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 362.87165786251757
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 369.73993391926587
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 369.7399339178676
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 377.60980240136445
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 377.609802399336
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 385.4516215504613
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 385.4516215465988
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 393.262170640427
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 393.2621706378222
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 401.0383767117891
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 401.038376709093
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 408.777312182579
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 408.7773121803491
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 416.4761922279813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 416.4761922261808
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 424.1323719362378
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 424.13237193444485
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 431.7433432896229
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 431.74334328820186
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 439.30673200454567
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 439.3067320032428
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 446.820294251228
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 446.8202942500548
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 454.28191328588133
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 454.28191328490124
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 462.43587439297966
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 462.43587439163053
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 470.52194460871766
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 470.5219446065186
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 478.53780200495294
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 478.53780200808444
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 486.48128992030337
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 486.4812899286576
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 494.35041122582027
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 494.35041123406893
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 502.1433226173054
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 502.1433226246147
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 509.85832897079194
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 509.858328977092
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 518.5422573545745
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 518.5422573630024
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 527.1211918812978
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 527.1211918944581
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 535.593278697864
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 535.5932787068894
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 543.9568733541462
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 543.9568733624623
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 552.2105309058644
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 552.2105309125126
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 560.3529962053186
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 560.3529962104283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 568.3831944789566
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 568.383194483152
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 577.0211788782336
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 577.021178882463
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.5233125138433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.5233125188381
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.5233125182377
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 579.159480746756
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 579.1594807468505
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 581.2892781195003
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 581.2892781192102
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4105590757904
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4105590761524
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.5233125184541
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.5233125182286
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.523312518234
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.9395473068462
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.9395473068414
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.9395473068415
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.9395473068462
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.9395473068412
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.9395473068412
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.5163993655138
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.5163993655137
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4105590761428
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.42114417105
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4211439578604
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4317288395753
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4317286263844
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.442313294907
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4423130817147
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4528975370439
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4528973238504
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4634815659846
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4634813527897
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4846489842745
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4846489842719
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478700797678
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478700356844
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4636022554579
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.46360225543
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4637231580717
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4637231580439
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4639649632161
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.464206768277
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4644485732266
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4668666166024
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4692846488504
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4717026699705
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4741206799627
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4983001678497
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4983001678497
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4983001678524
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4983001678485
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4789566888193
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4789566443078
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4741206799627
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4746042808483
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4746042804032
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4750878808438
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4750878803987
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4755714803941
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.475571479949
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4760550794994
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4760550790543
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4765386781595
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4765386777144
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4775058741444
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4784730687938
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4794402616628
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4794402616628
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4794402625531
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4794402607727
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4785035397397
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4785035397379
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478534010682
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4785340106802
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4785949525614
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786558944354
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786558944354
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786558944389
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786558944319
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786026011378
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478610249714
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786255468662
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478640844018
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786561411693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786561411693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786561411695
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478656141169
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786439034483
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786469628785
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478653081739
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478653081739
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786592005995
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786592005995
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4786653194599
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4787265080597
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4787876966524
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.478848885238
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.479460770702
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4800726554533
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4806845394921
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4812964228183
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4874152168865
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.493533939694
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.4996525912406
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.5057711715261
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.5669530549595
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.5669530549595
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.6281278119931
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.6281278119931
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.6892954423703
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.6892954423703
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.7504559458351
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 583.8116093221322
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 584.4227510350996
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 584.4227510350995
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.0331797545696
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.0331797545698
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.6428952344604
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 585.6428952344614
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 586.2518972343024
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 586.2518972343025
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 586.8601855192106
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 586.8601855192106
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 587.4677598598722
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 587.4677598598722
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 590.6876227878565
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 590.6876227878379
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 593.887247638874
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 593.8872476387814
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 597.0666076819471
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 597.0666076820963
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 600.2256804380773
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 600.2256804382982
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 603.3644475896522
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 603.3644475897648
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 606.4828948904484
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 606.4828948905575
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 609.5810120756757
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 609.5810120757653
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 613.3735992621777
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 613.3735992623347
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 617.1352554262347
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 617.1352554263804
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 620.8659850752824
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 620.8659850750395
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 624.5658009868908
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 624.5658009867209
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 628.2347239558856
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 628.2347239558179
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 631.8727825401612
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 631.8727825401211
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 635.4800128111135
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 635.4800128111004
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 639.056458107578
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 639.056458107551
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 643.7042376757737
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 643.7042376757198
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 648.2991967961074
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 648.2991967959492
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 652.8414862457247
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 652.841486245597
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 657.3312751464176
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 657.3312751463018
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 661.7687500982062
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 661.7687500981083
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 666.1541143373182
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 666.154114337245
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 670.4875869180339
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 670.487586917965
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 674.7694019186531
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 674.7694019186001
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 679.6886198099053
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 679.6886198098274
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 684.5386010661008
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 684.5386010659489
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 689.3197835225992
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 689.31978352251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 694.0326267980204
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 694.0326267979309
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 698.6776108723474
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 698.6776108722804
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 703.2552347225287
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 703.2552347224886
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 707.7660150128537
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 707.7660150128091
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 712.2104848390924
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 712.2104848390693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 716.6350027124829
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 716.6350027124631
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 720.9929451345872
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 720.9929451345712
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 725.2849060656351
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 725.2849060656304
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 729.5114918706267
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 729.5114918706219
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 733.6733202568839
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 733.6733202568852
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 737.7710192592521
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 737.7710192592565
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 741.8052262711083
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 741.8052262711134
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 745.7765871197025
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 745.7765871197113
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 750.1576865223178
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 750.1576865223307
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 754.4614524626982
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 754.4614524626462
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 758.688826521912
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 758.688826521393
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 762.8407581487525
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 762.8407581477707
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 766.9182033896248
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 766.9182033885797
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 770.9221236879133
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 770.9221236869012
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 774.8534847482672
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 774.8534847472888
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 779.1498646241736
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 779.1498646227908
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 783.3586989535696
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 783.3586989514304
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 787.4813330825879
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 787.4813330807946
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 791.5191125697283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 791.5191125678969
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 795.473381756938
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 795.473381755217
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 799.3454824438761
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 799.3454824422208
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 803.1367526491674
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 803.1367526475846
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 807.5499253294331
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 807.5499253272006
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.852503518816
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.8525035302945
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 816.0467157272315
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 816.0467157836313
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.1347739345657
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.1347740054395
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 824.1188714786539
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 824.118871545789
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 824.1188715442697
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.1404594567914
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.1404594581511
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.1404594581434
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.3868031701421
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.3868031702033
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.6384267799128
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.6384267797428
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8896453648866
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8896453650473
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.889645365047
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8896453648892
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8896453650572
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8896453650569
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.6887028817
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.6887028817029
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7389627869564
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7389627869549
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.738962786246
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7389627873099
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.6959391935774
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.695938857934
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7031748341906
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.70317449856
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7176451085885
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.717645108614
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7321143762343
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7321143762852
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7248798193496
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.724879483781
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7177002588087
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7177002587891
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7177554089644
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7177554089449
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7178657092173
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7179760094118
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7180863095283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7191893064031
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7202922954781
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7213952767531
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7224982502283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7335275560007
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7335275560007
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7335275559932
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7335275560044
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.724704189379
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.72470415818
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7224982502283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227188441434
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227188438314
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7229394374345
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7229394371226
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227284713089
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227284713083
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227380987852
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227380987846
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227573537358
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227766086847
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7227958636313
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7229884129657
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7229884129657
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7229884130845
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7229884128468
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228048583303
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228048583297
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228138530282
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228138530277
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228318424226
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228318424226
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228318424236
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228318424216
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228166023198
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228193516117
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228248501956
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228248501956
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228248501957
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228248501955
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228204513285
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228215510453
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228237504788
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228237504788
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228259499124
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228259499124
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228281493458
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228501436788
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228721380086
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7228941323353
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7231140754324
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7233340182192
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7235539606959
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7237739028624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7259733074693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7281726810613
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7303720236388
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7325713352021
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7545627451332
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7545627451332
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7765510540377
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7765510540377
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7985362622726
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.7985362622726
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8205183701949
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 820.8424973781615
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.0621170387699
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.0621170387699
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.2814270962713
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.2814270962713
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.5004279072718
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.5004279072718
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.7191198281927
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.7191198281927
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.9375032152693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.9375032152693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 822.1555784245514
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 822.1555784245514
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 823.5422342907536
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 823.542234290749
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 824.9164064316101
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 824.9164064315831
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 826.2781872852178
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 826.2781872852487
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 827.6276689716018
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 827.6276689716569
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 828.9649432882019
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 828.9649432882296
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 830.290101705278
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 830.290101705304
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 831.6032353612297
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 831.6032353612516
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 833.2407439128527
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 833.2407439128939
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 834.8594883084726
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 834.8594883085156
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 836.4596485097866
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 836.4596485097193
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 838.0414035807325
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 838.0414035806839
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.6049316705382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.6049316705195
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 841.1504099957118
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 841.1504099957001
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 842.6780148226213
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 842.6780148226179
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 844.187921450403
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 844.1879214503954
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 846.1227366552342
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 846.1227366552197
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 848.0283739649615
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 848.0283739649205
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 849.9052097905154
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 849.9052097904834
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 851.7536175822017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 851.7536175821724
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 853.5739677764435
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 853.573967776419
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 855.3666277457041
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 855.3666277456861
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 857.1319617514554
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 857.1319617514382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 858.8703309002832
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 858.8703309002702
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 860.8665273068347
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 860.8665273068156
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 862.8270103974852
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 862.8270103974476
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 864.7523383237491
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 864.7523383237275
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 866.6430630872416
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 866.6430630872201
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 868.4997304811209
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 868.499730481105
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 870.3228800392496
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 870.3228800392409
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 872.1130449924748
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 872.1130449924646
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 873.8707522318471
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 873.8707522318424
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.6049061736386
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.6049061736347
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 877.3073306748257
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 877.3073306748229
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 878.9785409089917
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 878.9785409089915
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 880.6190454998438
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 880.6190454998434
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 882.2293465148413
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 882.2293465148423
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 883.8099394642351
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 883.8099394642368
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 885.3613133051756
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 885.3613133051774
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.8839504506432
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.8839504506457
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 888.5671918741697
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 888.5671918741734
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 890.2151643092782
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 890.2151643092732
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 891.8285298458245
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 891.8285298457371
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.4079401276266
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.4079401274579
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.9540364075671
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.9540364073891
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 896.4674496093222
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 896.4674496091525
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 897.9488003949485
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 897.948800394787
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 899.5528220350124
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 899.5528220347924
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 901.1190756888451
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 901.1190756885161
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.6483612551513
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.6483612548814
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.1414637071053
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.1414637068335
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 905.5991532463897
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 905.5991532461395
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 907.0221854649693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 907.0221854647332
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 908.4113015121684
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 908.4113015119468
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.0593381863636
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.0593381859744
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.6593723185263
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.6593723186635
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 913.2126605554943
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 913.2126605585875
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 914.720429456444
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 914.7204294602196
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 916.1838759900716
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 916.1838759932366
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 917.6041680559078
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 917.6041680584976
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.1677699056415
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.1677699087494
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 920.6787052848682
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 920.678705288647
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 922.1385582587177
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 922.1385582607927
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 923.5488681116642
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 923.5488681128891
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 924.9111303682287
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 924.911130368509
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 926.2267977983481
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 926.2267977977469
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.0281556083975
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.0281556041548
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.7412772194492
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.7412772106786
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 931.3699682755482
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 931.3699682693984
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 932.9178765017604
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 932.9178764978572
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 934.3884973859701
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 934.3884973814477
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.7851798113398
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.7851798054184
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 937.1111315447096
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 937.1111315426259
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 938.3694246221587
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 938.3694246191764
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 939.563000549329
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 939.5630005470309
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.6946754160381
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.6946754145372
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.4537904516739
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.4537904512284
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.1846142439017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.184614242467
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.8880184885189
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.8880184835797
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.5648483344617
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.5648483283247
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.2159231576234
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.2159231513974
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.8420372994894
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.8420372932949
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 945.4510520928526
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 945.4510520864284
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.036064666151
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.0360646594798
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.597824535186
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.5978245286689
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.137057913675
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.1370579071893
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.6544684089346
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.6544684025265
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.1507377019279
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.1507376955996
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.9792662191952
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.9792661763953
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.7471340668301
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.7471339916546
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.4576541980595
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.4576542840371
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.1139587593456
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.1139588037238
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.7190076407713
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.7190076491258
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.275598509894
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.2755985148092
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.7863754781861
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.7863754846103
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.2661902335857
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.2661902403044
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.7028180070514
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.7028180144067
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.0986753820542
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.098675389294
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.4560424548645
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.4560424622189
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.7770705326683
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.7770705394809
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.0637894036739
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.0637894106034
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.3181142154357
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.3181142223982
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.431389168942
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.431389169608
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.5375342460308
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.5375342451877
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.636746881659
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.636746880806
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.7292189731982
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.7292189715141
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.8151370332534
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.8151370317188
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.894682348765
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.8946823472515
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.9928881230956
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.9928881295036
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.0800758213543
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.080075938835
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.1566570961384
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.1566573258515
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.2230280391705
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.2230282703015
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.2795695489849
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.2795697714116
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3244681937656
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3244683760145
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3611473890646
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3611475419713
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.389897987518
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3898981410312
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4110004623974
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4110006093825
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4247251855669
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4247253272054
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4314270460827
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4314279552029
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4143369598172
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.4143372966504
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3750176536931
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3750160940316
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3149231840971
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.3149228830512
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.2354193139722
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.2354191337946
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.1377762512294
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.1377760794559
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.0313548745586
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 956.0313547552565
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.9110769567337
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.91107687092
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.7777891053423
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.7777890138226
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.6322855497922
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.6322854679756
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.4753115835422
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.4753115056343
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.3075665417875
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.3075664695152
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.1995288382211
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.1995288263198
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.0878236305862
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 955.0878236721885
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.9725896686547
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.972589746894
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.8539604202884
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.8539605002833
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.7320642209213
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.732064297695
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.6097834651047
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.6097835340682
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.4846060485211
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.4846061111589
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.3566390528829
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.3566391140195
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.225985587999
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.2259856466352
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.0927449266441
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 954.0927449830128
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.8055941893294
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.8055946969522
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.5083306396575
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.5083308860054
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.2017215178792
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 953.2017205253778
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.886472485796
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.8864722654641
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.5632410833479
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.5632409499203
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.2326321203657
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 952.232631991109
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.9517525626195
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.9517525022943
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.6664361484225
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.6664361276797
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.3769656453444
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.3769656077142
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.0836058712644
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 951.0836058428968
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.7866050706315
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.7866050422653
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.4861958251378
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.4861957990989
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.3056668949413
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.3056668910357
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.1240492739208
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 950.1240492864447
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.94138507813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.9413851014087
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.7577148356263
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.7577148595366
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.5730775307724
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.5730775536665
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.3867914806966
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.386791502992
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.1996052072475
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.1996052288781
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.0115538512077
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 949.0115538719155
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.8226712241079
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.8226712440122
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.632989860493
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.6329898796162
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.2020226197017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 948.202022840852
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.7674812971156
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.7674814220063
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.3296766153074
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 947.3296761431645
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.8888918609836
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.8888917459574
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.4453894214867
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 946.4453893515084
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 945.9994086352265
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 945.9994085666625
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 945.4949683335616
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 945.4949682504625
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.9879546335982
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.9879545160416
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.4786269952382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 944.4786268980675
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.9672211896969
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.9672211009473
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.4539513071944
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.4539512278343
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.4539512301659
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.9390118699318
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.9390117935002
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.9390117978361
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.3253657014744
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.3253656998949
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.1966787643381
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.1966787675769
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.067893228255
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 943.0678932257822
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.9390117998304
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.939011800486
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.8100371528432
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.8100371528722
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.680971881761
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.6809718816645
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.4773747274991
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.4773747278718
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.2735683732433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.2735683760749
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.06956209918
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 942.0695621041124
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.8653648428278
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.8653648477913
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.6609852085234
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.6609852133496
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.4552450762521
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.4552450809339
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.2493369529185
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.2493369574877
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.0432686606508
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 941.0432686650445
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.8370477320944
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.8370477363131
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.6306814214995
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.6306814255556
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.0577210684071
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 940.0577211635846
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 939.4838344135966
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 939.4838344869684
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 938.9091468744618
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 938.909146623317
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 938.3337704981028
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 938.3337704211501
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 937.7578076042755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 937.7578075572239
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 937.1813497736808
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 937.1813497277988
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.9772598242117
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.977259822427
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.7731217728399
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.7731217748582
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.5689388748023
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.5689388761244
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.3647142957918
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.3647142974634
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.1604510952025
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 936.1604510967298
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.9259420291354
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.925942018234
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.6913902800734
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.6913902176609
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.4567998842449
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.4567998111974
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.2221748118066
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 935.2221747418808
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 934.8071933535033
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 934.8071931279808
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 934.3921344550887
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 934.392134630152
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 933.9770173910986
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 933.9770175429215
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 933.5618588944352
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 933.5618589298417
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 933.1466745910174
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 933.1466746263783
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 932.4150144794861
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 932.4150146497801
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 931.6833927310851
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 931.6833927488648
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.9518732666704
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.951872948286
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.2205115368329
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.2205114705358
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.2205114730747
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.4893577141902
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.4893576663505
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.4893576704844
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.0588587369615
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 930.058858736245
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.8972166624309
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.8972166640049
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.7355857364477
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.7355857351366
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.5739664143545
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.5739664147659
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.4123591543304
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.4123591543929
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.2507643934556
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.2507643933103
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.0435099647412
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 929.0435099649393
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.8362776735397
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.8362776739475
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.6290683605628
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.6290683609432
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.4218828359784
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.4218828363955
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.2147218811223
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 928.2147218815555
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.9609580168935
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.9609580131781
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.7072335011896
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.7072334804359
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.4535495807403
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.4535495565414
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.199907480546
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 927.1999074574347
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 926.7832142487251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 926.7832141877319
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 926.3666417933232
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 926.3666418416403
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 925.9501948889778
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 925.9501949268083
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 925.5338776404957
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 925.5338776490278
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 925.1176939024804
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 925.1176939110475
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 924.0266341014695
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 924.0266342576607
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 922.9365749053567
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 922.9365749701035
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 921.8475639656671
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 921.8475634691757
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 922.3049613336225
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 922.3049612330702
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 921.6737078351222
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 921.6737078746532
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 921.0428219074123
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 921.0428219311676
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 920.4123096779075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 920.4123097091473
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 920.4123097079136
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.7821768002849
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.7821768302783
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.7821768286868
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.5306045623876
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.5306045632625
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.2790939186932
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.2790939137833
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.0276451677496
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 919.0276451622483
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.7762585829167
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.7762585776243
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.5281741514655
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.528174146639
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.280150780589
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.2801507760489
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.0321886956644
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 918.0321886912894
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 917.7842881118887
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 917.7842881077017
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 917.2311421132016
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 917.231142067639
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 916.6783057074189
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 916.6783056129071
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 916.1257807491318
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 916.1257806626556
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 915.5735690197307
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 915.5735689413382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 914.7382849677989
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 914.7382848126554
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 913.9037264926895
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 913.9037266502536
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 913.0698982983286
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 913.0698984122919
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 912.2368034899129
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 912.2368035201122
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 912.2368035186632
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.4044448057158
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.4044448377637
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.4044448356074
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 912.03123767765
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 912.0312376783977
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.8257167533313
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.8257167524172
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.6202407769413
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.6202407773311
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.414809788175
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.4148097881897
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.2094238187198
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 911.2094238187069
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.9600698205292
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.9600698203693
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.7107823152014
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.7107823141524
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.4615613530874
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.4615613518341
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.2124069834174
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 910.2124069822224
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 909.9504597234384
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 909.9504597359241
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 909.6885862122737
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 909.6885862375041
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 909.4267865102336
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 909.4267865339287
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 908.7508500782952
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 908.7508501255377
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 908.0754072377566
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 908.0754071165599
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 907.4004581377843
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 907.4004580910064
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 906.7260035366002
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 906.7260034964884
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 905.6609356820876
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 905.6609355913529
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.5971049684028
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.5971050636133
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.5345124936493
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.5345125696931
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.5345125646999
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.3313408447256
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.33134084683
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.065654027191
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 904.0656540243355
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.8000445939418
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.800044595127
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.5345125641967
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.5345125640808
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.2690579345752
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.2690579347052
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.0208946560607
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 903.0208946559799
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.77279906552
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.7727990652062
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.5247711630362
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.5247711627235
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.2768109484315
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.2768109481241
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.0185080128599
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 902.0185080123089
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 901.7602785674305
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 901.7602785664061
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 901.5021226088916
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 901.5021226074798
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 900.5588237049199
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 900.5588236817762
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 899.6165069565451
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 899.6165069111526
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 898.6751720045924
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 898.6751719583973
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 897.7348183878639
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 897.734818350637
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 896.3228740883545
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 896.3228740185018
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.9131445420802
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.9131446272005
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.913144618617
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 895.9702341095494
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 895.9702341114046
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 895.6177325984878
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 895.6177325965641
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 895.2653694432049
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 895.2653694436557
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.9131446141238
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.9131446144471
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.5610580708689
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.5610580706339
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.3198587339426
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.3198587339202
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.0787243064439
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 894.0787243064539
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.8376547753153
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.8376547752283
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.5966501271564
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.5966501270723
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.3405420632178
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.3405420591516
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.0845072787499
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 893.0845072706238
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 892.8285457532522
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 892.8285457450326
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 892.4949689883803
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 892.494968972117
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 892.161516664763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 892.1615166461487
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 891.8281887483256
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 891.8281887294823
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 890.4215541795751
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 890.4215540249382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 889.0171353859981
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 889.0171354736649
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.6149301217714
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.6149300773023
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.6149300820192
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 888.6663767732919
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 888.6663767717633
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 888.3157563334049
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 888.3157563344225
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.965274121624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.9652741212726
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.6149300835187
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.614930083377
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.359888294075
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.3598882892752
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.1049197349913
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 887.1049197254245
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.8500243822209
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.8500243726179
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.5307368073732
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.5307367903299
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.2115641057982
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 886.2115640867754
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 885.8925062428726
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 885.892506223779
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 884.305002670732
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 884.3050024651919
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 882.7203419466734
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 882.7203421133872
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 881.1385204095382
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 881.1385203838813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.559532400754
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.5595323850865
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.5595323854209
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 880.7435079166668
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 880.7435079162276
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 880.3486724770131
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 880.3486724771673
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.9540139933436
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.9540139931986
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652406827176
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275821348
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 879.1652275823253
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 878.3771480682104
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 878.3771480675488
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 877.5897748328994
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 876.803107257485
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213236102466
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105639624
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 875.5213105603407
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 874.2413874423452
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 872.9633351949789
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 871.6871511225877
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415448945201
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319403218
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 869.3415319366202
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 867.0022240948565
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 864.6692107331239
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 862.3424750051906
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 860.0220000690094
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8221030100195
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 856.8220902423755
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 853.634086172519
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 850.4579436300344
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 850.4579436440814
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 847.2936185306232
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 844.1410669341735
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422534808976
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 839.5422409707433
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 834.9684689997508
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 834.968469008504
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 830.4196145679816
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 825.8955419527747
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.3961161599611
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 821.3961161601178
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 816.9212029277943
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 816.9212029256819
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 817.7457132630956
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 817.745713261896
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 814.1115332757764
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 814.1115332747489
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 810.4935041083361
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 810.4935041075177
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1788069891311
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.1787949016251
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 811.178794901169
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 808.2566213660351
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 808.256621365752
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 805.3449746133793
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 802.4438167253852
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 803.0971884941482
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 800.8556761439138
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 798.6204200538978
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.3914027644262
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083990088516
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354813
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 796.8083871354397
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 795.0004656449561
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 795.0004656449312
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 793.1966462550946
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 791.3969196600109
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 791.7012536410685
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 790.2086802602844
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 788.7189207988687
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 787.2319699531158
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 785.7478224294824
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157777139239
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013763
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 786.0157660013782
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 784.8014409872087
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 784.8014409872125
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 783.5889920088249
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 783.5889920088293
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 782.3784161690278
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 781.1697105752261
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 779.962872339442
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 780.1984818792794
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 779.2284607227009
-REMOVED FROM R:0.0
 //////////////////////////
-THIS MUCH IN R: 778.2596456050311
-REMOVED FROM R:0.0
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
+//////////////////////////
 //////////////////////////
