@@ -6,13 +6,12 @@
             {"name": "Variant3", "transmissionRate": 0.45, "onsetPeriod": [30,50],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
-          
             [1.00, 0.23, 0.37],
             [1.00, 0.54, 0.43],
             [1.00, 1.00, 0.43]
         ], 
     
-        "totalPopulation": 10000, 
+        "totalPopulation": 1000, 
         "numberOfDays": 500
     }, 
     "Model": {
@@ -41,16 +40,16 @@
                 ]
             }, 
             {"name": "I_ASYMP", "sojournTime": 10, "infectionRatio": 0.5, 
-                "destinations": [{"name": "R", "weight": 1}]
+                "destinations": [{"name": "R", "weight": 0.5}]
             }, 
             {"name": "HOSP_M", "sojournTime": 12, "infectionRatio": 0, 
-                "destinations": [{"name": "R", "weight": 1} ]
+                "destinations": [{"name": "R", "weight": 0.5} ]
             }, 
             {"name": "HOSP_S", "sojournTime": 12, "infectionRatio": 0, 
-                "destinations": [{"name": "R", "weight": 1}]
+                "destinations": [{"name": "R", "weight": 0.5}]
             },
             {"name": "R", "sojournTime":365, "infectionRatio": 0,
-                "destinations": [{"name": "S", "weight": 1}]
+                "destinations": [{"name": "S", "weight": 0.5}]
             }
             ],
         "EdgesInfection": [

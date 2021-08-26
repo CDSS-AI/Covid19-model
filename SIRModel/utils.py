@@ -96,17 +96,20 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
 
 def makeLatexCoefficient(negative: bool, coefficient: str, index=-1):
     strName = " "
-    if (negative): 
-        if (index != -1):
-             strName += '-' + "\\" + str(coefficient) + '_{' + index + '}'
-        else:
-            strName += '-' + "\\" + str(coefficient) 
-    else: 
-        if (index != -1):
-            strName +=  "\\" + str(coefficient) + '_{' + index + '}'
-        else:
-            strName +=  "\\" + str(coefficient) 
-    return strName
+    if (coefficient != ""):
+        if (negative): 
+            if (index != -1):
+                 strName += '-' + "\\" + str(coefficient) + '_{' + index + '}'
+            else:
+                strName += '-' + "\\" + str(coefficient) 
+        else: 
+            if (index != -1):
+                strName +=  "\\" + str(coefficient) + '_{' + index + '}'
+            else:
+                strName +=  "\\" + str(coefficient) 
+        return strName
+    else:
+        return ""
 
 def makeLatexVariableName(variable): 
     strName = ""

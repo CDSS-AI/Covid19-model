@@ -21,7 +21,7 @@ def main(argv):
     equations = model.getEquations()
 
     EquationsGenerator(equations)
-    #GraphGenerator(config.configValues['Model']["Compartements"], config.configValues["adjacencyMatrix"])
+    GraphGenerator(config.configValues['Model']["Compartements"], config.configValues["adjacencyMatrix"])
 
 if __name__ == "__main__":
     main(sys.argv[1:])

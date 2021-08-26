@@ -78,7 +78,7 @@ class Model:
                         self.equations[latexName] += " \\\ " + "&"
                         nbOfTermsPerLine[latexName] = 0
 
-            def getInfectionNodes():
+            def getInfectionNodes(counterDelta):
                 infectionCompartments = list(graphInfection.nodes())
                 for idx, node in enumerate(infectionCompartments, start=0): 
 
@@ -88,7 +88,6 @@ class Model:
                     latexName = makeLatexFrac(diffName, "dt")
                     virusIndexNode = getNodeVariantIndex(node)
                     infectionRatioNode = infectionRatioDict.get(node)
-                    
                     if (successorsNodes): 
                         for successorNode in successorsNodes: 
                             edgeData = graphInfection.get_edge_data(node, successorNode)
@@ -102,11 +101,16 @@ class Model:
                                 self.equations[latexName] += makeLatexCoefficient(True, 'Lambda', index=virusIndexNode) + " " +  makeLatexVariableName(node) 
                                 nbOfTermsPerLine[latexName] += 1
                         
-   
-                            self.equations[latexName] += " "
-                            dCompartments[diffName] -= calculateDelta(variantOfSuccessorNodeIndex, viruses, t)
-                            self.equations[latexName] += makeLatexCoefficient(True, 'delta', index=variantOfSuccessorNodeIndex)                         
-                            nbOfTermsPerLine[latexName] +=1
+                            if (hasVariant(node) == False):
+                                self.equations[latexName] += " "
+                                deltaNeg = calculateDelta(variantOfSuccessorNodeIndex, viruses, t)
+                                #outputToFileDebug("NODE: " + str(node) + " inside compartement: " + str(dCompartments[diffName]))
+                                dCompartments[diffName] -= deltaNeg
+                                counterDelta -= deltaNeg
+                                outputToFileDebug("DELTA NEG: " + str(deltaNeg) + " COMP_NAME: " + str(node) + " TIME: " + str(t))
+                                #outputToFileDebug("NODE: " + str(node) + " inside compartement: " + str(dCompartments[diffName]))
+                                self.equations[latexName] += makeLatexCoefficient(True, 'delta', index=variantOfSuccessorNodeIndex)                         
+                                nbOfTermsPerLine[latexName] +=1
                         
                             if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS ): 
                                  self.equations[latexName] += " \\\ " + "&"
@@ -124,8 +128,12 @@ class Model:
                             dCompartments[diffName] += calculateLambda(compartements = compartmentsDict, crossResistanceRatio=crossResistanceRatio, var=virusIndexNode, status=variantOfParentNodeIndex, resistanceLevel=resistanceLevelInfection, infectionRatioDict=infectionRatioDict, viruses=viruses, N=N)  * compartmentsDict.get(parentNode)
                             self.equations[latexName] += makeLatexCoefficient(False, 'Lambda') + " " +  makeLatexVariableName(parentNode) 
                             if (hasVariant(parentNode) == False): 
-                                print('here')
-                                dCompartments[diffName] += calculateDelta(virusIndexNode, viruses, t)
+                                deltaPos = calculateDelta(virusIndexNode, viruses, t)
+                                #outputToFileDebug("NODE: " + str(node) + " inside compartement: " + str(dCompartments[diffName]))
+                                dCompartments[diffName] +=deltaPos
+                                counterDelta += deltaPos
+                                outputToFileDebug("DELTA POS: " + str(deltaPos) + " COMP_NAME: " + str(node) + " TIME: " + str(t))
+                                #outputToFileDebug("NODE: " + str(node) + " inside compartement: " + str(dCompartments[diffName]))
                                 self.equations[latexName] += " + "
                                 self.equations[latexName] += makeLatexCoefficient(False, 'delta', index=virusIndexNode)  
                                 nbOfTermsPerLine[latexName] += 1
@@ -133,15 +141,14 @@ class Model:
                             if (nbOfTermsPerLine[latexName] > NUMBER_OF_PARAMETERS): 
                                 self.equations[latexName] += " \\\ " + "&"
                                 nbOfTermsPerLine[latexName] = 0
-
-                outputToFileDebug('////////////////////////////')
-                sum = 0
-                for n in compartements:
-                    sum += compartmentsDict.get(n)
-                sum = round(sum, 0)
-                if (abs(sum - N) > 5):
-                    print("LEAK")
-                    print(sum)                
+                    outputToFileDebug('////////////////////////////')
+                # sum = 0
+                # for n in compartements:
+                #     sum += compartmentsDict.get(n)
+                # sum = round(sum, 0)
+                # if (abs(sum - N) > 5):
+                #     print("LEAK")
+                #     print(sum)                
 
 
             compartmentsDict = {}
@@ -158,9 +165,10 @@ class Model:
                 latexName = makeLatexFrac(diffName, "dt") 
                 self.equations[latexName] = ""
                 nbOfTermsPerLine[latexName] = 0
-
+            coutnerDelta = 0
             getProgressionNodes()
-            getInfectionNodes()
+            getInfectionNodes(coutnerDelta)
+            outputToFileDebug('COUNTER DELTA: ' + str(coutnerDelta))
             items = list(dCompartments.values())
             return (items)
         
@@ -176,7 +184,7 @@ class Model:
         t = np.linspace(0, numberOfDays, numberOfDays)
         ret = odeint(defSolver, y0, t, args=(N, viruses, graphProgression, graphInfection, crossResistanceRatio, nodes, sojourtimeDict, infectionRatioDict))
         results = ret.T
-        self.makePlot(results, compartements, t)
+        #self.makePlot(results, compartements, t)
         
    
     def getEquations(self):

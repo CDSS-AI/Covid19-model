@@ -8,7 +8,7 @@ DESTINATIONS = "destinations"
 
 
 NAME_DICTIONNARY = {
-    "S": {"name": "Susceptible", "variable": "mu"}, 
+    "S": {"name": "Susceptible", "variable": ""}, 
     "E": {"name": "Exposed", "variable": "nu"}, 
     "I_PRE": {"name": "Infected Presymptomatic", "variable": "gamma"}, 
     "I_SYMPS": {"name": "Infected Symptomatic Serious", "variable": "gamma"}, 

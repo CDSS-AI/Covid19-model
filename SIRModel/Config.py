@@ -89,6 +89,7 @@ class Config:
                         for indexDestination, destination in enumerate(destinations, start=0): 
                             destinationName = makeNodeName(destination[NAME], str(indexVirus))
                             graphProgression.add_edge(edgeName, destinationName, weight=weightNormalized[indexDestination])
+                            print("EdgeName: " + str(edgeName) + ' To: ' + str(destinationName))
                         sojournTimeDict[edgeName] = edgePorgression[SOJOURN_TIME]
                         infectionRatioDict[edgeName] = edgePorgression[INFECTION_RATIO]
                 self.configValues['Model']["GraphProgression"] = graphProgression
@@ -119,7 +120,10 @@ class Config:
         graph,graphProgression, graphInfection = readModel(data, virusList)
         readProgressionEdges(data, virusList, graphProgression)
         readInfectionEdges(data, virusList, graphInfection)
-
+        print(self.configValues['Model']["Compartements"])
+        combinedGraphs = nx.compose(graphProgression, graphInfection)
+        self.configValues["adjacencyMatrix"] = nx.adjacency_matrix(combinedGraphs, nodelist=self.configValues['Model']["Compartements"], weight=None).todense().astype(int)
+       
 
     def readMatrixFile(self, filename = "ConfigFileMatrix_Generated.txt"):
         f = open(filename, "r")
