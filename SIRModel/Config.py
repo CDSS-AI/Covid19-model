@@ -35,7 +35,15 @@ class Config:
                 virusList[virus["name"]] = virusObj
 
             self.configValues['viruses'] = virusList
-            self.configValues['CrossResistanceRatio'] = data["Variants"]["CrossResistanceRatio"]
+
+            matrixes = data["Variants"]["CrossResistanceRatio"]
+            matrix_parsed = []
+            for matrix in matrixes: 
+                matrix.insert(0, 0)
+                matrix_parsed.append(matrix)
+            susceptibleMatrix = [0] * (len(virus))
+            matrix_parsed.insert(0, susceptibleMatrix)
+            self.configValues['CrossResistanceRatio'] = matrix_parsed
 
             self.configValues['Setting'] = {
                 "totalPopulation" : data["Variants"]["totalPopulation"],

@@ -5,7 +5,7 @@
 ##COL x COL, 0=NoLink, 1=FowardLink 
 
 ##Columns :  
-['S', 'E_1', 'E_2', 'E_3', 'I_PRE_1', 'I_PRE_2', 'I_PRE_3', 'I_SYMP_S_1', 'I_SYMP_S_2', 'I_SYMP_S_3', 'I_SYMP_M_1', 'I_SYMP_M_2', 'I_SYMP_M_3', 'I_ASYMP_1', 'I_ASYMP_2', 'I_ASYMP_3', 'HOSP_M_1', 'HOSP_M_2', 'HOSP_M_3', 'HOSP_S_1', 'HOSP_S_2', 'HOSP_S_3', 'R_1', 'R_2', 'R_3']
+['S', 'E_1', 'E_2', 'E_3', 'I_PRE_1', 'I_PRE_2', 'I_PRE_3', 'I_SYMPS_1', 'I_SYMPS_2', 'I_SYMPS_3', 'I_SYMPM_1', 'I_SYMPM_2', 'I_SYMPM_3', 'I_ASYMP_1', 'I_ASYMP_2', 'I_ASYMP_3', 'HOSP_M_1', 'HOSP_M_2', 'HOSP_M_3', 'HOSP_S_1', 'HOSP_S_2', 'HOSP_S_3', 'R_1', 'R_2', 'R_3']
 ##########################################
 ##########################################
 

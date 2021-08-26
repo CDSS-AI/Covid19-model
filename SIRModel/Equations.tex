@@ -30,66 +30,78 @@ These are the equations for the model:%
 
 %
 \begin{alignat*}{2}%
-\frac{dS}{dt} &= -\mu_{} * S_{} +  \mu_{} * R_{1}_{} \mu_{} * R_{2}_{} \mu_{} * R_{3}_{}%
+\frac{dS}{dt} &= -\mu_{} S +  \omega_{1} R_{1} +  \omega_{2} R_{2} +  \omega_{3} R_{3}  -\delta_{1}  -\delta_{2}  -\delta_{3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dE_{1}}{dt} &= -\nu_{1} * E_{1}_{1} +%
+\frac{dE_{1}}{dt} &= -\nu_{1} E_{1} +  \Lambda S +  \delta_{1} +  \Lambda R_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dE_{2}}{dt} &= -\nu_{2} * E_{2}_{2} +%
+\frac{dE_{2}}{dt} &= -\nu_{2} E_{2} +  \Lambda S +  \delta_{2} +  \Lambda R_{2}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dE_{3}}{dt} &= -\nu_{3} * E_{3}_{3} +%
+\frac{dE_{3}}{dt} &= -\nu_{3} E_{3} +  \Lambda S +  \delta_{3} +  \Lambda R_{3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{pre}_{1}_}{dt} &= -\gamma_{1} * I_{pre}_{1}_{1} +  \gamma_{1} * E_{1}_{1}%
+\frac{dI_{pre1}}{dt} &= -\gamma_{1} I_{pre1} +  \nu_{1} E_{1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{pre}_{2}_}{dt} &= -\gamma_{2} * I_{pre}_{2}_{2} +  \gamma_{2} * E_{2}_{2}%
+\frac{dI_{pre2}}{dt} &= -\gamma_{2} I_{pre2} +  \nu_{2} E_{2}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{pre}_{3}_}{dt} &= -\gamma_{3} * I_{pre}_{3}_{3} +  \gamma_{3} * E_{3}_{3}%
+\frac{dI_{pre3}}{dt} &= -\gamma_{3} I_{pre3} +  \nu_{3} E_{3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{symp}_{s}_}{dt} &= -\gamma_{1} * I_{symp}_{s}_{1} +  \gamma_{1} * I_{pre}_{1}_{1} -\gamma_{2} * I_{symp}_{s}_{2} +  \gamma_{2} * I_{pre}_{2}_{2} -\gamma_{3} * I_{symp}_{s}_{3} +  \gamma_{3} * I_{pre}_{3}_{3}%
+\frac{dI_{symps1}}{dt} &= -\gamma_{1} I_{symps1} +  \gamma_{1} I_{pre1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{symp}_{m}_}{dt} &= -\gamma_{1} * I_{symp}_{m}_{1} +  \gamma_{1} * I_{pre}_{1}_{1} -\gamma_{2} * I_{symp}_{m}_{2} +  \gamma_{2} * I_{pre}_{2}_{2} -\gamma_{3} * I_{symp}_{m}_{3} +  \gamma_{3} * I_{pre}_{3}_{3}%
+\frac{dI_{symps2}}{dt} &= -\gamma_{2} I_{symps2} +  \gamma_{2} I_{pre2}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{asymp}_{1}_}{dt} &= -\gamma_{1} * I_{asymp}_{1}_{1} +  \gamma_{1} * I_{pre}_{1}_{1}%
+\frac{dI_{symps3}}{dt} &= -\gamma_{3} I_{symps3} +  \gamma_{3} I_{pre3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{asymp}_{2}_}{dt} &= -\gamma_{2} * I_{asymp}_{2}_{2} +  \gamma_{2} * I_{pre}_{2}_{2}%
+\frac{dI_{sympm1}}{dt} &= -\gamma_{1} I_{sympm1} +  \gamma_{1} I_{pre1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dI_{asymp}_{3}_}{dt} &= -\gamma_{3} * I_{asymp}_{3}_{3} +  \gamma_{3} * I_{pre}_{3}_{3}%
+\frac{dI_{sympm2}}{dt} &= -\gamma_{2} I_{sympm2} +  \gamma_{2} I_{pre2}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{m}_{1}_}{dt} &= -\theta_{1} * HOSP_{m}_{1}_{1} +  \theta_{1} * I_{symp}_{m}_{1}%
+\frac{dI_{sympm3}}{dt} &= -\gamma_{3} I_{sympm3} +  \gamma_{3} I_{pre3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{m}_{2}_}{dt} &= -\theta_{2} * HOSP_{m}_{2}_{2} +  \theta_{2} * I_{symp}_{m}_{2}%
+\frac{dI_{asymp1}}{dt} &= -\gamma_{1} I_{asymp1} +  \gamma_{1} I_{pre1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{m}_{3}_}{dt} &= -\theta_{3} * HOSP_{m}_{3}_{3} +  \theta_{3} * I_{symp}_{m}_{3}%
+\frac{dI_{asymp2}}{dt} &= -\gamma_{2} I_{asymp2} +  \gamma_{2} I_{pre2}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{s}_{1}_}{dt} &= -\theta_{1} * HOSP_{s}_{1}_{1} +  \theta_{1} * I_{symp}_{s}_{1}%
+\frac{dI_{asymp3}}{dt} &= -\gamma_{3} I_{asymp3} +  \gamma_{3} I_{pre3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{s}_{2}_}{dt} &= -\theta_{2} * HOSP_{s}_{2}_{2} +  \theta_{2} * I_{symp}_{s}_{2}%
+\frac{dHOSP_{m1}}{dt} &= -\theta_{1} HOSP_{m1} +  \gamma_{1} I_{sympm1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dHOSP_{s}_{3}_}{dt} &= -\theta_{3} * HOSP_{s}_{3}_{3} +  \theta_{3} * I_{symp}_{s}_{3}%
+\frac{dHOSP_{m2}}{dt} &= -\theta_{2} HOSP_{m2} +  \gamma_{2} I_{sympm2}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dR_{1}}{dt} &= -\omega_{1} * R_{1}_{1} +  \omega_{1} * I_{symp}_{s}_{1} \omega_{1} * I_{symp}_{m}_{1} \omega_{1} * I_{asymp}_{1}_{1} \omega_{1} * HOSP_{m}_{1}_{1} \omega_{1} * HOSP_{s}_{1}_{1}%
+\frac{dHOSP_{m3}}{dt} &= -\theta_{3} HOSP_{m3} +  \gamma_{3} I_{sympm3}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dR_{2}}{dt} &= -\omega_{2} * R_{2}_{2} +  \omega_{2} * I_{symp}_{s}_{2} \omega_{2} * I_{symp}_{m}_{2} \omega_{2} * I_{asymp}_{2}_{2} \omega_{2} * HOSP_{m}_{2}_{2} \omega_{2} * HOSP_{s}_{2}_{2}%
+\frac{dHOSP_{s1}}{dt} &= -\theta_{1} HOSP_{s1} +  \gamma_{1} I_{symps1}%
 \end{alignat*}%
 \begin{alignat*}{2}%
-\frac{dR_{3}}{dt} &= -\omega_{3} * R_{3}_{3} +  \omega_{3} * I_{symp}_{s}_{3} \omega_{3} * I_{symp}_{m}_{3} \omega_{3} * I_{asymp}_{3}_{3} \omega_{3} * HOSP_{m}_{3}_{3} \omega_{3} * HOSP_{s}_{3}_{3}%
+\frac{dHOSP_{s2}}{dt} &= -\theta_{2} HOSP_{s2} +  \gamma_{2} I_{symps2}%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dHOSP_{s3}}{dt} &= -\theta_{3} HOSP_{s3} +  \gamma_{3} I_{symps3}%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dR_{1}}{dt} &= -\omega_{1} R_{1} +  \gamma_{1} I_{symps1} +  \gamma_{1} I_{sympm1} +  \gamma_{1} I_{asymp1} +  \theta_{1} HOSP_{m1} +  \theta_{1} HOSP_{s1} -\Lambda_{1} R_{1}  -\delta_{1} \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dR_{2}}{dt} &= -\omega_{2} R_{2} +  \gamma_{2} I_{symps2} +  \gamma_{2} I_{sympm2} +  \gamma_{2} I_{asymp2} +  \theta_{2} HOSP_{m2} +  \theta_{2} HOSP_{s2} -\Lambda_{2} R_{2}  -\delta_{2} \\ &%
+\end{alignat*}%
+\begin{alignat*}{2}%
+\frac{dR_{3}}{dt} &= -\omega_{3} R_{3} +  \gamma_{3} I_{symps3} +  \gamma_{3} I_{sympm3} +  \gamma_{3} I_{asymp3} +  \theta_{3} HOSP_{m3} +  \theta_{3} HOSP_{s3} -\Lambda_{3} R_{3}  -\delta_{3} \\ &%
 \end{alignat*}%
 \end{document}

@@ -16,7 +16,6 @@ class EquationsGenerator:
         doc = Document(geometry_options = geometry_options, inputenc = 'utf8')
         self.doc = doc
         equations = self.Read(equations)
-        print(equations)
         self.Create(equations)
         self.doc.generate_pdf(filepath = 'Equations', clean_tex = False, compiler = 'pdflatex')
 

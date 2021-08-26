@@ -69,19 +69,17 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
     strNumerator = str(numerator)
     strDenominator = str(denominator)
     strName = ""
-    #print(strNumerator)
-    #print(strDenominator)
     if ("_" in strNumerator or "_" in strDenominator):
         strList = numerator.split('_')
         if (len(strList) > 2): 
             if (indexNumerator != -1): 
-                strNumerator = strList[0] + "_{" + strList[1].lower() + "}_{" + strList[2].lower() + '}_{' + strindexNumerator + '}'
+                strNumerator = strList[0] + "_{" + strList[1].lower() + strList[2].lower() + strindexNumerator + '}'
             else:
-                strNumerator = strList[0] + "_{" + strList[1].lower() + '}_{' + strList[2].lower() + "}"
-            strName += r'\frac{' + strNumerator + r'_}{' +  strDenominator + '}'
+                strNumerator = strList[0] + "_{" + strList[1].lower() + strList[2].lower() + "}"
+            strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
         elif (len(strList) > 1): 
             if (indexNumerator != -1): 
-                strNumerator = strList[0] + '_{' + strList[1].lower() + '}_{' + strindexNumerator + '}' 
+                strNumerator = strList[0] + '_{' + strList[1].lower() + strindexNumerator + '}' 
             else:
                 strNumerator = strList[0] + '_{' + strList[1].lower() + "}"
             strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
@@ -92,41 +90,42 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
 
     if (negative):
         strName = "-" + strName
-    
+
     return strName
 
 
-def makeLatexCoefficient(negative, coefficient, idx):
+def makeLatexCoefficient(negative: bool, coefficient: str, index=-1):
     strName = " "
     if (negative): 
-        strName += '-' + "\\" + str(coefficient) + '_{' + str(idx) + '}'
-    else: 
-        strName +=  "\\" + str(coefficient) + '_{' + str(idx) + '}'
-    return strName
-
-def makeLatexVariableName(name, nameIndex=-1): 
-    strName = ""
-    strNameIndex = str(nameIndex)
-    if "_" in name:
-        strList = name.split('_')
-        strName = ""
-        if (len(strList) > 2): 
-            if (nameIndex != -1):
-                strName += strList[0] + "_{" + strList[1].lower() + '}' + "_{" + strList[2].lower() + '}' + "_{" + strNameIndex + '}'
-            else: 
-                strName += strList[0] + "_{" + (strList[1].lower() + strList[2].lower()) + '}'
-        elif (len(strList) > 1): 
-            if (nameIndex != -1):
-                strName += strList[0] + "_{" + strList[1].lower() + '}' + "_{" + strNameIndex + '}'  
-            else:
-                strName += strList[0] + '_{' + strList[1].lower() + '}' 
-    else:
-        if (nameIndex != -1):
-            strName = name + "_{" + strNameIndex + "}"
+        if (index != -1):
+             strName += '-' + "\\" + str(coefficient) + '_{' + index + '}'
         else:
-            strName = name
-
+            strName += '-' + "\\" + str(coefficient) 
+    else: 
+        if (index != -1):
+            strName +=  "\\" + str(coefficient) + '_{' + index + '}'
+        else:
+            strName +=  "\\" + str(coefficient) 
     return strName
+
+def makeLatexVariableName(variable): 
+    strName = ""
+    if "_" in variable:
+        strList = variable.split('_')
+        strName = ""
+        if (len(strList) > 3):
+                print('3')
+                strName += strList[0] + "_{" + strList[1].lower() + strList[2].lower() + strList[3].lower() + '}'
+        if (len(strList) > 2): 
+                strName += strList[0] + "_{" + strList[1].lower() + strList[2].lower() + '}'
+        elif (len(strList) > 1): 
+                strName += strList[0] + '_{' + strList[1].lower() + '}' 
+        else:
+            strName = variable
+        return strName
+    else:
+        return variable
+   
 
 
 def getVariantFromIndex(virusIndex, viruses):
@@ -175,10 +174,7 @@ def getAllCompartementsWithVariants(variantOfNode, compartements):
 
 
 def hasVariant(node):
-    variant = re.sub("[^0-9]", "", node)
-    if (variant == ""):
-        return False
-    return True
+    return any(char.isdigit() for char in node)
     
 
     

@@ -20,7 +20,7 @@ def main(argv):
     model = Model(config)
     equations = model.getEquations()
 
-    #EquationsGenerator(equations)
+    EquationsGenerator(equations)
     #GraphGenerator(config.configValues['Model']["Compartements"], config.configValues["adjacencyMatrix"])
 
 if __name__ == "__main__":
