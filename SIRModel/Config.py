@@ -106,13 +106,23 @@ class Config:
                 for edgeInfection in data["Model"]["EdgesInfection"]:
                     for indexVirus, virus in enumerate(virusList, start=1):
                         edgeName = makeNodeName(edgeInfection[NAME], str(indexVirus))
-                        destinationName = makeNodeName(edgeInfection[DESTINATIONS],str(indexVirus))
-                        resistanceLevel = edgeInfection[RESISTANCE_LEVEL]
-                        graphInfection.add_edge(edgeName, destinationName, resistanceLevel=resistanceLevel)
+                        if (edgeName == 'S'):
+                            destinationName = makeNodeName(edgeInfection[DESTINATIONS],str(indexVirus))
+                            resistanceLevel = edgeInfection[RESISTANCE_LEVEL]
+                            outputToFileDebug("From: " + str(edgeName) + " Destination: " + str(destinationName) + " with resitance: " + str(resistanceLevel))
+                            graphInfection.add_edge(edgeName, destinationName, resistanceLevel=resistanceLevel)
+                        else:
+                            for indexVirus, virus in enumerate(virusList, start=1):
+                                destinationName = makeNodeName(edgeInfection[DESTINATIONS],str(indexVirus))
+                                resistanceLevel = edgeInfection[RESISTANCE_LEVEL]
+                                outputToFileDebug("From: " + str(edgeName) + " Destination: " + str(destinationName) + " with resitance: " + str(resistanceLevel))
+                                graphInfection.add_edge(edgeName, destinationName, resistanceLevel=resistanceLevel)
+
                 self.configValues['Model']["GraphInfection"] = graphInfection
             except ValueError as e:
                 print("Error in parsing the infection edges. Please verify that these edges correspond to existing nodes.")
                 print("Edge: " + str(e))
+
 
        
         data = readFile()

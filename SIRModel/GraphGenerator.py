@@ -19,7 +19,7 @@ class GraphGenerator:
         }
         sortedNodes, nodes = sortNodes(nodes)
            
-        with Diagram("S-I-R Model Diagram", graph_attr=diagram_attr, node_attr=node_attr, show=False, filename="new_model_diagram", direction="LR"):
+        with Diagram("Model Diagram", graph_attr=diagram_attr, node_attr=node_attr, show=False, filename="new_model_diagram", direction="LR"):
             boxes = {}
             number = 0
             for idx, node in enumerate(sortedNodes.get('susceptible'), start=number):
