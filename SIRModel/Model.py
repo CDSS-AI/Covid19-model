@@ -35,12 +35,18 @@ class Model:
 
     def makePlot(self, results, compartments, time):
         y_array = []
+        y_array_exposed = []
         for index, name in enumerate(compartments, start=0):
             virusIndex = re.sub("[^0-9]", "", name)
             nameDisplay = matchNameDict(name,'name') + ": " + str(virusIndex)
             y_array.append([results[index], nameDisplay])
+            if ("Exposed" in nameDisplay): 
+                y_array_exposed.append([results[index], nameDisplay])
+           
 
         makeGraph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
+        makeGraph(time, y_array_exposed, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
+
 
 
     def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, graphProgression, graphInfection, compartements, sojourtimeDict, infectionRatioDict):
@@ -98,16 +104,20 @@ class Model:
                     virusIndexNode = getNodeVariantIndex(node)
                     infectionRatioNode = infectionRatioDict.get(node)
                     
-                    if (successorsNodes): #OK _ CHECK
+                    if (successorsNodes): 
                         for successorNode in successorsNodes: 
+                          outputToFileDebug("//////////////////////////")
                           edgeData = graphInfection.get_edge_data(node, successorNode)
-                          destinationInfection = edgeData.get(DESTINATIONS)
+                          outputToFileDebug("SuccessorNode (var): " + str(successorNode) + " // node (status) : " + str(node) + " // virusIndexNode (status): " + str(virusIndexNode))
                           resistanceLevelInfection = edgeData.get(RESISTANCE_LEVEL)
+                          outputToFileDebug("Resistance Level: " + str(resistanceLevelInfection))
                           variantOfSuccessorNodeIndex = getNodeVariantIndex(successorNode)
+                          outputToFileDebug("Variant of successorNode (var): " + str(variantOfSuccessorNodeIndex))
                           allVariantsCompartements = getAllCompartementsWithVariants(variantOfSuccessorNodeIndex, compartmentsDict)
                           
                           tempVal3 = calculateLambda(compartements = compartmentsDict, crossResistanceRatio=crossResistanceRatio, var=variantOfSuccessorNodeIndex, status=virusIndexNode, resistanceLevel=resistanceLevelInfection, infectionRatioDict=infectionRatioDict, viruses=viruses, N=N)  * compartmentsDict.get(node)
                           dCompartments[diffName] -= tempVal3
+                          outputToFileDebug("Removed " + str(tempVal3) + " from: " + str(node))
                           #self.equations[latexName] += makeLatexCoefficient(True, matchNameDict(node,'variable'), virusIndexNode) + " * " +  makeLatexVariableName(node, virusIndexNode) 
                           nbOfTermsPerLine[latexName] +=1
                         
@@ -117,20 +127,25 @@ class Model:
                           
                           #self.equations[latexName] += makeLatexCoefficient(True, matchNameDict(node,'variable'),virusIndexNode)  
                           nbOfTermsPerLine[latexName] +=1
+                          outputToFileDebug("//////////////////////////")
 
                     elif (hasVariant(node)):
                         for parentNode in predessorsNodes: 
+                            outputToFileDebug("//////////////////////////")
                             edgeData = graphInfection.get_edge_data(parentNode, node)
-                            destinationInfection = edgeData.get(DESTINATIONS)
+                            outputToFileDebug("ParentNode (status): " + str(parentNode) + " // node: " + str(node) + " // virusIndexNode (var): " + str(virusIndexNode))
                             resistanceLevelInfection = edgeData.get(RESISTANCE_LEVEL)
-                            variantOfParentNodeIndex = getNodeVariantIndex(successorNode)
+                            outputToFileDebug("Resistance Level: " + str(resistanceLevelInfection))
+                            variantOfParentNodeIndex = getNodeVariantIndex(parentNode)
+                            outputToFileDebug("Variant of parent node (status): " + str(variantOfParentNodeIndex))
                             allVariantsCompartements = getAllCompartementsWithVariants(variantOfSuccessorNodeIndex, compartmentsDict)
-
                             lambda4 = calculateLambda(compartements = compartmentsDict, crossResistanceRatio=crossResistanceRatio, var=virusIndexNode, status=variantOfParentNodeIndex, resistanceLevel=resistanceLevelInfection, infectionRatioDict=infectionRatioDict, viruses=viruses, N=N) 
                             tempVal4 = lambda4 * compartmentsDict.get(parentNode)
+                            outputToFileDebug("Addded " + str(tempVal4) + str(node))
                             dCompartments[diffName] += tempVal4 
                             if (hasVariant(parentNode) == False): 
                                 dCompartments[diffName] += calculateDelta(virusIndexNode, viruses, t)
+                            outputToFileDebug("//////////////////////////")
                                                          
                             
                             # nbOfTermsPerLine[latexName] +=1
@@ -153,7 +168,7 @@ class Model:
                     print('LEAK')
                     print(sum)
 
-                outputToFileDebug("//////////////////////////")
+                outputToFileDebug("////////////////////////////////////////////////////////////////////////////////////////////////////////")
 
             compartmentsDict = {}
             dCompartments = {}

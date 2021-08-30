@@ -1,15 +1,15 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1},
-            {"name": "Variant2", "transmissionRate": 0.45, "onsetPeriod": [10,30],"onsetRate": 1},
-            {"name": "Variant3", "transmissionRate": 0.85, "onsetPeriod": [20,40],"onsetRate": 1}
+            {"name": "Variant1", "transmissionRate": 0.20, "onsetPeriod": [0,30],"onsetRate": 2},
+            {"name": "Variant2", "transmissionRate": 0.30, "onsetPeriod": [150,180],"onsetRate": 2},
+            {"name": "Variant3", "transmissionRate": 0.40, "onsetPeriod": [300,330],"onsetRate": 2}
         ], 
         "CrossResistanceRatio": [
             [0.0, 0.0, 0.0, 0.0],
-            [0.0, 1.00, 0.23, 0.37],
-            [0.0, 1.00, 0.54, 0.43],
-            [0.0, 1.00, 1.00, 0.43]
+            [0.0, 1.00, 0.00, 0.00],
+            [0.0, 1.00, 1.00, 0.00],
+            [0.0, 1.00, 1.00, 1.00]
         ], 
     
         "totalPopulation": 1000000, 
@@ -49,13 +49,13 @@
             {"name": "HOSP_S", "sojournTime": 12, "infectionRatio": 0, 
                 "destinations": [{"name": "R", "weight": 1}]
             },
-            {"name": "R", "sojournTime":200, "infectionRatio": 0,
+            {"name": "R", "sojournTime":100000000000000, "infectionRatio": 0,
                 "destinations": [{"name": "S", "weight": 1}]
             }
             ],
         "EdgesInfection": [
             {"name":"S", "destinations": "E",  "resistanceLevel": 0.00}, 
-            {"name":"R", "destinations": "E", "resistanceLevel": 1}
+            {"name":"R", "destinations": "E", "resistanceLevel": 1.00}
             ]
         }
 }   

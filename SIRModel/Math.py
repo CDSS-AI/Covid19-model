@@ -22,6 +22,10 @@ def calculateLambda(crossResistanceRatio, compartements, status, var, resistance
         infectionRatio = infectionRatioDict[compartementVar]
         betaTemp = (calculateBeta(virus, infectionRatio) * compartements.get(compartementVar))
         sumBetas += betaTemp
+    outputToFileDebug('STATUS: ' + str(status))
+    outputToFileDebug('VAR: ' + str(var))
+    outputToFileDebug('ResistanceRatio: ' + str(crossResistanceRatio[int(status)][int(var)]))
+    outputToFileDebug('ResistanceLevel: ' + str(resistanceLevel))
     variantCoeff = ((1-(crossResistanceRatio[int(status)][int(var)] * resistanceLevel)) /N)
     Lambda = ( variantCoeff* sumBetas)
     return Lambda
