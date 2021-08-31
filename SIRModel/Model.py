@@ -191,7 +191,6 @@ class Model:
             coutnerDelta = 0
             getProgressionNodes()
             getInfectionNodes(coutnerDelta)
-            #outputToFileDebug('COUNTER DELTA: ' + str(coutnerDelta))
             items = list(dCompartments.values())
             return (items)
         
@@ -207,7 +206,7 @@ class Model:
         t = np.linspace(0, numberOfDays, numberOfDays)
         ret = odeint(defSolver, y0, t, args=(N, viruses, graphProgression, graphInfection, crossResistanceRatio, nodes, sojourtimeDict, infectionRatioDict))
         results = ret.T
-        #self.makePlot(results, compartements, t)
+        self.makePlot(results, compartements, t)
         
    
     def getEquations(self):
