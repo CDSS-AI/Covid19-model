@@ -7,3 +7,4 @@ PyLaTeX
 pycairo
 diagrams
 networkx
+requests

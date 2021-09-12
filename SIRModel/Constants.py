@@ -16,5 +16,8 @@ NAME_DICTIONNARY = {
     "I_a": {"name": "Infected Asymptomatic", "variable": "gamma_{a}", 'eqName': "I_{a}", "symbol": "a", 'function': 'f'}, 
     "H_m": {"name": "Hospitalized Mild", "variable": "theta_{m}", 'eqName': 'H_{m}', "symbol": "H", 'function': 'f'},
     "H_s": {"name": "Hospitalized Serious", "variable": "theta_{s}", 'eqName': 'H_{s}', "symbol": "H", 'function': 'f'},
-    "R": {"name": "Recovered", "variable": "omega", 'eqName': 'R', "symbol": "R", 'function': 'f'} 
+    "R": {"name": "Recovered", "variable": "omega", 'eqName': 'R', "symbol": "R", 'function': 'f'}, 
+    "total_cases": {'name': 'Total Cases'}, 
+    "icu_patients": {"name": 'ICU Patients'}, 
+    'hosp_patients': {'name': 'Hospitalized Patients'}
 }

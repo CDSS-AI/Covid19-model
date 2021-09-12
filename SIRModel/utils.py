@@ -5,14 +5,17 @@ import re
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+import requests
 
 from Constants import *
 from Virus import Virus
 
+POPULATION_URL = 'https://countriesnow.space/api/v0.1/countries/population'
+
 
 def makeGraph(x, target=[], title='Graph', xaxis_title='x', yaxis_title='y'): 
     fig = go.Figure()
-    font_size_axes = 35
+    font_size_axes = 15
 
     for y_obj in target:
         fig.add_trace(go.Scatter(
@@ -218,6 +221,25 @@ def getAllCompartementsWithVariants(variantOfNode, compartements):
 
 def hasVariant(node):
     return any(char.isdigit() for char in node)
+
+
+def getPopulationForCountry(location):
+      req = requests.request(method='get', url=POPULATION_URL)
+      populationList = (req.json().get("data"))
+      populationDict = {}
+      for poplationObj in populationList: 
+          if (poplationObj.get('country').lower() == location.lower()):
+              populationCountList = poplationObj.get('populationCounts') 
+              for popObj in populationCountList: 
+                  populationDict[popObj.get('year')] = popObj.get('value')
+      max_year = max(populationDict, key=populationDict.get)
+      return populationDict.get(max_year)
+
+
+def makeNameDictGraph(name): 
+    obj = NAME_DICTIONNARY.get(name)
+    return obj['name']
+      
     
 
     

@@ -6,13 +6,11 @@
             {"name": "Variant3", "transmissionRate": 0.45, "onsetPeriod": [30,50],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
-            [0.0, 0.0, 0.0, 0.0],
-            [0.0, 1.00, 0.00, 0.00],
-            [0.0, 1.00, 1.00, 0.00],
-            [0.0, 1.00, 1.00, 1.00]
+            [1.00, 0.00, 0.00],
+            [1.00, 1.00, 0.00],
+            [1.00, 1.00, 1.00]
         ], 
     
-        "totalPopulation": 1000000, 
         "numberOfDays": 600
     }, 
     "Model": {
@@ -57,7 +55,10 @@
             {"name":"S", "destinations": "E",  "resistanceLevel": 0.00}, 
             {"name":"R", "destinations": "E", "resistanceLevel": 1.00}
             ]
-        }
+        }, 
+    "Data": {
+        "values": ["total_cases", "icu_patients", "hosp_patients"]
+    }
 }   
 
 

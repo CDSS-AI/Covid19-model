@@ -7,6 +7,7 @@ import networkx as nx
 import numpy as np
 from scipy.integrate import odeint
 
+import Data
 import Virus
 from Constants import *
 from Math import *
@@ -20,34 +21,42 @@ class Model:
         self.N = 0
         self.equations = {}
         self.config = config
+        self.Data = Data.Data(column_names=self.config.configValues['Data']["values"])
         self.simulate(
-            totPop = self.config.configValues['Setting']["totalPopulation"],
-            numberOfDays = self.config.configValues['Setting']["numberOfDays"], 
-            viruses = list(self.config.configValues['viruses'].values()), 
-            crossResistanceRatio = self.config.configValues['CrossResistanceRatio'], 
-            graphProgression = self.config.configValues['Model']["GraphProgression"], 
-            graphInfection = self.config.configValues['Model']["GraphInfection"], 
-            compartements=self.config.configValues['Model']['Compartements'], 
-            sojourtimeDict=self.config.configValues['Model'][SOJOURN_TIME], 
-            infectionRatioDict = self.config.configValues['Model'][INFECTION_RATIO]
-            )
+           totPop = self.config.configValues['Setting']["totalPopulation"],
+           numberOfDays = self.config.configValues['Setting']["numberOfDays"], 
+           viruses = list(self.config.configValues['viruses'].values()), 
+           crossResistanceRatio = self.config.configValues['CrossResistanceRatio'], 
+           graphProgression = self.config.configValues['Model']["GraphProgression"], 
+           graphInfection = self.config.configValues['Model']["GraphInfection"], 
+           compartements=self.config.configValues['Model']['Compartements'], 
+           sojourtimeDict=self.config.configValues['Model'][SOJOURN_TIME], 
+           infectionRatioDict = self.config.configValues['Model'][INFECTION_RATIO]
+           )
 
 
     def makePlot(self, results, compartments, time):
         y_array = []
-        y_array_exposed = []
         for index, name in enumerate(compartments, start=0):
             virusIndex = re.sub("[^0-9]", "", name)
             nameDisplay = matchNameDict(name,'name') + ": " + str(virusIndex)
             y_array.append([results[index], nameDisplay])
-            if ("Exposed" in nameDisplay): 
-                y_array_exposed.append([results[index], nameDisplay])
            
-
         makeGraph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
-        makeGraph(time, y_array_exposed, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
 
-
+        for value in self.config.configValues['Data']["values"]:
+            if (value == 'icu_patients'): 
+                for index, name in enumerate(compartments, start=0): 
+                    if ('H_s' in name):
+                        y_array_icu_patients = []
+                        nameDisplayICU = makeNameDictGraph(value)
+                        y_array_icu_patients.append([self.Data.data_parsed.get('icu_patients'), nameDisplayICU])
+                        virusIndex = re.sub("[^0-9]", "", name)
+                        nameDisplay = matchNameDict(name,'name') + ": " + str(virusIndex)
+                        y_array_icu_patients.append([results[index], nameDisplay])
+                        dates = self.Data.data_parsed.get('dates')
+                        print(y_array_icu_patients)
+                        makeGraph(dates, y_array_icu_patients, ('Comparing real world data with simulated curve'), 'Date ', 'Number of persons')
 
     def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, graphProgression, graphInfection, compartements, sojourtimeDict, infectionRatioDict):
         def defSolver(y, t, N, viruses, graphProgression, graphInfection, crossResistanceRatio, compartements, sojourtimeDict, infectionRatioDict):
