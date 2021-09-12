@@ -35,7 +35,15 @@ class Config:
                 virusList[virus["name"]] = virusObj
 
             self.configValues['viruses'] = virusList
-            self.configValues['CrossResistanceRatio'] = data["Variants"]["CrossResistanceRatio"]
+
+            matrixes = data["Variants"]["CrossResistanceRatio"]
+            matrix_parsed = []
+            for matrix in matrixes: 
+                matrix.insert(0, 0)
+                matrix_parsed.append(matrix)
+            susceptibleMatrix = [0] * (len(virus))
+            matrix_parsed.insert(0, susceptibleMatrix)
+            self.configValues['CrossResistanceRatio'] = matrix_parsed
 
             self.configValues['Setting'] = {
                 "totalPopulation" : data["Variants"]["totalPopulation"],
@@ -114,6 +122,7 @@ class Config:
                 print("Error in parsing the infection edges. Please verify that these edges correspond to existing nodes.")
                 print("Edge: " + str(e))
 
+
        
         data = readFile()
         virusList = readViruses(data)
@@ -121,6 +130,9 @@ class Config:
         readProgressionEdges(data, virusList, graphProgression)
         readInfectionEdges(data, virusList, graphInfection)
 
+        combinedGraphs = nx.compose(graphProgression, graphInfection)
+        self.configValues["adjacencyMatrix"] = nx.adjacency_matrix(combinedGraphs, nodelist=self.configValues['Model']["Compartements"], weight=None).todense().astype(int)
+       
 
     def readMatrixFile(self, filename = "ConfigFileMatrix_Generated.txt"):
         f = open(filename, "r")

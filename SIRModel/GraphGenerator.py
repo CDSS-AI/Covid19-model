@@ -17,24 +17,24 @@ class GraphGenerator:
             "fontname": "Sans-Serif",
             "fontsize": "24",
         }
-        sortedNodes = sortNodes(nodes)
-
-        with Diagram("S-I-R Model Diagram", graph_attr=diagram_attr, node_attr=node_attr, show=False, filename="new_model_diagram", direction="LR"):
+        sortedNodes, nodes = sortNodes(nodes)
+           
+        with Diagram("Model Diagram", graph_attr=diagram_attr, node_attr=node_attr, show=False, filename="new_model_diagram", direction="LR"):
             boxes = {}
             number = 0
-            for idx, node in enumerate(sortedNodes['susceptible'], start=number):
+            for idx, node in enumerate(sortedNodes.get('susceptible'), start=number):
                 boxes[idx]= Custom(node, "./my_resources/s_box.png")
                 number = number+1
-            for idx, node in enumerate(sortedNodes['exposed'], start=number):
+            for idx, node in enumerate(sortedNodes.get('exposed'), start=number):
                 boxes[idx]= Custom(node, "./my_resources/e_box.png")
                 number = number+1
-            for idx, node in enumerate(sortedNodes['infected'], start=number):
+            for idx, node in enumerate(sortedNodes.get('infected'), start=number):
                 boxes[idx]= Custom(node, "./my_resources/i_box.png")
                 number = number+1
-            for idx, node in enumerate(sortedNodes['hospitalized'], start=number):
+            for idx, node in enumerate(sortedNodes.get('hospitalized'), start=number):
                 boxes[idx]= Custom(node, "./my_resources/h_box.png")
                 number = number+1
-            for idx, node in enumerate(sortedNodes['recovered'], start=number):
+            for idx, node in enumerate(sortedNodes.get('recovered'), start=number):
                 boxes[idx] = Custom(node, "./my_resources/r_box.png")
                 number = number+1
 
@@ -44,8 +44,3 @@ class GraphGenerator:
                 for j in range(0, cols): 
                     if (flowMatrix[i,j] == 1): 
                         boxes.get(i) >> boxes.get(j)
-
-                
-
-    
-                

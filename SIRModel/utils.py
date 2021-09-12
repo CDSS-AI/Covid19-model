@@ -69,22 +69,12 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
     strNumerator = str(numerator)
     strDenominator = str(denominator)
     strName = ""
-    #print(strNumerator)
-    #print(strDenominator)
     if ("_" in strNumerator or "_" in strDenominator):
-        strList = numerator.split('_')
-        if (len(strList) > 2): 
-            if (indexNumerator != -1): 
-                strNumerator = strList[0] + "_{" + strList[1].lower() + "}_{" + strList[2].lower() + '}_{' + strindexNumerator + '}'
-            else:
-                strNumerator = strList[0] + "_{" + strList[1].lower() + '}_{' + strList[2].lower() + "}"
-            strName += r'\frac{' + strNumerator + r'_}{' +  strDenominator + '}'
-        elif (len(strList) > 1): 
-            if (indexNumerator != -1): 
-                strNumerator = strList[0] + '_{' + strList[1].lower() + '}_{' + strindexNumerator + '}' 
-            else:
-                strNumerator = strList[0] + '_{' + strList[1].lower() + "}"
-            strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
+        variable = strNumerator[1:]
+        index = getNodeVariantIndex(variable)
+        eqName = matchNameDict(variable, 'eqName')
+        strNumerator = 'd' + eqName + '^{' + str(index) + '}'
+        strName += r'\frac{' + strNumerator + r'}{' +  strDenominator + '}'
     else: 
         if (indexNumerator != -1): 
             strNumerator = strNumerator + '_{' + strindexNumerator + '}'
@@ -92,41 +82,93 @@ def makeLatexFrac(numerator, denominator, indexNumerator=-1, negative=False):
 
     if (negative):
         strName = "-" + strName
-    
+
     return strName
 
-
-def makeLatexCoefficient(negative, coefficient, idx):
-    strName = " "
-    if (negative): 
-        strName += '-' + "\\" + str(coefficient) + '_{' + str(idx) + '}'
-    else: 
-        strName +=  "\\" + str(coefficient) + '_{' + str(idx) + '}'
-    return strName
-
-def makeLatexVariableName(name, nameIndex=-1): 
-    strName = ""
-    strNameIndex = str(nameIndex)
-    if "_" in name:
-        strList = name.split('_')
-        strName = ""
-        if (len(strList) > 2): 
-            if (nameIndex != -1):
-                strName += strList[0] + "_{" + strList[1].lower() + '}' + "_{" + strList[2].lower() + '}' + "_{" + strNameIndex + '}'
-            else: 
-                strName += strList[0] + "_{" + (strList[1].lower() + strList[2].lower()) + '}'
-        elif (len(strList) > 1): 
-            if (nameIndex != -1):
-                strName += strList[0] + "_{" + strList[1].lower() + '}' + "_{" + strNameIndex + '}'  
-            else:
-                strName += strList[0] + '_{' + strList[1].lower() + '}' 
+def makeLatexFunctionCoeff(index, node, parentNode):
+    nodeList = str.split(node, "_") 
+    parentNodeList = str.split(parentNode, '_')
+    if (node == 'S' or parentNode == 'S'):
+        return ''
     else:
-        if (nameIndex != -1):
-            strName = name + "_{" + strNameIndex + "}"
-        else:
-            strName = name
+        symbol = matchNameDict(node, 'symbol')
+        symbolParent = matchNameDict(parentNode, 'symbol')
+        function = matchNameDict(node, 'function')
+        return (function + '_{' + symbolParent + ',' + symbol + '}^{' + index + '}')
 
-    return strName
+
+def makeLatexCoefficient(negative: bool, coefficient: str, index=-1, hat="", node="", eqName=""):
+    strName = " "
+    if (coefficient == 'omega'): 
+        node = ""
+    if (hat == "S"):
+        hat = ""
+    hatList = str.split(hat, "_") 
+    if (hatList[0] == 'R'):
+        hat = getNodeVariantIndex(hat)
+    if (eqName == ""):
+        if (node != "" and node != "S"):
+            nodeList = str.split(node, "_")
+            if nodeList[0] == 'E':
+                nodeStr = nodeList[1]
+            else:
+                nodeStr = ("".join(nodeList)).lower()
+            if (negative): 
+                strName += '-' + "\\" + str(coefficient) 
+            else: 
+                strName +=  "\\" + str(coefficient) 
+            return strName
+        else:
+            if (coefficient != "" and hat == ""):
+                if (negative): 
+                    if (index != -1):
+                         strName += '-' + "\\" + str(coefficient) + '^{' + str(index) + '}'
+                    else:
+                        strName += '-' + "\\" + str(coefficient) 
+                else: 
+                    if (index != -1):
+                        strName +=  "\\" + str(coefficient) + '^{' + str(index) + '}'
+                    else:
+                        strName +=  "\\" + str(coefficient) 
+                return strName
+            elif (coefficient != "" and hat != ""):
+                if (negative): 
+                    if (index != -1):
+                         strName += '-' + "\\" + str(coefficient) + '_{' + hat + '}' + '^{' + index + '}'
+                    else:
+                        strName += '-' + "\\" + str(coefficient) + '^{' + hat + '}'
+                else: 
+                    if (index != -1):
+                        strName +=  "\\" + str(coefficient) + '_{' + hat + '}' + '^{' + index + '}'
+                    else:
+                        strName +=  "\\" + str(coefficient) + '^{' + hat + '}'
+                return strName
+            else:
+                return ""
+    else: 
+        if (index != -1):
+            if (negative):
+                strName += '-' + "\\" + str(coefficient) + '^{' + index + '}'
+            else:
+                strName += "\\" + str(coefficient) + '^{' + index + '}'
+        else:
+            if (negative):
+                strName += '-' + "\\" + str(coefficient)
+            else:
+                strName += "\\" + str(coefficient)
+        return strName
+
+def makeLatexVariableName(variable): 
+    strName = ""
+    index = getNodeVariantIndex(variable)
+    if index:
+        eqName = matchNameDict(variable, 'eqName')
+        strName = ""
+        strName += eqName + '^{' + str(index) + '}'
+        return strName
+    else:
+        return variable
+   
 
 
 def getVariantFromIndex(virusIndex, viruses):
@@ -175,10 +217,7 @@ def getAllCompartementsWithVariants(variantOfNode, compartements):
 
 
 def hasVariant(node):
-    variant = re.sub("[^0-9]", "", node)
-    if (variant == ""):
-        return False
-    return True
+    return any(char.isdigit() for char in node)
     
 
     

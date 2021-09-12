@@ -1,9 +1,9 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant1", "transmissionRate": 0.20, "onsetPeriod": [0,30],"onsetRate": 2},
-            {"name": "Variant2", "transmissionRate": 0.30, "onsetPeriod": [150,180],"onsetRate": 2},
-            {"name": "Variant3", "transmissionRate": 0.40, "onsetPeriod": [300,330],"onsetRate": 2}
+            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1},
+            {"name": "Variant2", "transmissionRate": 0.60, "onsetPeriod": [10,40],"onsetRate": 1},
+            {"name": "Variant3", "transmissionRate": 0.45, "onsetPeriod": [30,50],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
             [0.0, 0.0, 0.0, 0.0],
@@ -16,41 +16,41 @@
         "numberOfDays": 600
     }, 
     "Model": {
-        "Compartements": ["S", "E", "I_PRE", "I_SYMP_S", "I_SYMP_M", "I_ASYMP", "HOSP_M", "HOSP_S", "R"],
+        "Compartements": ["S", "E", "I_pre", "I_s", "I_m", "I_a", "H_m", "H_s", "R"],
         "EdgesProgression": [
             {"name": "E", "sojournTime": 1, "infectionRatio": 1, 
-                "destinations": [{"name": "I_PRE", "weight": 1}]
+                "destinations": [{"name": "I_pre", "weight": 1}]
             }, 
-            {"name": "I_PRE", "sojournTime": 4, "infectionRatio": 1, 
+            {"name": "I_pre", "sojournTime": 4, "infectionRatio": 1, 
                 "destinations": [
-                    {"name": "I_SYMP_S", "weight": 0.33}, 
-                    {"name": "I_SYMP_M", "weight": 0.33}, 
-                    {"name": "I_ASYMP", "weight": 0.33}
+                    {"name": "I_s", "weight": 0.33}, 
+                    {"name": "I_m", "weight": 0.33}, 
+                    {"name": "I_a", "weight": 0.33}
                 ]
             }, 
-            {"name": "I_SYMP_S", "sojournTime": 5, "infectionRatio": 1, 
+            {"name": "I_s", "sojournTime": 5, "infectionRatio": 1, 
                 "destinations": [
-                    {"name": "HOSP_S", "weight": 1}, 
+                    {"name": "H_s", "weight": 1}, 
                     {"name": "R", "weight": 0}
                 ]
             }, 
-            {"name": "I_SYMP_M", "sojournTime": 10, "infectionRatio": 1, 
+            {"name": "I_m", "sojournTime": 10, "infectionRatio": 1, 
                 "destinations": [
-                    {"name": "HOSP_M", "weight": 0}, 
+                    {"name": "H_m", "weight": 0}, 
                     {"name": "R", "weight": 1}
                 ]
             }, 
-            {"name": "I_ASYMP", "sojournTime": 10, "infectionRatio": 0.5, 
-                "destinations": [{"name": "R", "weight": 1}]
+            {"name": "I_a", "sojournTime": 10, "infectionRatio": 0.5, 
+                "destinations": [{"name": "R", "weight": 0.5}]
             }, 
-            {"name": "HOSP_M", "sojournTime": 12, "infectionRatio": 0, 
-                "destinations": [{"name": "R", "weight": 1} ]
+            {"name": "H_m", "sojournTime": 12, "infectionRatio": 0, 
+                "destinations": [{"name": "R", "weight": 0.5} ]
             }, 
-            {"name": "HOSP_S", "sojournTime": 12, "infectionRatio": 0, 
-                "destinations": [{"name": "R", "weight": 1}]
+            {"name": "H_s", "sojournTime": 12, "infectionRatio": 0, 
+                "destinations": [{"name": "R", "weight": 0.5}]
             },
-            {"name": "R", "sojournTime":100000000000000, "infectionRatio": 0,
-                "destinations": [{"name": "S", "weight": 1}]
+            {"name": "R", "sojournTime":365, "infectionRatio": 0,
+                "destinations": [{"name": "S", "weight": 0.5}]
             }
             ],
         "EdgesInfection": [

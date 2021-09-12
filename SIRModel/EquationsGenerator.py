@@ -16,7 +16,6 @@ class EquationsGenerator:
         doc = Document(geometry_options = geometry_options, inputenc = 'utf8')
         self.doc = doc
         equations = self.Read(equations)
-        print(equations)
         self.Create(equations)
         self.doc.generate_pdf(filepath = 'Equations', clean_tex = False, compiler = 'pdflatex')
 
@@ -31,11 +30,11 @@ class EquationsGenerator:
     def Create(self, equations):
         with self.doc.create(Center()) as Centered:
             with Centered.create(Section(title='', numbering='')) as Title:
-                Title.append(LargeText(bold('Generalized S-I-R model')))
+                Title.append(LargeText(bold('Generalized model')))
 
         with self.doc.create(Section(title='Equations', numbering='1.')) as Intro:
             Intro.append(MediumText(('These are the equations for the model:')))
 
         for eq in equations:
-            with self.doc.create(Alignat(numbering = False, escape = False)) as math_eq:
+            with self.doc.create(Alignat(numbering = True, escape = False)) as math_eq:
                 math_eq.append(eq)
