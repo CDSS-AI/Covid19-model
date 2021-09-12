@@ -33,3 +33,21 @@ octave-workspace
 .DS_Store
 
 Scenario 1/GraphBuilder/__pycache__/
+
+SIRModel/__pycache__/Config.cpython-39.pyc
+
+SIRModel/__pycache__/Constants.cpython-39.pyc
+
+SIRModel/__pycache__/EdgesInfection.cpython-39.pyc
+
+SIRModel/__pycache__/EdgesProgression.cpython-39.pyc
+
+SIRModel/__pycache__/EquationsGenerator.cpython-39.pyc
+
+SIRModel/__pycache__/GraphGenerator.cpython-39.pyc
+
+SIRModel/__pycache__/Math.cpython-39.pyc
+
+SIRModel/__pycache__/Model.cpython-39.pyc
+
+SIRModel/__pycache__/utils.cpython-39.pyc

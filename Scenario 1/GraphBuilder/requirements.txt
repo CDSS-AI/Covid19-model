@@ -1,7 +1,8 @@
-seaborn
 plotly
 scipy
 pandas
 numpy
-networkx
-igraph
+matplotlib
+PyLaTeX
+pycairo
+diagrams

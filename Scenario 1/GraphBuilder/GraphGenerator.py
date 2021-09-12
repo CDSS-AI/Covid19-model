@@ -1,38 +1,41 @@
-from igraph import *
+import matplotlib.pyplot as plt
+from diagrams import Cluster, Diagram
+from diagrams.custom import Custom
 
-#DOC: https://igraph.org/python/doc/tutorial/tutorial.html
+#REF: https://diagrams.mingrammer.com/docs/nodes/custom
+
 
 class GraphGenerator:
 
-    def __init__(self, numberVertices, edges):
-        print(igraph.__version__)
-        g = Graph(directed=True)
-        g.add_vertices(numberVertices)
-        g.add_edges(edges) #edges: [(0,1), (1,2)]
-        visual_style = {}
-        out_name = "Model.png"
-        # Set bbox and margin
-        visual_style["bbox"] = (400,400)
-        visual_style["margin"] = 27
-        # Set vertex colours
-        g.vs['color'] = ["red", "green", "blue", "yellow", "orange"]
-        # Set vertex size
-        visual_style["vertex_size"] = 45
-        # Set vertex lable size
-        visual_style["vertex_label_size"] = 22
-        # Don't curve the edges
-        visual_style["edge_curved"] = False
-        # Set the layout
-        my_layout = g.layout_lgl()
-        visual_style["layout"] = my_layout
-        # Plot the graph
-        plot(g, out_name, **visual_style)
-        
-      
-
-    def getGraphInfo(graph): 
-        print("Number of vertices in the graph:", graph.vcount())
-        print("Number of edges in the graph", graph.ecount())
-        print("Is the graph directed:", graph.is_directed())
-        print("Maximum degree in the graph:", graph.maxdegree())
-        print("Adjacency matrix:\n", graph.get_adjacency())
+    def __init__(self, viruses, CrossInfectionMatrix):
+        print(viruses)
+        print(CrossInfectionMatrix)
+        diagram_attr = {
+            "fontsize": "32",
+            "fontname": "Sans serif",
+        }
+        node_attr = {
+            "fontname": "Sans-Serif",
+            "fontsize": "24",
+        }
+        with Diagram("S-I-R Model Diagram", graph_attr=diagram_attr, node_attr=node_attr, show=False, filename="model_diagram", direction="LR"):
+            s_box = Custom("Susceptible", "./my_resources/s_box.png")
+            infectedBoxes = {}
+            recoveredBoxes = {}
+            for idx, virus in enumerate(viruses, start=0):
+                infectedBoxes[("I" + str(idx))]= Custom(("Infected" + str(idx)), "./my_resources/i_box.png")
+            for idx, virus in enumerate(viruses, start=0):
+                recoveredBoxes[idx] = Custom(("Recovered" + str(idx)), "./my_resources/r_box.png")
+            
+            for key in infectedBoxes: 
+                s_box >> infectedBoxes.get(key)
+            
+            idx = 0
+            for i, key in enumerate(infectedBoxes, start=0): 
+                infectedBoxes.get(key) >> recoveredBoxes.get(idx)
+                for j in range(0, len(recoveredBoxes.keys())): 
+                    if (CrossInfectionMatrix[j][i] != 0):
+                        recoveredBoxes.get(j) >> infectedBoxes.get(key)
+                idx += 1
+                
+                

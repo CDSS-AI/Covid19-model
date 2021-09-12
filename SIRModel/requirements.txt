@@ -1,0 +1,9 @@
+plotly
+scipy
+pandas
+numpy
+matplotlib
+PyLaTeX
+pycairo
+diagrams
+networkx

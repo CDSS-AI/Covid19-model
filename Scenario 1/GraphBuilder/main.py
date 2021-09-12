@@ -5,6 +5,8 @@ import sys
 import numpy as np
 
 import Virus
+from EquationsGenerator import EquationsGenerator
+from GraphGenerator import GraphGenerator
 from Model import Model
 from utils import *
 
@@ -18,9 +20,11 @@ def readConfig():
         viruses = data['Virus']
         totalPopulation = data['totalPopulation']
         numberOfDays = data['numberOfDays']
+        crossInfectionMatrix = data["CrossInfectionMatrix"]
         for virus in viruses: 
-            virusesParsed.append(Virus(virus.get('infectionRate'), virus.get('recoveryRate'), virus.get('numberInitInfected')))
-    return totalPopulation, numberOfDays, virusesParsed
+            virusesParsed.append(Virus(virus.get('transmissionRate'), virus.get('recoveryRate'), virus.get('numberInitInfected'), virus.get('onsetPeriod'), virus.get('onsetRate')))
+    
+    return totalPopulation, numberOfDays, virusesParsed, crossInfectionMatrix
 
 def main(argv):
     #print ('Number of arguments:', len(sys.argv), 'arguments.')
@@ -44,8 +48,12 @@ def main(argv):
     #     nbVariants = len(config['Virus'])
     #     model = Model(nbPopulationsGroups=nbPopulationsGroups,nbVariants=nbVariants) 
     
-    totalPop, numberOfDays, viruses = readConfig()
-    model = Model(totalPop, numberOfDays, viruses)
+    totalPop, numberOfDays, viruses, crossInfectionMatrix = readConfig()
+    model = Model(totalPop, numberOfDays, viruses, crossInfectionMatrix)
+    equations = model.getEquations()
+
+    EquationsGenerator(equations)
+    GraphGenerator(viruses, crossInfectionMatrix)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

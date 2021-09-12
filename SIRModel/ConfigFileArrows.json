@@ -1,0 +1,64 @@
+{    
+    "Variants": {
+        "Virus": [
+            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1},
+            {"name": "Variant2", "transmissionRate": 0.60, "onsetPeriod": [10,40],"onsetRate": 1},
+            {"name": "Variant3", "transmissionRate": 0.45, "onsetPeriod": [30,50],"onsetRate": 1}
+        ], 
+        "CrossResistanceRatio": [
+            [0.0, 0.0, 0.0, 0.0],
+            [0.0, 1.00, 0.00, 0.00],
+            [0.0, 1.00, 1.00, 0.00],
+            [0.0, 1.00, 1.00, 1.00]
+        ], 
+    
+        "totalPopulation": 1000000, 
+        "numberOfDays": 600
+    }, 
+    "Model": {
+        "Compartements": ["S", "E", "I_pre", "I_s", "I_m", "I_a", "H_m", "H_s", "R"],
+        "EdgesProgression": [
+            {"name": "E", "sojournTime": 1, "infectionRatio": 1, 
+                "destinations": [{"name": "I_pre", "weight": 1}]
+            }, 
+            {"name": "I_pre", "sojournTime": 4, "infectionRatio": 1, 
+                "destinations": [
+                    {"name": "I_s", "weight": 0.33}, 
+                    {"name": "I_m", "weight": 0.33}, 
+                    {"name": "I_a", "weight": 0.33}
+                ]
+            }, 
+            {"name": "I_s", "sojournTime": 5, "infectionRatio": 1, 
+                "destinations": [
+                    {"name": "H_s", "weight": 1}, 
+                    {"name": "R", "weight": 0}
+                ]
+            }, 
+            {"name": "I_m", "sojournTime": 10, "infectionRatio": 1, 
+                "destinations": [
+                    {"name": "H_m", "weight": 0}, 
+                    {"name": "R", "weight": 1}
+                ]
+            }, 
+            {"name": "I_a", "sojournTime": 10, "infectionRatio": 0.5, 
+                "destinations": [{"name": "R", "weight": 0.5}]
+            }, 
+            {"name": "H_m", "sojournTime": 12, "infectionRatio": 0, 
+                "destinations": [{"name": "R", "weight": 0.5} ]
+            }, 
+            {"name": "H_s", "sojournTime": 12, "infectionRatio": 0, 
+                "destinations": [{"name": "R", "weight": 0.5}]
+            },
+            {"name": "R", "sojournTime":365, "infectionRatio": 0,
+                "destinations": [{"name": "S", "weight": 0.5}]
+            }
+            ],
+        "EdgesInfection": [
+            {"name":"S", "destinations": "E",  "resistanceLevel": 0.00}, 
+            {"name":"R", "destinations": "E", "resistanceLevel": 1.00}
+            ]
+        }
+}   
+
+
+

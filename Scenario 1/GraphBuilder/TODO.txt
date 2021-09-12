@@ -1,0 +1,4 @@
+*Add Parameter to specify config file
+*reFactor defSolver
+*Refactor EquationsGenerator -> LateX service ? 
+*CrossInfectionMatrix -> Better Interface ? Automatic Declaration ? 
