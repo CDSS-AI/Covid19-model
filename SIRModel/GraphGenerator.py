@@ -10,12 +10,12 @@ from utils import *
 class GraphGenerator:
     def __init__(self, nodes, flowMatrix):
         diagram_attr = {
-            "fontsize": "32",
-            "fontname": "Sans serif",
+            "fontsize": "48",
+            "fontname": "Sans-serif",
         }
         node_attr = {
             "fontname": "Sans-Serif",
-            "fontsize": "24",
+            "fontsize": "36",
         }
         sortedNodes, nodes = sortNodes(nodes)
            

@@ -13,7 +13,7 @@ from Constants import *
 from Math import *
 from utils import *
 
-NUMBER_OF_PARAMETERS = 15
+NUMBER_OF_PARAMETERS = 8
 
 
 class Model: 
@@ -44,19 +44,27 @@ class Model:
            
         makeGraph(time, y_array, 'Epidemiological Model in a population', 'Time (Days)', 'Number of persons')
 
-        for value in self.config.configValues['Data']["values"]:
-            if (value == 'icu_patients'): 
-                for index, name in enumerate(compartments, start=0): 
-                    if ('H_s' in name):
-                        y_array_icu_patients = []
-                        nameDisplayICU = makeNameDictGraph(value)
-                        y_array_icu_patients.append([self.Data.data_parsed.get('icu_patients'), nameDisplayICU])
-                        virusIndex = re.sub("[^0-9]", "", name)
-                        nameDisplay = matchNameDict(name,'name') + ": " + str(virusIndex)
-                        y_array_icu_patients.append([results[index], nameDisplay])
-                        dates = self.Data.data_parsed.get('dates')
-                        print(y_array_icu_patients)
-                        makeGraph(dates, y_array_icu_patients, ('Comparing real world data with simulated curve'), 'Date ', 'Number of persons')
+        y_array_icu_patients = []
+        nameDisplayICU = "Canadian ICU patients"
+        date_parsed = self.Data.getDataParsed()
+        y_array_icu_patients.append([self.Data.data_parsed.get('icu_patients'), nameDisplayICU])
+        for index, name in enumerate(compartments, start=0): 
+            if ('E' in name):
+                y_array_exposed = []
+                nameDisplayICU = makeNameDictGraph( 'total_cases')
+                y_array_exposed.append([self.Data.data_parsed.get('total_cases'), nameDisplayICU])
+
+                virusIndex = re.sub("[^0-9]", "", name)
+                nameDisplay = matchNameDict(name,'name') + ": " + str(virusIndex)
+                y_array_exposed.append([results[index], nameDisplay])
+
+            if ('H_s' in name):
+                virusIndex = re.sub("[^0-9]", "", name)
+                nameDisplay = "Hospitalized Patients Prediction Vairant: " + str(virusIndex)
+                y_array_icu_patients.append([results[index], nameDisplay])  
+        
+        dates = self.Data.data_parsed.get('dates', [])
+        makeGraph(dates, y_array_icu_patients, ('Comparing real world data with simulated curves in Canada'), 'Date ', 'Number of persons')
 
     def simulate(self, totPop, numberOfDays, viruses, crossResistanceRatio, graphProgression, graphInfection, compartements, sojourtimeDict, infectionRatioDict):
         def defSolver(y, t, N, viruses, graphProgression, graphInfection, crossResistanceRatio, compartements, sojourtimeDict, infectionRatioDict):

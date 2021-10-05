@@ -15,7 +15,8 @@ POPULATION_URL = 'https://countriesnow.space/api/v0.1/countries/population'
 
 def makeGraph(x, target=[], title='Graph', xaxis_title='x', yaxis_title='y'): 
     fig = go.Figure()
-    font_size_axes = 15
+    font_size_axes = 40
+    font_size_title = 50
 
     for y_obj in target:
         fig.add_trace(go.Scatter(
@@ -29,12 +30,14 @@ def makeGraph(x, target=[], title='Graph', xaxis_title='x', yaxis_title='y'):
                       yaxis_title= yaxis_title,
                       font_family="Times New Roman",
                       title_font_family="Times New Roman",
-                      title_font_size=30,
+                      title_font_size=font_size_title,
                       template='plotly_white')
     fig.update_layout( yaxis = dict( tickfont = dict(size=font_size_axes)))
     fig.update_layout( xaxis = dict( tickfont = dict(size=font_size_axes)))
     fig.update_layout( yaxis_title = dict( font = dict(size=font_size_axes)))
     fig.update_layout( xaxis_title = dict( font = dict(size=font_size_axes)))
+    fig.update_layout(legend = dict(font = dict(family = "Times New Roman", size = 25)),
+                  legend_title = dict(font = dict(family = "Times New Roman", size = 25)))
     fig.show()
 
 def sortNodes(nodes): 

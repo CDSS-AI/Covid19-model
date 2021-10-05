@@ -5,6 +5,9 @@ WEIGHT = "weight"
 VARIABLE = "variable"
 NAME = "name"
 DESTINATIONS = "destinations"
+TOTAL_CASES = 'total_cases'
+ICU_PATIENTS = 'icu_patients'
+HOSP_PATIENTS = 'hosp_patients'
 
 
 NAME_DICTIONNARY = {
@@ -17,7 +20,13 @@ NAME_DICTIONNARY = {
     "H_m": {"name": "Hospitalized Mild", "variable": "theta_{m}", 'eqName': 'H_{m}', "symbol": "H", 'function': 'f'},
     "H_s": {"name": "Hospitalized Serious", "variable": "theta_{s}", 'eqName': 'H_{s}', "symbol": "H", 'function': 'f'},
     "R": {"name": "Recovered", "variable": "omega", 'eqName': 'R', "symbol": "R", 'function': 'f'}, 
-    "total_cases": {'name': 'Total Cases'}, 
+    "total_cases": {'name': 'Infected'}, 
     "icu_patients": {"name": 'ICU Patients'}, 
     'hosp_patients': {'name': 'Hospitalized Patients'}
+}
+
+MATCHING_DICTIONNARY = {
+    "E" : TOTAL_CASES, 
+    "H_s" : ICU_PATIENTS, 
+    "H" : HOSP_PATIENTS
 }

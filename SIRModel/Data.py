@@ -14,8 +14,10 @@ class Data:
             self.getDataFromOurWorldData()
         self.readData()
         self.location = location
-        df_location = self.getDFForLocation(location=location)
-        self.makePlot(df_location, column_names)
+        self.column_names = column_names
+        self.df_location = self.getDFForLocation(location=location)
+        self.getDataParsed()
+        
     
     def getDataFromOurWorldData(self):
         with requests.Session() as s:
@@ -45,17 +47,14 @@ class Data:
             print("Please select a valid country. Here is the list of countries available: ")
             print(locations)
 
-    def makePlot(self, df, column_names):
-        y_array = []
-        date = df['date'].values
-        col_names = list(df.columns.values)
+    def getDataParsed(self):
         data_parsed = {}
+        date = self.df_location['date'].values
         data_parsed['dates'] = date
+        col_names = list(self.df_location.columns.values)
         for name in col_names:
-            if (name in column_names):
-                values = list(df[name].values)
-                nameDisplay = makeNameDictGraph(name)
-                y_array.append([values, nameDisplay])
-                data_parsed[nameDisplay] = values
-
+            if (name in self.column_names):
+                data_parsed[name] = list(self.df_location[name].values)
         self.data_parsed = data_parsed
+        return data_parsed
+

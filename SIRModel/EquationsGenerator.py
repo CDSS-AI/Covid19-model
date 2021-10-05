@@ -1,7 +1,8 @@
 import re
 
-from pylatex import (Alignat, Center, Document, LargeText, LineBreak, Math,
-                     MediumText, PageStyle, Section, Subsection)
+from pylatex import (Alignat, Center, Command, Document, HugeText, LargeText,
+                     LineBreak, Math, MediumText, PageStyle, Section,
+                     Subsection)
 from pylatex.utils import NoEscape, bold, italic
 
 
@@ -13,7 +14,9 @@ class EquationsGenerator:
             "right": "3cm",
             "bottom": "2.5cm"
             }
-        doc = Document(geometry_options = geometry_options, inputenc = 'utf8')
+        doc = Document(font_size = '', geometry_options = geometry_options, inputenc = 'utf8', lmodern = False, fontenc = None, textcomp = None)
+        doc.append(Command('fontsize', arguments = ['18', '16']))
+        doc.append(Command('selectfont'))
         self.doc = doc
         equations = self.Read(equations)
         self.Create(equations)
@@ -30,10 +33,10 @@ class EquationsGenerator:
     def Create(self, equations):
         with self.doc.create(Center()) as Centered:
             with Centered.create(Section(title='', numbering='')) as Title:
-                Title.append(LargeText(bold('Generalized model')))
+                Title.append(HugeText(bold('Generalized model')))
 
         with self.doc.create(Section(title='Equations', numbering='1.')) as Intro:
-            Intro.append(MediumText(('These are the equations for the model:')))
+            Intro.append(LargeText(('These are the equations for the model:')))
 
         for eq in equations:
             with self.doc.create(Alignat(numbering = True, escape = False)) as math_eq:

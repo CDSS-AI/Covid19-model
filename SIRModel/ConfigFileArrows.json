@@ -1,9 +1,12 @@
 {    
     "Variants": {
         "Virus": [
-            {"name": "Variant1", "transmissionRate": 0.50, "onsetPeriod": [0,20],"onsetRate": 1},
-            {"name": "Variant2", "transmissionRate": 0.60, "onsetPeriod": [10,40],"onsetRate": 1},
-            {"name": "Variant3", "transmissionRate": 0.45, "onsetPeriod": [30,50],"onsetRate": 1}
+            {"name": "Variant1", "transmissionRate": 0.35, 
+                "severityRate": 0.00, "onsetPeriod": [0,10],"onsetRate": 1},
+            {"name": "Variant2", "transmissionRate": 0.35, 
+                "severityRate": 0.00, "onsetPeriod": [10,20],"onsetRate": 1},
+            {"name": "Variant3", "transmissionRate": 0.35, 
+                "severityRate": 0.00, "onsetPeriod": [25,35],"onsetRate": 1}
         ], 
         "CrossResistanceRatio": [
             [1.00, 0.00, 0.00],
@@ -11,7 +14,7 @@
             [1.00, 1.00, 1.00]
         ], 
     
-        "numberOfDays": 600
+        "numberOfDays": 300
     }, 
     "Model": {
         "Compartements": ["S", "E", "I_pre", "I_s", "I_m", "I_a", "H_m", "H_s", "R"],
@@ -57,7 +60,9 @@
             ]
         }, 
     "Data": {
-        "values": ["total_cases", "icu_patients", "hosp_patients"]
+        "values": ["total_cases", "icu_patients", "hosp_patients"], 
+        "lostFunction": "MLE", 
+        "source": "https://covid.ourworldindata.org/data/owid-covid-data.csv"
     }
 }   
 
